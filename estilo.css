@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&display=swap");
+:root { --feltro: #1d5c3c; --creme: #f8f4ea; --tinta: #1f1d1a; --vermelho: #c4202a; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--feltro); color: var(--tinta); font: 18px/1.55 "Alegreya", Georgia, serif; padding: 32px 16px 48px; }
+main { max-width: 680px; margin: 0 auto; background: var(--creme); border-radius: 14px; padding: 28px 24px; }
+header { text-align: center; margin-bottom: 8px; }
+header img { max-width: 240px; width: 70%; height: auto; }
+h1 { font-size: 34px; line-height: 1.15; margin: 8px 0 4px; text-wrap: balance; }
+h2 { color: var(--vermelho); font-size: 22px; margin: 26px 0 4px; }
+p { margin: 0 0 10px; }
+.sub { font-style: italic; opacity: .75; margin-bottom: 20px; }
+a { color: var(--vermelho); }
+footer { text-align: center; color: var(--creme); opacity: .8; font-size: 15px; margin-top: 20px; }
