@@ -76,6 +76,33 @@ section{display:grid;gap:18px}
 .weeks{font:500 .78rem var(--label);color:var(--pink)}
 .tag{justify-self:start;font:500 .7rem var(--label);text-transform:uppercase;letter-spacing:.06em;padding:2px 8px;border:2px solid var(--c);color:var(--c)}
 @media (max-width:560px){.tier{grid-template-columns:1fr}.tier-badge{padding:8px;font-size:1.1rem}.tier-badge small{display:inline;margin:0 0 0 8px}}
+/* roadmap: paleta categórica validada (dataviz) no fundo #171a33 */
+.calib{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}
+.calib div{background:var(--panel);border:2px solid var(--line);padding:12px;display:grid;gap:4px;font-size:.9rem;color:var(--muted)}
+.calib b{font-family:var(--label);color:var(--amber);font-weight:500}
+.sw{display:inline-block;width:14px;height:10px;border-radius:2px;margin-right:6px;vertical-align:middle}
+.gantt-scroll{overflow-x:auto;border:3px solid var(--line);background:var(--panel)}
+.gantt{min-width:900px;display:grid;grid-template-columns:170px 1fr;position:relative}
+.g-label{padding:10px 12px;border-bottom:1px solid var(--line);display:grid;align-content:center;gap:2px;min-height:52px}
+.g-label strong{font:700 .95rem var(--label)}
+.g-label span{font-size:.75rem;color:var(--muted)}
+.g-lane{position:relative;border-bottom:1px solid var(--line);min-height:56px}
+.g-head{position:relative;height:30px;border-bottom:2px solid var(--line);font:500 .72rem var(--label);color:var(--muted);text-transform:uppercase}
+.g-head span{position:absolute;top:8px;padding-left:6px;border-left:1px solid var(--line);height:22px}
+.g-grid{position:absolute;top:0;bottom:0;width:1px;background:var(--line);opacity:.5}
+.bar{position:absolute;top:20px;text-align:left;height:24px;border-radius:4px;border:0;padding:0 6px;font:500 .7rem var(--label);color:#fff;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;cursor:default;box-shadow:0 0 0 2px var(--panel)}
+.bar:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
+.bar.yellow{color:#0b0b0b}
+.ms{position:absolute;top:5px;width:10px;height:10px;background:var(--fg);transform:translateX(-5px) rotate(45deg);box-shadow:0 0 0 2px var(--panel)}
+.today{position:absolute;top:0;bottom:0;width:2px;background:var(--fg);opacity:.8;pointer-events:none}
+.today::before{content:"HOJE";position:absolute;bottom:4px;left:4px;font:500 .62rem var(--pixel);color:var(--fg)}
+.tip{position:fixed;z-index:5;max-width:260px;background:#0b0d1a;border:2px solid var(--line);padding:8px 10px;font-size:.82rem;pointer-events:none}
+.tip b{font-family:var(--label);display:block}
+.table-view summary{cursor:pointer;font-family:var(--label);color:var(--cyan)}
+.table-scroll{overflow-x:auto;margin-top:10px}
+.table-view table{border-collapse:collapse;font-size:.85rem;min-width:620px;width:100%}
+.table-view th,.table-view td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+.table-view th{font-family:var(--label);color:var(--muted);font-weight:500}
 footer{font-size:.82rem;color:var(--muted);border-top:2px dashed var(--line);padding-top:16px}
 </style>
 </head>
@@ -99,6 +126,20 @@ footer{font-size:.82rem;color:var(--muted);border-top:2px dashed var(--line);pad
     <div class="games" id="games"></div>
   </section>
 
+  <section aria-labelledby="t-roadmap">
+    <div class="head"><h2 id="t-roadmap">Roadmap sugerido</h2>
+      <p class="lede">Proposta do PM até março de 2027, para os sócios discutirem. Nada aqui é data prometida.</p></div>
+    <div class="calib">
+      <div><b>Na Mesma Pilha, a régua</b><span>MVP em 15/10, enviado à Play em 22/10: 8 dias, 140 commits, 1 dev com IA.</span></div>
+      <div><b>Premissa</b><span>Jogo P ou M leva de 4 a 8 semanas com o ritmo de meio período. Mais 1 semana de revisão da Play e 2 de suporte ao lançamento.</span></div>
+      <div><b>Fila</b><span>1 lançamento a cada ~5 semanas, para o marketing focar em um por vez. Protótipo de 1 semana decide se a ideia entra.</span></div>
+    </div>
+    <div class="legend" id="gantt-legend"></div>
+    <div class="gantt-scroll"><div class="gantt" id="gantt"></div></div>
+    <div class="tip" id="tip" role="status" hidden></div>
+    <details class="table-view"><summary>Ver como tabela</summary><div class="table-scroll"><table id="gantt-table"><thead><tr><th>Projeto</th><th>Fase</th><th>De</th><th>Até</th><th>O quê</th></tr></thead><tbody></tbody></table></div></details>
+  </section>
+
   <section aria-labelledby="t-ideias">
     <div class="head"><h2 id="t-ideias">Tier list de ideias</h2>
       <p class="lede">Cada ideia tem três medidores. A nota é hype + diversão, menos o custo do esforço (P tira 0, M tira 1, G tira 3). S = nota 8 ou mais, A = 7, B = 6, C = 5 ou menos.</p></div>
@@ -117,7 +158,7 @@ footer{font-size:.82rem;color:var(--muted);border-top:2px dashed var(--line);pad
 const DEVS=[
   {n:"Alisson Melo",f:"fotos/alisson.jpg",p:"--green",j:"Na Mesma Pilha"},
   {n:"Lucas Belo",f:"fotos/lucas.jpg",p:"--cyan",j:""},
-  {n:"Guilherme Vallejo",f:"",p:"--amber",j:""},
+  {n:"Guilherme Vallejo",f:"fotos/guilherme.jpg",p:"--amber",j:""},
   {n:"Victor Brunner",f:"fotos/victor.jpg",p:"--pink",j:"Encaixa!"},
   {n:"Kelvin",f:"fotos/kelvin.jpg",p:"--violet",j:""},
   {n:"Matheus Neves",f:"fotos/matheus.jpg",p:"--green",j:""}
@@ -161,6 +202,47 @@ document.getElementById("games").append(...JOGOS.map(j=>{
     h("div",{class:"row"},h("b",{text:"Próxima fase: "}),j.prox),
     h("div",{class:"row boss"},h("b",{text:"Chefão: "}),j.boss));
 }));
+
+// ---- roadmap ----
+const FT={proto:["Protótipo","#3987e5"],prod:["Produção","#d95926"],play:["Playtest","#199e70"],loja:["Revisão da Play","#c98500","yellow"],lanc:["Lançamento e suporte","#d55181"]};
+const RM=[
+  {n:"Na Mesma Pilha",d:"Alisson",b:[["loja","2026-10-22","2026-11-01","Revisão de produção na Play"],["lanc","2026-11-02","2026-11-15","Vídeos A, B, D e C, atendimento e primeiras métricas"],["prod","2026-11-16","2026-11-29","1.0.1 com a curva de dificuldade e o que o lançamento ensinar"]],ms:["2026-11-02","No ar (se a Play aprovar até 01/11)"]},
+  {n:"Encaixa!",d:"Victor",b:[["prod","2026-10-19","2026-11-15","Fase 2.5: música, Carreira, fundos"],["play","2026-11-16","2026-11-22","2 celulares e balanceamento com gente"],["prod","2026-11-23","2026-11-29","Fase 3: AdMob/UMP, Firebase, ficha, AAB assinado"],["loja","2026-11-30","2026-12-06","Revisão da Play"],["lanc","2026-12-07","2026-12-20","Lançamento e suporte"]],ms:["2026-12-07","No ar"]},
+  {n:"Pula-Pulso",d:"dono a confirmar",b:[["play","2026-10-26","2026-11-08","Playtest humano: curva, colisões, vontade de jogar de novo"],["prod","2026-11-09","2026-12-20","Ajustes, assinatura, privacidade no site, decisão de monetização"],["loja","2027-01-04","2027-01-10","Revisão da Play"],["lanc","2027-01-11","2027-01-24","Lançamento e suporte"]],ms:["2027-01-11","No ar"]},
+  {n:"Argolinhas na água",d:"tier S · dev livre",b:[["proto","2026-11-02","2026-11-08","Protótipo de física: a água é gostosa?"],["prod","2026-11-09","2027-01-17","Fases, cenários, nome próprio, áudio (M, 6 a 8 semanas mais as festas)"],["play","2027-01-18","2027-01-31","Playtest"],["loja","2027-02-01","2027-02-07","Revisão da Play"],["lanc","2027-02-15","2027-02-28","Lançamento e suporte"]],ms:["2027-02-15","No ar"]},
+  {n:"Cobrinha com arte",d:"tier A · dev livre",b:[["proto","2027-01-04","2027-01-10","Protótipo sobre o Flame do Pula-Pulso"],["prod","2027-01-11","2027-02-14","Temas e fases (P, 3 a 4 semanas)"],["play","2027-02-15","2027-02-28","Playtest"],["loja","2027-03-08","2027-03-14","Revisão da Play"],["lanc","2027-03-22","2027-04-04","Lançamento e suporte"]],ms:["2027-03-22","No ar"]},
+  {n:"Bafo de figurinhas",d:"tier A · dev livre",b:[["proto","2027-02-01","2027-02-07","Protótipo do gesto de virar"],["prod","2027-02-08","2027-03-28","Álbum e coleção (M, 5 a 7 semanas)"]]},
+  {n:"Bicho fitness",d:"aposta grande",b:[["proto","2027-01-18","2027-01-24","Spike Android: ler uso do celular e passar na regra da Play"]]}
+];
+const T0=new Date("2026-10-19"),T1=new Date("2027-04-05"),SPAN=T1-T0;
+const pct=s=>((new Date(s)-T0)/SPAN*100).toFixed(3)+"%";
+const fmt=s=>s.slice(8,10)+"/"+s.slice(5,7);
+const MESES=["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+document.getElementById("gantt-legend").append(...Object.values(FT).map(([l,c])=>h("span",{},h("i",{class:"sw",style:"background:"+c}),l)),h("span",{},h("i",{class:"sw",style:"background:var(--fg);transform:rotate(45deg);width:10px"}),"Jogo no ar"));
+const G=document.getElementById("gantt"),tip=document.getElementById("tip");
+const head=h("div",{class:"g-head"});
+for(let d=new Date("2026-11-01");d<T1;d.setUTCMonth(d.getUTCMonth()+1)){const iso=d.toISOString().slice(0,10);head.append(h("span",{style:"left:"+pct(iso),text:MESES[d.getUTCMonth()]+(d.getUTCMonth()===0?" 27":"")}))}
+G.append(h("div",{class:"g-label"}),head);
+const showTip=(e,html)=>{tip.replaceChildren(...html);tip.hidden=false;const r=e.target.getBoundingClientRect();tip.style.left=Math.min(r.left,innerWidth-280)+"px";tip.style.top=(r.bottom+8)+"px"};
+const hideTip=()=>{tip.hidden=true};
+const tbody=document.querySelector("#gantt-table tbody");
+for(const p of RM){
+  G.append(h("div",{class:"g-label"},h("strong",{text:p.n}),h("span",{text:p.d})));
+  const lane=h("div",{class:"g-lane"});
+  for(let d=new Date("2026-11-01");d<T1;d.setUTCMonth(d.getUTCMonth()+1))lane.append(h("i",{class:"g-grid",style:"left:"+pct(d.toISOString().slice(0,10))}));
+  for(const [t,a,z,o] of p.b){
+    const [lbl,c,cls]=FT[t];const end=new Date(z);end.setUTCDate(end.getUTCDate()+1);
+    const bar=h("button",{type:"button",class:"bar"+(cls?" "+cls:""),style:"left:"+pct(a)+";width:calc("+pct(end.toISOString().slice(0,10))+" - "+pct(a)+");background:"+c,"aria-label":p.n+": "+lbl+", "+fmt(a)+" a "+fmt(z)+". "+o,text:lbl});
+    const info=()=>[h("b",{text:p.n+" · "+lbl}),fmt(a)+" a "+fmt(z),h("br"),o];
+    bar.addEventListener("mouseenter",e=>showTip(e,info()));bar.addEventListener("focus",e=>showTip(e,info()));
+    bar.addEventListener("mouseleave",hideTip);bar.addEventListener("blur",hideTip);
+    lane.append(bar);
+    tbody.append(h("tr",{},h("td",{text:p.n}),h("td",{text:lbl}),h("td",{text:fmt(a)}),h("td",{text:fmt(z)}),h("td",{text:o})));
+  }
+  if(p.ms){const m=h("span",{class:"ms",style:"left:"+pct(p.ms[0]),title:p.ms[1]+" · "+fmt(p.ms[0])});lane.append(m);tbody.append(h("tr",{},h("td",{text:p.n}),h("td",{text:"No ar"}),h("td",{text:fmt(p.ms[0])}),h("td",{text:""}),h("td",{text:p.ms[1]})))}
+  G.append(lane);
+}
+const today=h("span",{class:"today",style:"left:calc(170px + (100% - 170px) * "+((new Date("2026-10-23")-T0)/SPAN).toFixed(4)+")"});G.append(today);
 
 const meter=(label,val,max,cvar,txt)=>h("div",{class:"meter",style:"--c:var("+cvar+")"},h("span",{text:label}),h("span",{class:"pips","aria-hidden":"true"},...Array.from({length:max},(_,i)=>h("span",{class:"pip"+(i<val?" on":"")}))),h("span",{text:txt}));
 const scored=IDEIAS.map(i=>({...i,nota:i.h+i.d-ESF[i.e][1]}));
