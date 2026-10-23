@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Sala dos Devs</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Pixelify+Sans:wght@500;700&family=Chakra+Petch:wght@400;600&display=swap">
+<style>
+/* Layout: tela de arcade, de cima para baixo: seleção de personagem (devs), mapa de fases (jogos), tier list (ideias) */
+:root{
+  --bg:#0e1020; --panel:#171a33; --panel-2:#1f2345; --line:#2e3366; --fg:#eef0ff; --muted:#9aa0c8;
+  --green:#3ddc84; --amber:#ffcc33; --pink:#ff5c8a; --cyan:#4cc9f0; --violet:#a78bfa;
+  --pixel:"Press Start 2P",monospace; --label:"Pixelify Sans",monospace; --body:"Chakra Petch",system-ui,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 var(--body);
+  background-image:radial-gradient(circle at 50% -10%,#24295a 0,transparent 55%),repeating-linear-gradient(0deg,rgba(255,255,255,.025) 0 1px,transparent 1px 3px)}
+.wrap{max-width:1100px;margin:0 auto;padding:32px 16px 64px;display:grid;gap:56px}
+h1,h2{font-family:var(--pixel);font-weight:400;margin:0;line-height:1.35;text-wrap:balance}
+h1{font-size:clamp(1.2rem,4vw,2rem);color:var(--amber);text-shadow:3px 3px 0 #8a3b00}
+h2{font-size:clamp(.85rem,2.4vw,1.1rem);color:var(--cyan)}
+.kicker{font:500 .9rem var(--label);letter-spacing:.12em;text-transform:uppercase;color:var(--green)}
+.lede{color:var(--muted);max-width:64ch;margin:10px 0 0}
+.blink{font-family:var(--pixel);font-size:.7rem;color:var(--pink);animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.blink{animation:none}.dev{transition:none}}
+section{display:grid;gap:18px}
+.head{display:grid;gap:6px}
+
+/* devs */
+.devs{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px}
+.dev{background:var(--panel);border:3px solid var(--line);padding:12px;display:grid;gap:10px;transition:transform .15s,border-color .15s}
+.dev:hover{transform:translateY(-4px);border-color:var(--p)}
+.slot{font-family:var(--pixel);font-size:.6rem;color:var(--p)}
+.face{aspect-ratio:1;max-width:100%;border:3px solid var(--p);position:relative;overflow:hidden;background:var(--panel-2)}
+.face img{width:100%;height:100%;object-fit:cover;display:block;image-rendering:pixelated}
+.face::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.18) 0 2px,transparent 2px 4px);pointer-events:none}
+.face .initials{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--pixel);font-size:1.6rem;color:var(--p)}
+.name{font:700 1.05rem var(--label)}
+.role{font-size:.85rem;color:var(--muted)}
+
+/* jogos */
+.games{display:grid;gap:14px}
+.game{background:var(--panel);border:3px solid var(--line);padding:16px;display:grid;gap:10px}
+.game-top{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline;justify-content:space-between}
+.game-name{font:700 1.3rem var(--label)}
+.game-owner{font-size:.9rem;color:var(--muted)}
+.track{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.seg{height:14px;background:var(--panel-2);border:2px solid var(--line)}
+.seg.on{background:var(--green);border-color:var(--green)}
+.seg.now{background:var(--amber);border-color:var(--amber)}
+.track-labels{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;font:500 .7rem var(--label);color:var(--muted);text-transform:uppercase}
+.track-labels span{min-width:0;overflow-wrap:anywhere}
+.row{font-size:.95rem}
+.row b{font-family:var(--label);color:var(--cyan);font-weight:500}
+.boss{color:var(--pink)}
+
+/* tier list */
+.legend{display:flex;flex-wrap:wrap;gap:10px 24px;font-size:.9rem;color:var(--muted)}
+.legend b{font-family:var(--label);color:var(--fg)}
+.tiers{display:grid;gap:10px}
+.tier{display:grid;grid-template-columns:72px 1fr;border:3px solid var(--line);background:var(--panel)}
+.tier-badge{display:grid;place-items:center;font-family:var(--pixel);font-size:1.6rem;color:#0e1020;background:var(--t)}
+.tier-badge small{display:block;font-family:var(--label);font-size:.62rem;letter-spacing:.06em;margin-top:6px}
+.tier-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;padding:10px;min-width:0}
+.idea{background:var(--panel-2);border:2px solid var(--line);padding:12px;display:grid;gap:8px;align-content:start;min-width:0}
+.idea-name{font:700 1rem var(--label)}
+.idea p{margin:0;font-size:.88rem;color:var(--muted)}
+.meters{display:grid;gap:4px;font:500 .78rem var(--label)}
+.meter{display:grid;grid-template-columns:84px 1fr auto;gap:8px;align-items:center}
+.pips{display:flex;gap:3px}
+.pip{width:12px;height:10px;background:var(--line)}
+.pip.on{background:var(--c)}
+.weeks{font:500 .78rem var(--label);color:var(--pink)}
+.tag{justify-self:start;font:500 .7rem var(--label);text-transform:uppercase;letter-spacing:.06em;padding:2px 8px;border:2px solid var(--c);color:var(--c)}
+@media (max-width:560px){.tier{grid-template-columns:1fr}.tier-badge{padding:8px;font-size:1.1rem}.tier-badge small{display:inline;margin:0 0 0 8px}}
+footer{font-size:.82rem;color:var(--muted);border-top:2px dashed var(--line);padding-top:16px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="head">
+    <span class="kicker">Fábrica de Passatempos · área interna</span>
+    <h1>Sala dos Devs</h1>
+    <p class="lede">Quem faz os jogos, em que fase cada um está e qual ideia vale a próxima ficha.</p>
+    <span class="blink" aria-hidden="true">PRESS START</span>
+  </header>
+
+  <section aria-labelledby="t-devs">
+    <div class="head"><h2 id="t-devs">Escolha seu dev</h2></div>
+    <div class="devs" id="devs"></div>
+  </section>
+
+  <section aria-labelledby="t-jogos">
+    <div class="head"><h2 id="t-jogos">Mapa de fases</h2>
+      <p class="lede">Ideia → protótipo → conteúdo → playtest → release → loja → no ar. Em amarelo está a fase atual de cada jogo.</p></div>
+    <div class="games" id="games"></div>
+  </section>
+
+  <section aria-labelledby="t-ideias">
+    <div class="head"><h2 id="t-ideias">Tier list de ideias</h2>
+      <p class="lede">Cada ideia tem três medidores. A nota é hype + diversão, menos o custo do esforço (P tira 0, M tira 1, G tira 3). S = nota 8 ou mais, A = 7, B = 6, C = 5 ou menos.</p></div>
+    <div class="legend">
+      <span><b>Esforço</b>: P até 4 semanas, M de 4 a 8, G mais de 8, com o ritmo de ~5h/semana por pessoa</span>
+      <span><b>Hype</b>: o quanto parece atraente para quem joga</span>
+      <span><b>Diversão</b>: o quanto deve ser legal fazer e testar</span>
+    </div>
+    <div class="tiers" id="tiers"></div>
+  </section>
+
+  <footer>Atualizado em 23/10/2026. Fontes: PORTFOLIO.md e IDEIAS.md no repo estudio. Página fora do menu do site; não compartilhe o link fora do time.</footer>
+</div>
+
+<script>
+const DEVS=[
+  {n:"Alisson Melo",f:"fotos/alisson.jpg",p:"--green",j:"Na Mesma Pilha"},
+  {n:"Lucas Belo",f:"fotos/lucas.jpg",p:"--cyan",j:""},
+  {n:"Guilherme Vallejo",f:"",p:"--amber",j:""},
+  {n:"Victor Brunner",f:"fotos/victor.jpg",p:"--pink",j:"Encaixa!"},
+  {n:"Kelvin",f:"",p:"--violet",j:""},
+  {n:"Matheus Neves",f:"fotos/matheus.jpg",p:"--green",j:""}
+];
+const FASES=["Ideia","Protótipo","Conteúdo","Playtest","Release","Loja","No ar"];
+const JOGOS=[
+  {n:"Na Mesma Pilha",d:"Alisson Melo",f:5,prox:"Aprovação da Play e lançamento",boss:"Em revisão na Play desde 22/10"},
+  {n:"Encaixa!",d:"Victor Brunner",f:2,prox:"Música, Carreira e teste em 2 celulares",boss:"AdMob/UMP, ficha e release assinado"},
+  {n:"Pula-Pulso",d:"dono a confirmar",f:3,prox:"Playtest humano da curva e das colisões",boss:"Release ainda assinado com debug"}
+];
+const ESF={P:[1,0],M:[2,1],G:[3,3]};
+const IDEIAS=[
+  {n:"Argolinhas na água",r:"O brinquedo de acertar as argolas nas hastes, com física de água. Precisa de nome próprio (Aquaplay é marca da Estrela).",e:"M",s:"6 a 8 semanas",h:4,d:5},
+  {n:"Cobrinha com arte e fases",r:"Clássico com tema e progressão. Reaproveita o loop de Flame do Pula-Pulso.",e:"P",s:"3 a 4 semanas",h:3,d:4},
+  {n:"Bafo de figurinhas",r:"Virar figurinha com um gesto e completar o álbum.",e:"M",s:"5 a 7 semanas",h:3,d:5},
+  {n:"Sort com tema brasileiro",r:"Tubos de caldo de cana, refri retornável ou brigadeiro. É o tipo de puzzle que mais cresce.",e:"M",s:"4 a 6 semanas",h:4,d:3},
+  {n:"Desparafusar com tema brasileiro",r:"Screw puzzle de festa junina. O Screwdom está no top de receita do Brasil.",e:"M",s:"5 a 7 semanas",h:4,d:3},
+  {n:"Genius musical brasileiro",r:"Sequência de sons com pandeiro, berimbau e cuíca.",e:"P",s:"2 a 3 semanas",h:2,d:4},
+  {n:"Campo minado temático",r:"Temas e fases. Sai barato se vier depois do motor de grade do Sudoku.",e:"P",s:"3 a 5 semanas",h:2,d:3},
+  {n:"Pega-varetas em 2D",r:"Física simples e partidas curtas.",e:"M",s:"4 a 6 semanas",h:2,d:4},
+  {n:"Bicho virtual fitness",r:"Fica sarado com bons hábitos de celular. Depende de permissão sensível no Android e de aprovação da Apple.",e:"G",s:"12 semanas ou mais",h:5,d:3,tag:"Aposta grande"},
+  {n:"Sudoku temático",r:"Fases, temas e animações num mercado lotado. Divide o motor com o Campo minado.",e:"M",s:"5 a 7 semanas",h:3,d:2}
+];
+const TIERS=[["S","--amber","jogar já",n=>n>=8],["A","--green","próxima ficha",n=>n===7],["B","--cyan","na fila",n=>n===6],["C","--violet","guardar",n=>n<=5]];
+
+const h=(tag,attrs={},...kids)=>{const e=document.createElement(tag);for(const[k,v]of Object.entries(attrs)){if(k==="style")e.style.cssText=v;else if(k==="text")e.textContent=v;else e.setAttribute(k,v)}e.append(...kids);return e};
+const ini=n=>n.split(" ").map(w=>w[0]).slice(0,2).join("");
+
+document.getElementById("devs").append(...DEVS.map((d,i)=>{
+  const face=h("div",{class:"face"});
+  if(d.f)face.append(h("img",{src:d.f,alt:"Foto de "+d.n,loading:"lazy"}));else face.append(h("span",{class:"initials",text:ini(d.n),"aria-hidden":"true"}));
+  return h("article",{class:"dev",style:"--p:var("+d.p+")"},h("span",{class:"slot",text:"P"+(i+1)}),face,h("span",{class:"name",text:d.n}),h("span",{class:"role",text:d.j?"Jogo: "+d.j:"Sem jogo na esteira"}));
+}));
+
+document.getElementById("games").append(...JOGOS.map(j=>{
+  const track=h("div",{class:"track",role:"img","aria-label":"Fase atual: "+FASES[j.f]},...FASES.map((_,i)=>h("span",{class:"seg"+(i<j.f?" on":i===j.f?" now":"")})));
+  const labels=h("div",{class:"track-labels","aria-hidden":"true"},...FASES.map(f=>h("span",{text:f})));
+  return h("article",{class:"game"},
+    h("div",{class:"game-top"},h("span",{class:"game-name",text:j.n}),h("span",{class:"game-owner",text:j.d})),
+    track,labels,
+    h("div",{class:"row"},h("b",{text:"Próxima fase: "}),j.prox),
+    h("div",{class:"row boss"},h("b",{text:"Chefão: "}),j.boss));
+}));
+
+const meter=(label,val,max,cvar,txt)=>h("div",{class:"meter",style:"--c:var("+cvar+")"},h("span",{text:label}),h("span",{class:"pips","aria-hidden":"true"},...Array.from({length:max},(_,i)=>h("span",{class:"pip"+(i<val?" on":"")}))),h("span",{text:txt}));
+const scored=IDEIAS.map(i=>({...i,nota:i.h+i.d-ESF[i.e][1]}));
+document.getElementById("tiers").append(...TIERS.map(([t,c,lbl,test])=>{
+  const items=scored.filter(i=>test(i.nota)).sort((a,b)=>b.nota-a.nota);
+  return h("div",{class:"tier",style:"--t:var("+c+")"},
+    h("div",{class:"tier-badge"},t,h("small",{text:lbl})),
+    h("div",{class:"tier-items"},...items.map(i=>h("article",{class:"idea"},
+      h("span",{class:"idea-name",text:i.n}),h("p",{text:i.r}),
+      h("div",{class:"meters"},
+        meter("Esforço",ESF[i.e][0],3,"--pink",i.e),
+        meter("Hype",i.h,5,"--amber",i.h+"/5"),
+        meter("Diversão",i.d,5,"--green",i.d+"/5")),
+      h("span",{class:"weeks",text:"Estimativa: "+i.s}),
+      ...(i.tag?[h("span",{class:"tag",style:"--c:var(--pink)",text:i.tag})]:[])))));
+}));
+</script>
+</body>
+</html>
