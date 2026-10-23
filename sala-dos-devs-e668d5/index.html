@@ -52,6 +52,11 @@ section{display:grid;gap:18px}
 .status.busy{background:var(--green);color:#0e1020}
 .status.free{border:2px dashed var(--amber);color:var(--amber)}
 .status.free strong{color:var(--fg);font-weight:500}
+.is-off{border-style:dashed}
+.is-off .flag{border:2px dashed var(--muted);color:var(--muted)}
+.status.off{border:2px dashed var(--muted);color:var(--muted)}
+.status.off strong{color:var(--fg);font-weight:500}
+.cnt.off{border:2px dashed var(--muted);color:var(--muted)}
 .dot{width:8px;height:8px;background:#0e1020;border-radius:50%;animation:blink 1.1s steps(1) infinite}
 .counts{display:flex;flex-wrap:wrap;gap:8px}
 .cnt{font:500 .85rem var(--label);padding:4px 10px}
@@ -179,7 +184,7 @@ const DEVS=[
   {n:"Lucas Belo",f:"fotos/lucas.jpg",p:"--cyan",j:""},
   {n:"Guilherme Vallejo",f:"fotos/guilherme.jpg",p:"--amber",j:"Pula-Pulso"},
   {n:"Victor Brunner",f:"fotos/victor.jpg",p:"--pink",j:"Encaixa!"},
-  {n:"Kelvin",f:"fotos/kelvin.jpg",p:"--violet",j:""},
+  {n:"Kelvin",f:"fotos/kelvin.jpg",p:"--violet",j:"",inv:true},
   {n:"Matheus Neves",f:"fotos/matheus.jpg",p:"--green",j:""}
 ];
 const FASES=["Ideia","Protótipo","Conteúdo","Playtest","Release","Loja","No ar"];
@@ -209,17 +214,20 @@ const ini=n=>n.split(" ").map(w=>w[0]).slice(0,2).join("");
 document.getElementById("devs").append(...DEVS.map((d,i)=>{
   const face=h("div",{class:"face"});
   if(d.f)face.append(h("img",{src:d.f,alt:"Foto de "+d.n,loading:"lazy"}));else face.append(h("span",{class:"initials",text:ini(d.n),"aria-hidden":"true"}));
-  const st=d.j
+  const st=d.inv
+    ?h("div",{class:"status off"},h("span",{class:"st-k",text:"OFF"}),h("strong",{text:"Sócio investidor apenas"}))
+    :d.j
     ?h("div",{class:"status busy"},h("span",{class:"st-k"},h("i",{class:"dot"}),"Em missão"),h("strong",{text:d.j}))
     :h("div",{class:"status free"},h("span",{class:"st-k",text:"Sem missão"}),h("strong",{text:"Pronto pro próximo jogo"}));
-  return h("article",{class:"dev"+(d.j?" is-busy":" is-free"),style:"--p:var("+d.p+")"},
-    h("div",{class:"dev-top"},h("span",{class:"slot",text:"P"+(i+1)}),h("span",{class:"flag",text:d.j?"ON":"LIVRE"})),
+  return h("article",{class:"dev"+(d.inv?" is-off":d.j?" is-busy":" is-free"),style:"--p:var("+(d.inv?"--muted":d.p)+")"},
+    h("div",{class:"dev-top"},h("span",{class:"slot",text:"P"+(i+1)}),h("span",{class:"flag",text:d.inv?"OFF":d.j?"ON":"LIVRE"})),
     face,h("span",{class:"name",text:d.n}),st);
 }));
-const nBusy=DEVS.filter(d=>d.j).length;
+const nBusy=DEVS.filter(d=>d.j).length,nInv=DEVS.filter(d=>d.inv).length;
 document.getElementById("devs-count").replaceChildren(
   h("span",{class:"cnt busy"},h("b",{text:String(nBusy)})," em missão"),
-  h("span",{class:"cnt free"},h("b",{text:String(DEVS.length-nBusy)})," sem missão"));
+  h("span",{class:"cnt free"},h("b",{text:String(DEVS.length-nBusy-nInv)})," sem missão"),
+  ...(nInv?[h("span",{class:"cnt off"},h("b",{text:String(nInv)})," investidor")]:[]));
 
 document.getElementById("games").append(...JOGOS.map(j=>{
   const track=h("div",{class:"track",role:"img","aria-label":"Fase atual: "+FASES[j.f]},...FASES.map((_,i)=>h("span",{class:"seg"+(i<j.f?" on":i===j.f?" now":"")})));
