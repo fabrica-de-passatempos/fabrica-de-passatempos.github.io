@@ -1,0 +1,424 @@
+{
+  "atualizado": "2026-10-23",
+  "roadmap_fim": "2027-05-17",
+  "devs": [
+    {
+      "nome": "Alisson Melo",
+      "foto": "fotos/alisson.jpg",
+      "cor": "green",
+      "jogo": "Na Mesma Pilha"
+    },
+    {
+      "nome": "Lucas Belo",
+      "foto": "fotos/lucas.jpg",
+      "cor": "cyan",
+      "jogo": null
+    },
+    {
+      "nome": "Guilherme Vallejo",
+      "foto": "fotos/guilherme.jpg",
+      "cor": "amber",
+      "jogo": "Pula-Pulso"
+    },
+    {
+      "nome": "Victor Brunner",
+      "foto": "fotos/victor.jpg",
+      "cor": "pink",
+      "jogo": "Encaixa!"
+    },
+    {
+      "nome": "Kelvin",
+      "foto": "fotos/kelvin.jpg",
+      "cor": "violet",
+      "jogo": null,
+      "investidor": true
+    },
+    {
+      "nome": "Matheus Neves",
+      "foto": "fotos/matheus.jpg",
+      "cor": "green",
+      "jogo": null
+    }
+  ],
+  "jogos": [
+    {
+      "nome": "Na Mesma Pilha",
+      "dono": "Alisson Melo",
+      "fase": "Loja",
+      "proximo": "Aprovação da Play e lançamento",
+      "bloqueio": "Em revisão na Play desde 22/10"
+    },
+    {
+      "nome": "Encaixa!",
+      "dono": "Victor Brunner",
+      "fase": "Conteúdo",
+      "proximo": "Música, Carreira e teste em 2 celulares",
+      "bloqueio": "AdMob/UMP, ficha e release assinado"
+    },
+    {
+      "nome": "Pula-Pulso",
+      "dono": "Guilherme Vallejo",
+      "fase": "Playtest",
+      "proximo": "Playtest humano da curva e das colisões",
+      "bloqueio": "Release ainda assinado com debug"
+    }
+  ],
+  "ideias": [
+    {
+      "nome": "Ache o ponto",
+      "resumo": "Tatear a tela até achar o ponto escondido, que fica menor e mais arisco a cada fase. Humor de duplo sentido, sem nada explícito. Ideia #3.",
+      "esforco": "P",
+      "semanas": "2 a 4 semanas",
+      "hype": 4,
+      "diversao": 4,
+      "etiqueta": "Risco de loja",
+      "issue": 3
+    },
+    {
+      "nome": "Argolinhas na água",
+      "resumo": "O brinquedo de acertar as argolas nas hastes, com física de água. Precisa de nome próprio (Aquaplay é marca da Estrela).",
+      "esforco": "M",
+      "semanas": "6 a 8 semanas",
+      "hype": 4,
+      "diversao": 5
+    },
+    {
+      "nome": "Cobrinha com arte e fases",
+      "resumo": "Clássico com tema e progressão. Reaproveita o loop de Flame do Pula-Pulso.",
+      "esforco": "P",
+      "semanas": "3 a 4 semanas",
+      "hype": 3,
+      "diversao": 4
+    },
+    {
+      "nome": "Bafo de figurinhas",
+      "resumo": "Virar figurinha com um gesto e completar o álbum.",
+      "esforco": "M",
+      "semanas": "5 a 7 semanas",
+      "hype": 3,
+      "diversao": 5
+    },
+    {
+      "nome": "Sort com tema brasileiro",
+      "resumo": "Tubos de caldo de cana, refri retornável ou brigadeiro. É o tipo de puzzle que mais cresce.",
+      "esforco": "M",
+      "semanas": "4 a 6 semanas",
+      "hype": 4,
+      "diversao": 3
+    },
+    {
+      "nome": "Desparafusar com tema brasileiro",
+      "resumo": "Screw puzzle de festa junina. O Screwdom está no top de receita do Brasil.",
+      "esforco": "M",
+      "semanas": "5 a 7 semanas",
+      "hype": 4,
+      "diversao": 3
+    },
+    {
+      "nome": "Genius musical brasileiro",
+      "resumo": "Sequência de sons com pandeiro, berimbau e cuíca.",
+      "esforco": "P",
+      "semanas": "2 a 3 semanas",
+      "hype": 2,
+      "diversao": 4
+    },
+    {
+      "nome": "Campo minado temático",
+      "resumo": "Temas e fases. Sai barato se vier depois do motor de grade do Sudoku.",
+      "esforco": "P",
+      "semanas": "3 a 5 semanas",
+      "hype": 2,
+      "diversao": 3
+    },
+    {
+      "nome": "Quarto Aberto",
+      "resumo": "Paródia de mundo aberto em que o mundo é um quarto e você controla os personagens. Do jeito que foi descrito é sandbox, e sandbox é caro. Uma versão enxuta, com 1 quarto e interações secretas para descobrir, subiria para A. Ideia #4, do Lucas.",
+      "esforco": "G",
+      "semanas": "10 semanas ou mais",
+      "hype": 3,
+      "diversao": 5,
+      "etiqueta": "Escopo a fechar",
+      "issue": 4
+    },
+    {
+      "nome": "Pega-varetas em 2D",
+      "resumo": "Física simples e partidas curtas.",
+      "esforco": "M",
+      "semanas": "4 a 6 semanas",
+      "hype": 2,
+      "diversao": 4
+    },
+    {
+      "nome": "Bicho virtual fitness",
+      "resumo": "Fica sarado com bons hábitos de celular. Depende de permissão sensível no Android e de aprovação da Apple.",
+      "esforco": "G",
+      "semanas": "12 semanas ou mais",
+      "hype": 5,
+      "diversao": 3,
+      "etiqueta": "Aposta grande"
+    },
+    {
+      "nome": "Sudoku temático",
+      "resumo": "Fases, temas e animações num mercado lotado. Divide o motor com o Campo minado.",
+      "esforco": "M",
+      "semanas": "5 a 7 semanas",
+      "hype": 3,
+      "diversao": 2
+    }
+  ],
+  "roadmap": [
+    {
+      "projeto": "Na Mesma Pilha",
+      "quem": "Alisson",
+      "faixas": [
+        {
+          "tipo": "revisao",
+          "de": "2026-10-22",
+          "ate": "2026-11-01",
+          "o_que": "Revisão na Play (envio para a faixa de produção)"
+        },
+        {
+          "tipo": "no-ar",
+          "de": "2026-11-02",
+          "ate": "2026-11-15",
+          "o_que": "Vídeos A, B, D e C, atendimento e primeiras métricas"
+        },
+        {
+          "tipo": "atualizacao",
+          "de": "2026-11-16",
+          "ate": "2026-11-29",
+          "o_que": "Atualização para quem já joga: 1.0.1 com a curva de dificuldade e o que o lançamento ensinar",
+          "rotulo": "Atualização 1.0.1"
+        }
+      ],
+      "no_ar": {
+        "data": "2026-11-02",
+        "nota": "No ar (se a Play aprovar até 01/11)"
+      }
+    },
+    {
+      "projeto": "Encaixa!",
+      "quem": "Victor",
+      "faixas": [
+        {
+          "tipo": "desenvolvimento",
+          "de": "2026-10-19",
+          "ate": "2026-11-15",
+          "o_que": "Fase 2.5: música, Carreira, fundos"
+        },
+        {
+          "tipo": "playtest",
+          "de": "2026-11-16",
+          "ate": "2026-11-22",
+          "o_que": "2 celulares e balanceamento com gente"
+        },
+        {
+          "tipo": "desenvolvimento",
+          "de": "2026-11-23",
+          "ate": "2026-11-29",
+          "o_que": "Fase 3: AdMob/UMP, Firebase, ficha, AAB assinado"
+        },
+        {
+          "tipo": "revisao",
+          "de": "2026-11-30",
+          "ate": "2026-12-06",
+          "o_que": "Revisão da Play"
+        },
+        {
+          "tipo": "no-ar",
+          "de": "2026-12-07",
+          "ate": "2026-12-20",
+          "o_que": "Lançamento e suporte"
+        }
+      ],
+      "no_ar": {
+        "data": "2026-12-07",
+        "nota": "No ar"
+      }
+    },
+    {
+      "projeto": "Pula-Pulso",
+      "quem": "Guilherme Vallejo",
+      "faixas": [
+        {
+          "tipo": "playtest",
+          "de": "2026-10-26",
+          "ate": "2026-11-08",
+          "o_que": "Playtest humano: curva, colisões, vontade de jogar de novo"
+        },
+        {
+          "tipo": "desenvolvimento",
+          "de": "2026-11-09",
+          "ate": "2026-12-20",
+          "o_que": "Ajustes, assinatura, privacidade no site, decisão de monetização"
+        },
+        {
+          "tipo": "revisao",
+          "de": "2027-01-04",
+          "ate": "2027-01-10",
+          "o_que": "Revisão da Play"
+        },
+        {
+          "tipo": "no-ar",
+          "de": "2027-01-11",
+          "ate": "2027-01-24",
+          "o_que": "Lançamento e suporte"
+        }
+      ],
+      "no_ar": {
+        "data": "2027-01-11",
+        "nota": "No ar"
+      }
+    },
+    {
+      "projeto": "Argolinhas na água",
+      "quem": "tier S · dev livre",
+      "faixas": [
+        {
+          "tipo": "prototipo",
+          "de": "2026-11-02",
+          "ate": "2026-11-08",
+          "o_que": "Protótipo de física: a água é gostosa?"
+        },
+        {
+          "tipo": "desenvolvimento",
+          "de": "2026-11-09",
+          "ate": "2027-01-17",
+          "o_que": "Fases, cenários, nome próprio, áudio (M, 6 a 8 semanas mais as festas)"
+        },
+        {
+          "tipo": "playtest",
+          "de": "2027-01-18",
+          "ate": "2027-01-31",
+          "o_que": "Playtest"
+        },
+        {
+          "tipo": "revisao",
+          "de": "2027-02-01",
+          "ate": "2027-02-07",
+          "o_que": "Revisão da Play"
+        },
+        {
+          "tipo": "no-ar",
+          "de": "2027-02-15",
+          "ate": "2027-02-28",
+          "o_que": "Lançamento e suporte"
+        }
+      ],
+      "no_ar": {
+        "data": "2027-02-15",
+        "nota": "No ar"
+      }
+    },
+    {
+      "projeto": "Ache o ponto",
+      "quem": "tier S · risco de loja · dev livre",
+      "faixas": [
+        {
+          "tipo": "prototipo",
+          "de": "2027-02-01",
+          "ate": "2027-02-07",
+          "o_que": "Protótipo da mecânica com tema neutro e checagem da política da Play, do AdMob e da classificação. Os sócios escolhem o tema aqui"
+        },
+        {
+          "tipo": "desenvolvimento",
+          "de": "2027-02-08",
+          "ate": "2027-03-14",
+          "o_que": "Fases, iscas e retorno quente/frio no tema escolhido (P, 3 a 4 semanas)"
+        },
+        {
+          "tipo": "playtest",
+          "de": "2027-03-15",
+          "ate": "2027-03-28",
+          "o_que": "Playtest"
+        },
+        {
+          "tipo": "revisao",
+          "de": "2027-03-29",
+          "ate": "2027-04-11",
+          "o_que": "Revisão da Play: 2 semanas de folga, porque classificação adulta e conteúdo sugestivo demoram mais"
+        },
+        {
+          "tipo": "no-ar",
+          "de": "2027-04-26",
+          "ate": "2027-05-09",
+          "o_que": "Lançamento com divulgação separada do perfil família da marca"
+        }
+      ],
+      "no_ar": {
+        "data": "2027-04-26",
+        "nota": "No ar (5 semanas depois da Cobrinha)"
+      }
+    },
+    {
+      "projeto": "Cobrinha com arte",
+      "quem": "tier A · dev livre",
+      "faixas": [
+        {
+          "tipo": "prototipo",
+          "de": "2027-01-04",
+          "ate": "2027-01-10",
+          "o_que": "Protótipo sobre o Flame do Pula-Pulso"
+        },
+        {
+          "tipo": "desenvolvimento",
+          "de": "2027-01-11",
+          "ate": "2027-02-14",
+          "o_que": "Temas e fases (P, 3 a 4 semanas)"
+        },
+        {
+          "tipo": "playtest",
+          "de": "2027-02-15",
+          "ate": "2027-02-28",
+          "o_que": "Playtest"
+        },
+        {
+          "tipo": "revisao",
+          "de": "2027-03-08",
+          "ate": "2027-03-14",
+          "o_que": "Revisão da Play"
+        },
+        {
+          "tipo": "no-ar",
+          "de": "2027-03-22",
+          "ate": "2027-04-04",
+          "o_que": "Lançamento e suporte"
+        }
+      ],
+      "no_ar": {
+        "data": "2027-03-22",
+        "nota": "No ar"
+      }
+    },
+    {
+      "projeto": "Bafo de figurinhas",
+      "quem": "tier A · dev livre",
+      "faixas": [
+        {
+          "tipo": "prototipo",
+          "de": "2027-02-01",
+          "ate": "2027-02-07",
+          "o_que": "Protótipo do gesto de virar"
+        },
+        {
+          "tipo": "desenvolvimento",
+          "de": "2027-02-08",
+          "ate": "2027-03-28",
+          "o_que": "Álbum e coleção (M, 5 a 7 semanas)"
+        }
+      ]
+    },
+    {
+      "projeto": "Bicho fitness",
+      "quem": "aposta grande",
+      "faixas": [
+        {
+          "tipo": "prototipo",
+          "de": "2027-01-18",
+          "ate": "2027-01-24",
+          "o_que": "Spike Android: ler uso do celular e passar na regra da Play"
+        }
+      ]
+    }
+  ]
+}

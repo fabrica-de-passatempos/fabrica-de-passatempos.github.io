@@ -201,39 +201,22 @@ footer{font-size:.82rem;color:var(--muted);border-top:2px dashed var(--line);pad
     <p class="note-small">O formulário fica no GitHub privado do estúdio. Para mandar, você precisa estar na organização <b>fabrica-de-passatempos</b>. Se não estiver, peça convite ao Alisson.</p>
   </section>
 
-  <footer>Atualizado em 23/10/2026. Fontes: PORTFOLIO.md e IDEIAS.md no repo estudio. Página fora do menu do site; não compartilhe o link fora do time.</footer>
+  <footer>Atualizado em <span id="atualizado"></span>. Fontes: PORTFOLIO.md e IDEIAS.md no repo estudio. Página fora do menu do site; não compartilhe o link fora do time.</footer>
 </div>
 
 <script>
-const DEVS=[
-  {n:"Alisson Melo",f:"fotos/alisson.jpg",p:"--green",j:"Na Mesma Pilha"},
-  {n:"Lucas Belo",f:"fotos/lucas.jpg",p:"--cyan",j:""},
-  {n:"Guilherme Vallejo",f:"fotos/guilherme.jpg",p:"--amber",j:"Pula-Pulso"},
-  {n:"Victor Brunner",f:"fotos/victor.jpg",p:"--pink",j:"Encaixa!"},
-  {n:"Kelvin",f:"fotos/kelvin.jpg",p:"--violet",j:"",inv:true},
-  {n:"Matheus Neves",f:"fotos/matheus.jpg",p:"--green",j:""}
-];
+(async()=>{
+let D;
+try{D=await (await fetch("dados.json",{cache:"no-store"})).json()}
+catch(e){document.querySelector(".wrap").prepend(Object.assign(document.createElement("p"),{className:"lede",textContent:"Não consegui carregar dados.json. Recarregue a página."}));return}
 const FASES=["Ideia","Protótipo","Conteúdo","Playtest","Release","Loja","No ar"];
-const JOGOS=[
-  {n:"Na Mesma Pilha",d:"Alisson Melo",f:5,prox:"Aprovação da Play e lançamento",boss:"Em revisão na Play desde 22/10"},
-  {n:"Encaixa!",d:"Victor Brunner",f:2,prox:"Música, Carreira e teste em 2 celulares",boss:"AdMob/UMP, ficha e release assinado"},
-  {n:"Pula-Pulso",d:"Guilherme Vallejo",f:3,prox:"Playtest humano da curva e das colisões",boss:"Release ainda assinado com debug"}
-];
+const TIPO={prototipo:"proto",desenvolvimento:"prod",playtest:"play",revisao:"loja","no-ar":"lanc",atualizacao:"upd"};
+const DEVS=D.devs.map(x=>({n:x.nome,f:x.foto||"",p:"--"+x.cor,j:x.jogo||"",inv:!!x.investidor}));
+const JOGOS=D.jogos.map(x=>({n:x.nome,d:x.dono||"dono a confirmar",f:FASES.indexOf(x.fase),prox:x.proximo,boss:x.bloqueio}));
+const IDEIAS=D.ideias.map(x=>({n:x.nome,r:x.resumo,e:x.esforco,s:x.semanas,h:x.hype,d:x.diversao,tag:x.etiqueta}));
+const RM=D.roadmap.map(x=>({n:x.projeto,d:x.quem,b:x.faixas.map(f=>[TIPO[f.tipo],f.de,f.ate,f.o_que,f.rotulo]),ms:x.no_ar?[x.no_ar.data,x.no_ar.nota]:null}));
+document.getElementById("atualizado").textContent=D.atualizado.split("-").reverse().join("/");
 const ESF={P:[1,0],M:[2,1],G:[3,3]};
-const IDEIAS=[
-  {n:"Ache o ponto",r:"Tatear a tela até achar o ponto escondido, que fica menor e mais arisco a cada fase. Humor de duplo sentido, sem nada explícito. Ideia #3.",e:"P",s:"2 a 4 semanas",h:4,d:4,tag:"Risco de loja"},
-  {n:"Argolinhas na água",r:"O brinquedo de acertar as argolas nas hastes, com física de água. Precisa de nome próprio (Aquaplay é marca da Estrela).",e:"M",s:"6 a 8 semanas",h:4,d:5},
-  {n:"Cobrinha com arte e fases",r:"Clássico com tema e progressão. Reaproveita o loop de Flame do Pula-Pulso.",e:"P",s:"3 a 4 semanas",h:3,d:4},
-  {n:"Bafo de figurinhas",r:"Virar figurinha com um gesto e completar o álbum.",e:"M",s:"5 a 7 semanas",h:3,d:5},
-  {n:"Sort com tema brasileiro",r:"Tubos de caldo de cana, refri retornável ou brigadeiro. É o tipo de puzzle que mais cresce.",e:"M",s:"4 a 6 semanas",h:4,d:3},
-  {n:"Desparafusar com tema brasileiro",r:"Screw puzzle de festa junina. O Screwdom está no top de receita do Brasil.",e:"M",s:"5 a 7 semanas",h:4,d:3},
-  {n:"Genius musical brasileiro",r:"Sequência de sons com pandeiro, berimbau e cuíca.",e:"P",s:"2 a 3 semanas",h:2,d:4},
-  {n:"Campo minado temático",r:"Temas e fases. Sai barato se vier depois do motor de grade do Sudoku.",e:"P",s:"3 a 5 semanas",h:2,d:3},
-  {n:"Quarto Aberto",r:"Paródia de mundo aberto em que o mundo é um quarto e você controla os personagens. Do jeito que foi descrito é sandbox, e sandbox é caro. Uma versão enxuta, com 1 quarto e interações secretas para descobrir, subiria para A. Ideia #4, do Lucas.",e:"G",s:"10 semanas ou mais",h:3,d:5,tag:"Escopo a fechar"},
-  {n:"Pega-varetas em 2D",r:"Física simples e partidas curtas.",e:"M",s:"4 a 6 semanas",h:2,d:4},
-  {n:"Bicho virtual fitness",r:"Fica sarado com bons hábitos de celular. Depende de permissão sensível no Android e de aprovação da Apple.",e:"G",s:"12 semanas ou mais",h:5,d:3,tag:"Aposta grande"},
-  {n:"Sudoku temático",r:"Fases, temas e animações num mercado lotado. Divide o motor com o Campo minado.",e:"M",s:"5 a 7 semanas",h:3,d:2}
-];
 const TIERS=[["S","--amber","jogar já",n=>n>=8],["A","--green","próxima ficha",n=>n===7],["B","--cyan","na fila",n=>n===6],["C","--violet","guardar",n=>n<=5]];
 
 const h=(tag,attrs={},...kids)=>{const e=document.createElement(tag);for(const[k,v]of Object.entries(attrs)){if(k==="style")e.style.cssText=v;else if(k==="text")e.textContent=v;else e.setAttribute(k,v)}e.append(...kids);return e};
@@ -269,17 +252,7 @@ document.getElementById("games").append(...JOGOS.map(j=>{
 
 // ---- roadmap ----
 const FT={proto:["Protótipo","#3987e5"],prod:["Desenvolvimento","#d95926"],play:["Playtest","#199e70"],loja:["Revisão da Play","#c98500","yellow"],lanc:["No ar: lançamento e suporte","#d55181"],upd:["Atualização","#6f36e2"]};
-const RM=[
-  {n:"Na Mesma Pilha",d:"Alisson",b:[["loja","2026-10-22","2026-11-01","Revisão na Play (envio para a faixa de produção)"],["lanc","2026-11-02","2026-11-15","Vídeos A, B, D e C, atendimento e primeiras métricas"],["upd","2026-11-16","2026-11-29","Atualização para quem já joga: 1.0.1 com a curva de dificuldade e o que o lançamento ensinar","Atualização 1.0.1"]],ms:["2026-11-02","No ar (se a Play aprovar até 01/11)"]},
-  {n:"Encaixa!",d:"Victor",b:[["prod","2026-10-19","2026-11-15","Fase 2.5: música, Carreira, fundos"],["play","2026-11-16","2026-11-22","2 celulares e balanceamento com gente"],["prod","2026-11-23","2026-11-29","Fase 3: AdMob/UMP, Firebase, ficha, AAB assinado"],["loja","2026-11-30","2026-12-06","Revisão da Play"],["lanc","2026-12-07","2026-12-20","Lançamento e suporte"]],ms:["2026-12-07","No ar"]},
-  {n:"Pula-Pulso",d:"Guilherme Vallejo",b:[["play","2026-10-26","2026-11-08","Playtest humano: curva, colisões, vontade de jogar de novo"],["prod","2026-11-09","2026-12-20","Ajustes, assinatura, privacidade no site, decisão de monetização"],["loja","2027-01-04","2027-01-10","Revisão da Play"],["lanc","2027-01-11","2027-01-24","Lançamento e suporte"]],ms:["2027-01-11","No ar"]},
-  {n:"Argolinhas na água",d:"tier S · dev livre",b:[["proto","2026-11-02","2026-11-08","Protótipo de física: a água é gostosa?"],["prod","2026-11-09","2027-01-17","Fases, cenários, nome próprio, áudio (M, 6 a 8 semanas mais as festas)"],["play","2027-01-18","2027-01-31","Playtest"],["loja","2027-02-01","2027-02-07","Revisão da Play"],["lanc","2027-02-15","2027-02-28","Lançamento e suporte"]],ms:["2027-02-15","No ar"]},
-  {n:"Ache o ponto",d:"tier S · risco de loja · dev livre",b:[["proto","2027-02-01","2027-02-07","Protótipo da mecânica com tema neutro e checagem da política da Play, do AdMob e da classificação. Os sócios escolhem o tema aqui"],["prod","2027-02-08","2027-03-14","Fases, iscas e retorno quente/frio no tema escolhido (P, 3 a 4 semanas)"],["play","2027-03-15","2027-03-28","Playtest"],["loja","2027-03-29","2027-04-11","Revisão da Play: 2 semanas de folga, porque classificação adulta e conteúdo sugestivo demoram mais"],["lanc","2027-04-26","2027-05-09","Lançamento com divulgação separada do perfil família da marca"]],ms:["2027-04-26","No ar (5 semanas depois da Cobrinha)"]},
-  {n:"Cobrinha com arte",d:"tier A · dev livre",b:[["proto","2027-01-04","2027-01-10","Protótipo sobre o Flame do Pula-Pulso"],["prod","2027-01-11","2027-02-14","Temas e fases (P, 3 a 4 semanas)"],["play","2027-02-15","2027-02-28","Playtest"],["loja","2027-03-08","2027-03-14","Revisão da Play"],["lanc","2027-03-22","2027-04-04","Lançamento e suporte"]],ms:["2027-03-22","No ar"]},
-  {n:"Bafo de figurinhas",d:"tier A · dev livre",b:[["proto","2027-02-01","2027-02-07","Protótipo do gesto de virar"],["prod","2027-02-08","2027-03-28","Álbum e coleção (M, 5 a 7 semanas)"]]},
-  {n:"Bicho fitness",d:"aposta grande",b:[["proto","2027-01-18","2027-01-24","Spike Android: ler uso do celular e passar na regra da Play"]]}
-];
-const T0=new Date("2026-10-19"),T1=new Date("2027-05-17"),SPAN=T1-T0;
+const T0=new Date("2026-10-19"),T1=new Date(D.roadmap_fim),SPAN=T1-T0;
 const pct=s=>((new Date(s)-T0)/SPAN*100).toFixed(3)+"%";
 const fmt=s=>s.slice(8,10)+"/"+s.slice(5,7);
 const MESES=["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
@@ -307,7 +280,7 @@ for(const p of RM){
   if(p.ms){const m=h("span",{class:"ms",style:"left:"+pct(p.ms[0]),title:p.ms[1]+" · "+fmt(p.ms[0])});lane.append(m);tbody.append(h("tr",{},h("td",{text:p.n}),h("td",{text:"No ar"}),h("td",{text:fmt(p.ms[0])}),h("td",{text:""}),h("td",{text:p.ms[1]})))}
   G.append(lane);
 }
-const today=h("span",{class:"today",style:"left:calc(170px + (100% - 170px) * "+((new Date("2026-10-23")-T0)/SPAN).toFixed(4)+")"});G.append(today);
+const today=h("span",{class:"today",style:"left:calc(170px + (100% - 170px) * "+((Math.min(Math.max(new Date()-T0,0),SPAN))/SPAN).toFixed(4)+")"});G.append(today);
 
 const meter=(label,val,max,cvar,txt)=>h("div",{class:"meter",style:"--c:var("+cvar+")"},h("span",{text:label}),h("span",{class:"pips","aria-hidden":"true"},...Array.from({length:max},(_,i)=>h("span",{class:"pip"+(i<val?" on":"")}))),h("span",{text:txt}));
 const scored=IDEIAS.map(i=>({...i,nota:i.h+i.d-ESF[i.e][1]}));
@@ -324,6 +297,7 @@ document.getElementById("tiers").append(...TIERS.map(([t,c,lbl,test])=>{
       h("span",{class:"weeks",text:"Estimativa: "+i.s}),
       ...(i.tag?[h("span",{class:"tag",style:"--c:var(--pink)",text:i.tag})]:[])))));
 }));
+})();
 </script>
 </body>
 </html>
