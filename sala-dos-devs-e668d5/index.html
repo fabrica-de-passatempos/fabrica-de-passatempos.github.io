@@ -127,6 +127,17 @@ section{display:grid;gap:18px}
 .table-view table{border-collapse:collapse;font-size:.85rem;min-width:620px;width:100%}
 .table-view th,.table-view td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
 .table-view th{font-family:var(--label);color:var(--muted);font-weight:500}
+.coin{background:var(--panel);border:3px solid var(--amber);padding:20px;box-shadow:6px 6px 0 #8a3b00}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;counter-reset:s}
+.steps li{counter-increment:s;background:var(--panel-2);border:2px solid var(--line);padding:12px;display:grid;gap:4px;font-size:.9rem;color:var(--muted)}
+.steps li::before{content:counter(s);font-family:var(--pixel);font-size:.8rem;color:var(--amber)}
+.steps b{font-family:var(--label);color:var(--fg);font-size:1rem}
+.coin-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.btn-coin{font:400 .8rem var(--pixel);background:var(--amber);color:#0e1020;padding:14px 18px;text-decoration:none;box-shadow:4px 4px 0 #8a3b00;transition:transform .1s,box-shadow .1s}
+.btn-coin:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 #8a3b00}
+.btn-coin:focus-visible,.btn-ghost:focus-visible{outline:2px solid var(--fg);outline-offset:3px}
+.btn-ghost{font:500 .95rem var(--label);color:var(--cyan);text-decoration:none;border-bottom:2px dashed var(--cyan);padding:4px 0}
+.note-small{margin:0;font-size:.82rem;color:var(--muted)}
 footer{font-size:.82rem;color:var(--muted);border-top:2px dashed var(--line);padding-top:16px}
 </style>
 </head>
@@ -173,6 +184,21 @@ footer{font-size:.82rem;color:var(--muted);border-top:2px dashed var(--line);pad
       <span><b>Diversão</b>: o quanto deve ser legal fazer e testar</span>
     </div>
     <div class="tiers" id="tiers"></div>
+  </section>
+
+  <section aria-labelledby="t-ficha" class="coin">
+    <div class="head"><span class="kicker">Insert coin</span><h2 id="t-ficha">Mande uma ideia de jogo</h2>
+      <p class="lede">Teve uma ideia? Mande pelo formulário, que é rápido. Toda semana o PM avalia, dá os três medidores e coloca a ideia na tier list. Se ela chegar no S ou no A, entra no roadmap.</p></div>
+    <ol class="steps">
+      <li><b>Você manda</b><span>Nome, a ideia em uma frase, como se joga e se você quer desenvolver.</span></li>
+      <li><b>O PM avalia</b><span>Na triagem semanal: esforço, hype, diversão e riscos de marca e loja. Se faltar algo, ele pergunta no próprio pedido.</span></li>
+      <li><b>Entra na fila</b><span>A ideia aparece nesta página com tier e medidores. Do S e do A sai um protótipo de 1 semana e uma faixa no roadmap.</span></li>
+    </ol>
+    <div class="coin-actions">
+      <a class="btn-coin" href="https://github.com/fabrica-de-passatempos/estudio/issues/new?template=ideia-de-jogo.yml" target="_blank" rel="noopener">Sugerir um jogo</a>
+      <a class="btn-ghost" href="https://github.com/fabrica-de-passatempos/estudio/issues?q=label%3Aideia" target="_blank" rel="noopener">Ver ideias enviadas</a>
+    </div>
+    <p class="note-small">O formulário fica no GitHub privado do estúdio. Para mandar, você precisa estar na organização <b>fabrica-de-passatempos</b>. Se não estiver, peça convite ao Alisson.</p>
   </section>
 
   <footer>Atualizado em 23/10/2026. Fontes: PORTFOLIO.md e IDEIAS.md no repo estudio. Página fora do menu do site; não compartilhe o link fora do time.</footer>
