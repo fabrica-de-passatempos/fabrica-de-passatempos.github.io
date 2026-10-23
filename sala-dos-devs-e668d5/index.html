@@ -234,7 +234,7 @@ document.getElementById("games").append(...JOGOS.map(j=>{
 // ---- roadmap ----
 const FT={proto:["Protótipo","#3987e5"],prod:["Desenvolvimento","#d95926"],play:["Playtest","#199e70"],loja:["Revisão da Play","#c98500","yellow"],lanc:["No ar: lançamento e suporte","#d55181"]};
 const RM=[
-  {n:"Na Mesma Pilha",d:"Alisson",b:[["loja","2026-10-22","2026-11-01","Revisão na Play (envio para a faixa de produção)"],["lanc","2026-11-02","2026-11-15","Vídeos A, B, D e C, atendimento e primeiras métricas"],["prod","2026-11-16","2026-11-29","1.0.1 com a curva de dificuldade e o que o lançamento ensinar"]],ms:["2026-11-02","No ar (se a Play aprovar até 01/11)"]},
+  {n:"Na Mesma Pilha",d:"Alisson",b:[["loja","2026-10-22","2026-11-01","Revisão na Play (envio para a faixa de produção)"],["lanc","2026-11-02","2026-11-15","Vídeos A, B, D e C, atendimento e primeiras métricas"],["prod","2026-11-16","2026-11-29","Atualização para quem já joga: 1.0.1 com a curva de dificuldade e o que o lançamento ensinar","Atualização 1.0.1"]],ms:["2026-11-02","No ar (se a Play aprovar até 01/11)"]},
   {n:"Encaixa!",d:"Victor",b:[["prod","2026-10-19","2026-11-15","Fase 2.5: música, Carreira, fundos"],["play","2026-11-16","2026-11-22","2 celulares e balanceamento com gente"],["prod","2026-11-23","2026-11-29","Fase 3: AdMob/UMP, Firebase, ficha, AAB assinado"],["loja","2026-11-30","2026-12-06","Revisão da Play"],["lanc","2026-12-07","2026-12-20","Lançamento e suporte"]],ms:["2026-12-07","No ar"]},
   {n:"Pula-Pulso",d:"Guilherme Vallejo",b:[["play","2026-10-26","2026-11-08","Playtest humano: curva, colisões, vontade de jogar de novo"],["prod","2026-11-09","2026-12-20","Ajustes, assinatura, privacidade no site, decisão de monetização"],["loja","2027-01-04","2027-01-10","Revisão da Play"],["lanc","2027-01-11","2027-01-24","Lançamento e suporte"]],ms:["2027-01-11","No ar"]},
   {n:"Argolinhas na água",d:"tier S · dev livre",b:[["proto","2026-11-02","2026-11-08","Protótipo de física: a água é gostosa?"],["prod","2026-11-09","2027-01-17","Fases, cenários, nome próprio, áudio (M, 6 a 8 semanas mais as festas)"],["play","2027-01-18","2027-01-31","Playtest"],["loja","2027-02-01","2027-02-07","Revisão da Play"],["lanc","2027-02-15","2027-02-28","Lançamento e suporte"]],ms:["2027-02-15","No ar"]},
@@ -258,8 +258,8 @@ for(const p of RM){
   G.append(h("div",{class:"g-label"},h("strong",{text:p.n}),h("span",{text:p.d})));
   const lane=h("div",{class:"g-lane"});
   for(let d=new Date("2026-11-01");d<T1;d.setUTCMonth(d.getUTCMonth()+1))lane.append(h("i",{class:"g-grid",style:"left:"+pct(d.toISOString().slice(0,10))}));
-  for(const [t,a,z,o] of p.b){
-    const [lbl,c,cls]=FT[t];const end=new Date(z);end.setUTCDate(end.getUTCDate()+1);
+  for(const [t,a,z,o,lab0] of p.b){
+    const [lbl0,c,cls]=FT[t];const lbl=lab0||lbl0;const end=new Date(z);end.setUTCDate(end.getUTCDate()+1);
     const bar=h("button",{type:"button",class:"bar"+(cls?" "+cls:""),style:"left:"+pct(a)+";width:calc("+pct(end.toISOString().slice(0,10))+" - "+pct(a)+");background:"+c,"aria-label":p.n+": "+lbl+", "+fmt(a)+" a "+fmt(z)+". "+o,text:lbl});
     const info=()=>[h("b",{text:p.n+" · "+lbl}),fmt(a)+" a "+fmt(z),h("br"),o];
     bar.addEventListener("mouseenter",e=>showTip(e,info()));bar.addEventListener("focus",e=>showTip(e,info()));
