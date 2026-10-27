@@ -6,7 +6,7 @@
       "nome": "Alisson Melo",
       "foto": "fotos/alisson.jpg",
       "cor": "green",
-      "jogo": "Na Mesma Pilha + Argolinhas"
+      "jogo": "Na Mesma Pilha + Mar de Argolas"
     },
     {
       "nome": "Lucas Belo",
@@ -63,11 +63,11 @@
       "bloqueio": "Release ainda assinado com debug"
     },
     {
-      "nome": "Argolinhas (nome de código)",
+      "nome": "Mar de Argolas",
       "dono": "Alisson Melo",
       "fase": "Protótipo",
       "proximo": "Protótipo de física do modo Relax; o Alisson joga e decide se segue",
-      "bloqueio": "Nome próprio: \"Aquaplay\" é marca da Estrela"
+      "bloqueio": "Build no celular do Alisson para o portão do protótipo"
     }
   ],
   "ideias": [
@@ -278,7 +278,7 @@
       }
     },
     {
-      "projeto": "Argolinhas",
+      "projeto": "Mar de Argolas",
       "quem": "Alisson · agentes Valdir e Basílio",
       "faixas": [
         {
@@ -434,14 +434,14 @@
       "papel": "PM",
       "foto": "fotos/agentes/claudio.png",
       "cor": "amber",
-      "faz": "Coordenando o Argolinhas e a estreia nas redes"
+      "faz": "Coordenando o Mar de Argolas e a estreia nas redes"
     },
     {
       "nome": "Valdir",
       "papel": "Dev",
       "foto": "fotos/agentes/valdir.png",
       "cor": "green",
-      "faz": "Protótipo de física do Argolinhas"
+      "faz": "Protótipo de física do Mar de Argolas"
     },
     {
       "nome": "Samara",
@@ -462,14 +462,14 @@
       "papel": "Marketing",
       "foto": "fotos/agentes/josefa.png",
       "cor": "violet",
-      "faz": "Estreia 28/10, 19h30, e nomes para o Argolinhas"
+      "faz": "Estreia 28/10, 19h30, e nomes para o Mar de Argolas"
     },
     {
       "nome": "Basílio",
       "papel": "Arte",
       "foto": "fotos/agentes/basilio.png",
       "cor": "amber",
-      "faz": "Style guide e arte provisória do Argolinhas"
+      "faz": "Style guide e arte provisória do Mar de Argolas"
     }
   ]
 }
