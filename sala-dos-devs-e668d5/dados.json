@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-27",
+  "atualizado": "2026-10-28",
   "roadmap_fim": "2027-05-17",
   "devs": [
     {
@@ -12,7 +12,7 @@
       "nome": "Lucas Belo",
       "foto": "fotos/lucas.jpg",
       "cor": "cyan",
-      "jogo": null
+      "jogo": "Atlas do Tempo (protótipo)"
     },
     {
       "nome": "Guilherme Vallejo",
@@ -171,6 +171,16 @@
       "semanas": "5 a 7 semanas",
       "hype": 3,
       "diversao": 2
+    },
+    {
+      "nome": "Atlas do Tempo",
+      "resumo": "Cada carta é um fato histórico: encaixe na linha do tempo (quando) e toque no mapa-múndi (onde); cada acerto ilumina o atlas. Escopo cheio é G (C); a v1 enxuta, com 2 eras e ~100 cartas, cai em M e sobe para A. Ideia #5, do Lucas, que quer pegar.",
+      "esforco": "M",
+      "semanas": "6 a 8 semanas (v1 enxuta)",
+      "hype": 4,
+      "diversao": 4,
+      "etiqueta": "Protótipo",
+      "issue": 5
     }
   ],
   "roadmap": [
@@ -424,6 +434,18 @@
           "de": "2027-01-18",
           "ate": "2027-01-24",
           "o_que": "Spike Android: ler uso do celular e passar na regra da Play"
+        }
+      ]
+    },
+    {
+      "projeto": "Atlas do Tempo",
+      "quem": "Lucas Belo",
+      "faixas": [
+        {
+          "tipo": "prototipo",
+          "de": "2026-10-28",
+          "ate": "2026-11-03",
+          "o_que": "Protótipo: 40 cartas, linha do tempo, mapa e \"Quem veio antes?\"; o loop é gostoso em 30 s?"
         }
       ]
     }
