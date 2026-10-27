@@ -65,9 +65,9 @@
     {
       "nome": "Mar de Argolas",
       "dono": "Alisson Melo",
-      "fase": "Protótipo",
-      "proximo": "Protótipo de física do modo Relax; o Alisson joga e decide se segue",
-      "bloqueio": "Build no celular do Alisson para o portão do protótipo"
+      "fase": "Desenvolvimento",
+      "proximo": "Modo Carreira: Pipo, o baiacu, em 3 temas e 30 fases, com barra de AR; aprovado em 27/10",
+      "bloqueio": ""
     }
   ],
   "ideias": [
@@ -284,14 +284,14 @@
         {
           "tipo": "prototipo",
           "de": "2026-10-27",
-          "ate": "2026-11-02",
-          "o_que": "Protótipo de física do modo Relax: a água é gostosa?"
+          "ate": "2026-10-27",
+          "o_que": "Protótipo de física do modo Relax: aprovado em 27/10"
         },
         {
           "tipo": "desenvolvimento",
-          "de": "2026-11-03",
+          "de": "2026-10-28",
           "ate": "2027-01-17",
-          "o_que": "Modo Carreira (história, fases, 3 temas), arte final, nome próprio, áudio"
+          "o_que": "Modo Carreira: Pipo, 3 temas, 30 fases, chefes e barra de AR; arte final e áudio"
         },
         {
           "tipo": "playtest",
@@ -441,7 +441,7 @@
       "papel": "Dev",
       "foto": "fotos/agentes/valdir.png",
       "cor": "green",
-      "faz": "Protótipo de física do Mar de Argolas"
+      "faz": "Modo Carreira do Mar de Argolas: barra de AR, fases do Aquário e bot que mira"
     },
     {
       "nome": "Samara",
@@ -469,7 +469,7 @@
       "papel": "Arte",
       "foto": "fotos/agentes/basilio.png",
       "cor": "amber",
-      "faz": "Style guide e arte provisória do Mar de Argolas"
+      "faz": "Pipo, o baiacu protagonista do Mar de Argolas, e depois obstáculos e hastes"
     }
   ]
 }
