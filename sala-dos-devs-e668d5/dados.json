@@ -488,10 +488,10 @@
     },
     {
       "nome": "Basílio",
-      "papel": "Arte",
+      "papel": "Arte e Som",
       "foto": "fotos/agentes/basilio.png",
       "cor": "amber",
-      "faz": "Pipo, o baiacu protagonista do Mar de Argolas, e depois obstáculos e hastes"
+      "faz": "Trilha do Mar de Argolas no clima ambient aquático e Lagoa em água clara"
     }
   ]
 }
