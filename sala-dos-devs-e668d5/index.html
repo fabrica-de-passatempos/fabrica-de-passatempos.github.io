@@ -57,6 +57,10 @@ section{display:grid;gap:18px}
 .status.off{border:2px dashed var(--muted);color:var(--muted)}
 .status.off strong{color:var(--fg);font-weight:500}
 .cnt.off{border:2px dashed var(--muted);color:var(--muted)}
+.agent .flag{border:2px solid var(--p);color:var(--p)}
+.face img{position:relative}
+.status.agent{border:2px solid var(--p);color:var(--p)}
+.status.agent strong{color:var(--fg);font-weight:500}
 .dot{width:8px;height:8px;background:#0e1020;border-radius:50%;animation:blink 1.1s steps(1) infinite}
 .counts{display:flex;flex-wrap:wrap;gap:8px}
 .cnt{font:500 .85rem var(--label);padding:4px 10px}
@@ -155,6 +159,12 @@ footer{font-size:.82rem;color:var(--muted);border-top:2px dashed var(--line);pad
     <div class="devs" id="devs"></div>
   </section>
 
+  <section aria-labelledby="t-agentes">
+    <div class="head"><h2 id="t-agentes">Time de agentes</h2>
+      <p class="lede">Os agentes de IA que trabalham com a gente. Desenhos do Basílio.</p></div>
+    <div class="devs" id="agentes"></div>
+  </section>
+
   <section aria-labelledby="t-jogos">
     <div class="head"><h2 id="t-jogos">Mapa de fases</h2>
       <p class="lede">Ideia → protótipo → conteúdo → playtest → release → loja → no ar. Em amarelo está a fase atual de cada jogo.</p></div>
@@ -239,6 +249,16 @@ document.getElementById("devs-count").replaceChildren(
   h("span",{class:"cnt busy"},h("b",{text:String(nBusy)})," em missão"),
   h("span",{class:"cnt free"},h("b",{text:String(DEVS.length-nBusy-nInv)})," sem missão"),
   ...(nInv?[h("span",{class:"cnt off"},h("b",{text:String(nInv)})," investidor")]:[]));
+
+document.getElementById("agentes").append(...(D.agentes||[]).map((a,i)=>{
+  const face=h("div",{class:"face"});
+  face.append(h("span",{class:"initials",text:ini(a.nome),"aria-hidden":"true"}));
+  if(a.foto){const img=h("img",{src:a.foto,alt:"Persona de "+a.nome,loading:"lazy"});img.onerror=()=>img.remove();face.append(img)}
+  return h("article",{class:"dev agent",style:"--p:var(--"+a.cor+")"},
+    h("div",{class:"dev-top"},h("span",{class:"slot",text:"CPU"+(i+1)}),h("span",{class:"flag",text:a.papel})),
+    face,h("span",{class:"name",text:a.nome}),
+    h("div",{class:"status agent"},h("span",{class:"st-k",text:"Agora"}),h("strong",{text:a.faz})));
+}));
 
 document.getElementById("games").append(...JOGOS.map(j=>{
   const track=h("div",{class:"track",role:"img","aria-label":"Fase atual: "+FASES[j.f]},...FASES.map((_,i)=>h("span",{class:"seg"+(i<j.f?" on":i===j.f?" now":"")})));

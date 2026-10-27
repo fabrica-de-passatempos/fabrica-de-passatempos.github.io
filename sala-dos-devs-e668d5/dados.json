@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-26",
+  "atualizado": "2026-10-27",
   "roadmap_fim": "2027-05-17",
   "devs": [
     {
@@ -46,7 +46,7 @@
       "dono": "Alisson Melo",
       "fase": "Loja",
       "proximo": "Aprovação da Play e lançamento",
-      "bloqueio": "Em revisão na Play desde 22/10 (4 dias)"
+      "bloqueio": "Em revisão na Play desde 22/10 (5 dias)"
     },
     {
       "nome": "Encaixa!",
@@ -419,6 +419,50 @@
           "o_que": "Spike Android: ler uso do celular e passar na regra da Play"
         }
       ]
+    }
+  ],
+  "agentes": [
+    {
+      "nome": "Claudio",
+      "papel": "PM",
+      "foto": "fotos/agentes/claudio.png",
+      "cor": "amber",
+      "faz": "Status, roadmap, ideias e o time de agentes"
+    },
+    {
+      "nome": "Valdir",
+      "papel": "Dev",
+      "foto": "fotos/agentes/valdir.png",
+      "cor": "green",
+      "faz": "Na Mesma Pilha 1.0.1 pronta, esperando a Play"
+    },
+    {
+      "nome": "Samara",
+      "papel": "QA",
+      "foto": "fotos/agentes/samara.png",
+      "cor": "cyan",
+      "faz": "Liberou a 1.0.1 do Na Mesma Pilha"
+    },
+    {
+      "nome": "Antonio",
+      "papel": "Vídeos",
+      "foto": "fotos/agentes/antonio.png",
+      "cor": "pink",
+      "faz": "Vídeos da semana 1 entregues"
+    },
+    {
+      "nome": "Josefa",
+      "papel": "Marketing",
+      "foto": "fotos/agentes/josefa.png",
+      "cor": "violet",
+      "faz": "Estreia nas redes em 28/10, 19h30"
+    },
+    {
+      "nome": "Basílio",
+      "papel": "Arte",
+      "foto": "fotos/agentes/basilio.png",
+      "cor": "amber",
+      "faz": "Desenhou as personas; montando o kit de arte"
     }
   ]
 }
