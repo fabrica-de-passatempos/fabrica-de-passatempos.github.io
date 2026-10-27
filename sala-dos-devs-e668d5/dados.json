@@ -6,7 +6,7 @@
       "nome": "Alisson Melo",
       "foto": "fotos/alisson.jpg",
       "cor": "green",
-      "jogo": "Na Mesma Pilha"
+      "jogo": "Na Mesma Pilha + Argolinhas"
     },
     {
       "nome": "Lucas Belo",
@@ -61,6 +61,13 @@
       "fase": "Playtest",
       "proximo": "Playtest humano da curva e das colisões",
       "bloqueio": "Release ainda assinado com debug"
+    },
+    {
+      "nome": "Argolinhas (nome de código)",
+      "dono": "Alisson Melo",
+      "fase": "Protótipo",
+      "proximo": "Protótipo de física do modo Relax; o Alisson joga e decide se segue",
+      "bloqueio": "Nome próprio: \"Aquaplay\" é marca da Estrela"
     }
   ],
   "ideias": [
@@ -271,20 +278,20 @@
       }
     },
     {
-      "projeto": "Argolinhas na água",
-      "quem": "tier S · dev livre",
+      "projeto": "Argolinhas",
+      "quem": "Alisson · agentes Valdir e Basílio",
       "faixas": [
         {
           "tipo": "prototipo",
-          "de": "2026-11-02",
-          "ate": "2026-11-08",
-          "o_que": "Protótipo de física: a água é gostosa?"
+          "de": "2026-10-27",
+          "ate": "2026-11-02",
+          "o_que": "Protótipo de física do modo Relax: a água é gostosa?"
         },
         {
           "tipo": "desenvolvimento",
-          "de": "2026-11-09",
+          "de": "2026-11-03",
           "ate": "2027-01-17",
-          "o_que": "Fases, cenários, nome próprio, áudio (M, 6 a 8 semanas mais as festas)"
+          "o_que": "Modo Carreira (história, fases, 3 temas), arte final, nome próprio, áudio"
         },
         {
           "tipo": "playtest",
@@ -427,14 +434,14 @@
       "papel": "PM",
       "foto": "fotos/agentes/claudio.png",
       "cor": "amber",
-      "faz": "Status, roadmap, ideias e o time de agentes"
+      "faz": "Coordenando o Argolinhas e a estreia nas redes"
     },
     {
       "nome": "Valdir",
       "papel": "Dev",
       "foto": "fotos/agentes/valdir.png",
       "cor": "green",
-      "faz": "Na Mesma Pilha 1.0.1 pronta, esperando a Play"
+      "faz": "Protótipo de física do Argolinhas"
     },
     {
       "nome": "Samara",
@@ -455,14 +462,14 @@
       "papel": "Marketing",
       "foto": "fotos/agentes/josefa.png",
       "cor": "violet",
-      "faz": "Estreia nas redes em 28/10, 19h30"
+      "faz": "Estreia 28/10, 19h30, e nomes para o Argolinhas"
     },
     {
       "nome": "Basílio",
       "papel": "Arte",
       "foto": "fotos/agentes/basilio.png",
       "cor": "amber",
-      "faz": "Desenhou as personas; montando o kit de arte"
+      "faz": "Style guide e arte provisória do Argolinhas"
     }
   ]
 }
