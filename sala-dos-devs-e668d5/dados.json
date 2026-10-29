@@ -82,14 +82,6 @@
       "issue": 3
     },
     {
-      "nome": "Argolinhas na água",
-      "resumo": "O brinquedo de acertar as argolas nas hastes, com física de água. Precisa de nome próprio (Aquaplay é marca da Estrela).",
-      "esforco": "M",
-      "semanas": "6 a 8 semanas",
-      "hype": 4,
-      "diversao": 5
-    },
-    {
       "nome": "Cobrinha com arte e fases",
       "resumo": "Clássico com tema e progressão. Reaproveita o loop de Flame do Pula-Pulso.",
       "esforco": "P",
@@ -184,7 +176,7 @@
     },
     {
       "nome": "Fugitivos da História",
-      "resumo": "Detetive pelo mundo seguindo fugitivos reais (Victor Lustig, Garibaldi, Butch Cassidy); cada fugitivo é uma campanha e os novos viram expansões. Ideia #34, do Alisson.",
+      "resumo": "Ideia do Alisson no estilo Carmen Sandiego (sem usar a marca): detetive pelo mundo seguindo fugitivos reais (Victor Lustig, Garibaldi, Butch Cassidy), cada fugitivo uma campanha; novos fugitivos viram expansões. Ideia #34.",
       "esforco": "M",
       "semanas": "6 a 8 semanas (v1 com 3 fugitivos)",
       "hype": 4,
