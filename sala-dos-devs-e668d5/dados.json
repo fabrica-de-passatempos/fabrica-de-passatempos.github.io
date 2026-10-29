@@ -30,8 +30,7 @@
       "nome": "Kelvin",
       "foto": "fotos/kelvin.jpg",
       "cor": "violet",
-      "jogo": null,
-      "investidor": true
+      "jogo": "Quebra Blocos (protótipo de ritmo)"
     },
     {
       "nome": "Matheus Neves",
@@ -203,6 +202,16 @@
       "diversao": 4,
       "etiqueta": "Depois do Atlas",
       "issue": 33
+    },
+    {
+      "nome": "Quebra Blocos",
+      "resumo": "Brick breaker com tema espacial, power-ups, fases, Carreira e partida rápida. O diferencial a provar é o ritmo (bola e blocos no compasso da música). Sem o ritmo é C; com ele, B. Ideia #52, do Kelvin.",
+      "esforco": "M",
+      "semanas": "6 a 8 semanas",
+      "hype": 3,
+      "diversao": 4,
+      "etiqueta": "Protótipo de ritmo",
+      "issue": 52
     }
   ],
   "roadmap": [
@@ -462,6 +471,18 @@
           "de": "2026-10-28",
           "ate": "2026-11-03",
           "o_que": "Protótipo: 40 cartas, linha do tempo, mapa e \"Quem veio antes?\"; o loop é gostoso em 30 s?"
+        }
+      ]
+    },
+    {
+      "projeto": "Quebra Blocos",
+      "quem": "Kelvin",
+      "faixas": [
+        {
+          "tipo": "prototipo",
+          "de": "2026-11-02",
+          "ate": "2026-11-08",
+          "o_que": "Protótipo do diferencial de ritmo; o portão decide se segue"
         }
       ]
     }
