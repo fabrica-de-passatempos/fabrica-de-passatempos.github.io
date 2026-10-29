@@ -46,14 +46,14 @@
       "dono": "Alisson Melo",
       "fase": "Loja",
       "proximo": "Aprovação da Play e lançamento",
-      "bloqueio": "Em revisão na Play desde 22/10 (5 dias)"
+      "bloqueio": "Em revisão na Play desde 22/10 (7 dias)"
     },
     {
       "nome": "Encaixa!",
       "dono": "Victor Brunner",
-      "fase": "Conteúdo",
+      "fase": "Release",
       "proximo": "Música, AdMob/UMP e Firebase, depois teste interno na Play",
-      "bloqueio": "Privacidade no site e ficha no Console"
+      "bloqueio": "Chefe com cara de Tetris, privacidade no site e capturas novas (QA de 29/10)"
     },
     {
       "nome": "Pula-Pulso",
@@ -65,9 +65,9 @@
     {
       "nome": "Mar de Argolas",
       "dono": "Alisson Melo",
-      "fase": "Desenvolvimento",
-      "proximo": "Regravação dos vídeos, AdMob real, Play Console e envio para revisão",
-      "bloqueio": ""
+      "fase": "Loja",
+      "proximo": "Ficha no Play Console e envio para revisão",
+      "bloqueio": "App sendo criado no Play Console"
     }
   ],
   "ideias": [
