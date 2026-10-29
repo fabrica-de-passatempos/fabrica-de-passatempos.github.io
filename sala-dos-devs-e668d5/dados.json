@@ -66,8 +66,8 @@
       "nome": "Mar de Argolas",
       "dono": "Alisson Melo",
       "fase": "Loja",
-      "proximo": "Ficha no Play Console e envio para revisão",
-      "bloqueio": "App sendo criado no Play Console"
+      "proximo": "Aprovação da Play e divulgação pelos perfis da Fábrica",
+      "bloqueio": "Em revisão na Play desde 29/10"
     }
   ],
   "ideias": [
@@ -479,7 +479,7 @@
       "papel": "Dev",
       "foto": "fotos/agentes/valdir.png",
       "cor": "green",
-      "faz": "Modo Carreira do Mar de Argolas: barra de AR, fases do Aquário e bot que mira"
+      "faz": "Mar de Argolas em revisão na Play; menu e ícone do Encaixa! entregues ao Victor"
     },
     {
       "nome": "Samara",
