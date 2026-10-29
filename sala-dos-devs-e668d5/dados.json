@@ -66,7 +66,7 @@
       "nome": "Mar de Argolas",
       "dono": "Alisson Melo",
       "fase": "Desenvolvimento",
-      "proximo": "Modo Carreira: Pipo, o baiacu, em 3 temas e 30 fases, com barra de AR; aprovado em 27/10",
+      "proximo": "Regravação dos vídeos, AdMob real, Play Console e envio para revisão",
       "bloqueio": ""
     }
   ],
@@ -330,26 +330,20 @@
         {
           "tipo": "desenvolvimento",
           "de": "2026-10-28",
-          "ate": "2027-01-17",
-          "o_que": "Modo Carreira: Pipo, 3 temas, 30 fases, chefes e barra de AR; arte final e áudio"
-        },
-        {
-          "tipo": "playtest",
-          "de": "2027-01-18",
-          "ate": "2027-01-31",
-          "o_que": "Playtest"
+          "ate": "2026-11-01",
+          "o_que": "Carreira, loja, tutorial, trilha; QA da Samara concluído"
         },
         {
           "tipo": "revisao",
-          "de": "2027-02-01",
-          "ate": "2027-02-07",
-          "o_que": "Revisão da Play"
+          "de": "2026-11-02",
+          "ate": "2026-11-08",
+          "o_que": "Envio para a Play assim que AdMob, chave e ficha estiverem prontos"
         },
         {
           "tipo": "no-ar",
-          "de": "2027-02-15",
-          "ate": "2027-02-28",
-          "o_que": "Lançamento e suporte"
+          "de": "2026-11-09",
+          "ate": "2026-11-22",
+          "o_que": "No ar e divulgação pelos perfis da Fábrica"
         }
       ],
       "no_ar": {
