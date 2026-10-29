@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-28",
+  "atualizado": "2026-10-29",
   "roadmap_fim": "2027-05-17",
   "devs": [
     {
@@ -181,6 +181,36 @@
       "diversao": 4,
       "etiqueta": "Protótipo",
       "issue": 5
+    },
+    {
+      "nome": "Fugitivos da História",
+      "resumo": "Detetive pelo mundo seguindo fugitivos reais (Victor Lustig, Garibaldi, Butch Cassidy); cada fugitivo é uma campanha e os novos viram expansões. Ideia #34, do Alisson.",
+      "esforco": "M",
+      "semanas": "6 a 8 semanas (v1 com 3 fugitivos)",
+      "hype": 4,
+      "diversao": 4,
+      "etiqueta": "Nome a definir",
+      "issue": 34
+    },
+    {
+      "nome": "Jogo das Pistas",
+      "resumo": "Três pistas progressivas, acertar antes vale mais, e você vê em que pista os outros acertaram. Precisa de nome próprio (o SBT licencia \"3 Pistas\"). Ideia #32, do Lucas.",
+      "esforco": "M",
+      "semanas": "6 a 8 semanas",
+      "hype": 4,
+      "diversao": 4,
+      "etiqueta": "Depois do Atlas",
+      "issue": 32
+    },
+    {
+      "nome": "Ninguém Pensou Nisso",
+      "resumo": "Pedido com várias respostas certas em que vale mais a que menos gente deu; modo inverso estilo Family Feud. Ideia #33, do Lucas.",
+      "esforco": "M",
+      "semanas": "6 a 8 semanas",
+      "hype": 4,
+      "diversao": 4,
+      "etiqueta": "Depois do Atlas",
+      "issue": 33
     }
   ],
   "roadmap": [
