@@ -214,13 +214,13 @@
       "issue": 52
     },
     {
-      "nome": "Jogo de navinha",
+      "nome": "Caçada Estelar (navinha)",
       "resumo": "Shoot em up vertical estilo anos 90: armas coletáveis, power-ups e chefões desenhados, sem anúncio forçado. v1 enxuta com 1 nave, 3 fases e 3 chefes. Ideia #56, do Alisson.",
       "esforco": "M",
       "semanas": "6 a 8 semanas",
       "hype": 3,
       "diversao": 5,
-      "etiqueta": "Protótipo de 1 semana",
+      "etiqueta": "Protótipo de toque",
       "issue": 56
     }
   ],
