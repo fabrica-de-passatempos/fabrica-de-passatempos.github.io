@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-29",
+  "atualizado": "2026-10-30",
   "roadmap_fim": "2027-05-17",
   "devs": [
     {
@@ -43,9 +43,9 @@
     {
       "nome": "Na Mesma Pilha",
       "dono": "Alisson Melo",
-      "fase": "Loja",
-      "proximo": "Aprovação da Play e lançamento",
-      "bloqueio": "Em revisão na Play desde 22/10 (7 dias)"
+      "fase": "No ar",
+      "proximo": "Lançamento nas redes e vincular o AdMob",
+      "bloqueio": ""
     },
     {
       "nome": "Encaixa!",
