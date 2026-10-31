@@ -1,6 +1,6 @@
 // Google Analytics (GA4) só depois do aceite, com Consent Mode v2 negado por padrão.
 // Sem ID de medição, nada carrega e o banner não aparece.
-const GA_ID = ''; // ponytail: preencher com o ID de medição (G-XXXXXXXXXX) do fluxo web do GA4
+const GA_ID = 'G-YSEDVQPPNN'; // propriedade "Site Fábrica de Passatempos", conta Google da Fábrica
 const CHAVE = 'fp-cookies'; // 'aceito' | 'recusado'
 
 window.dataLayer = window.dataLayer || [];
