@@ -25,12 +25,10 @@ nav ul a:hover{color:var(--txt)}
   box-shadow:0 4px 0 #9C6E00;transition:transform .25s var(--mola),box-shadow .25s var(--mola)}
 .btn:hover{transform:translateY(-2px);box-shadow:0 6px 0 #9C6E00}.btn:active{transform:translateY(2px);box-shadow:0 2px 0 #9C6E00}
 
-.tel{position:relative;width:100%;max-width:520px;aspect-ratio:520/540;justify-self:end}
-.tel img{position:absolute;width:40%;border-radius:26px;border:6px solid #050906;box-shadow:0 30px 60px -20px rgba(0,0,0,.6);animation:flutua 6s ease-in-out infinite}
-.tel img:nth-child(1){left:0;top:13%;--r:-8deg;transform:rotate(-8deg)}
-.tel img:nth-child(2){left:29%;top:0;z-index:2;--r:0deg;animation-delay:-2s}
-.tel img:nth-child(3){left:58%;top:15%;--r:7deg;transform:rotate(7deg);animation-delay:-4s}
-@keyframes flutua{0%,100%{transform:translateY(0) rotate(var(--r))}50%{transform:translateY(-12px) rotate(var(--r))}}
+.logo-animado{position:relative;width:100%;min-width:0;max-width:520px;aspect-ratio:16/9;justify-self:end;background:#1D5C3C;border:1px solid var(--linha);border-radius:24px;overflow:hidden}
+.logo-animado img{width:100%;height:100%;object-fit:contain}
+.logo-animado video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.logo-animado video[hidden]{display:none}
 
 section{padding:80px 0;border-top:1px solid var(--linha)}
 h2{font-size:clamp(30px,3.6vw,44px);margin-bottom:36px;font-weight:800}
@@ -71,14 +69,14 @@ footer a{color:#D6DECF}
 /* entrada em cascata ao rolar (o JS liga .vis); sem JS ou com movimento reduzido, tudo aparece */
 .js .sobe{opacity:0;transform:translateY(24px);transition:opacity .6s var(--mola),transform .6s var(--mola);transition-delay:calc(var(--i,0) * 60ms)}
 .js .sobe.vis{opacity:1;transform:none}
-@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.js .sobe{opacity:1;transform:none}html{scroll-behavior:auto}}
+@media (prefers-reduced-motion:reduce){.logo-animado video{display:none}*{animation:none!important;transition:none!important}.js .sobe{opacity:1;transform:none}html{scroll-behavior:auto}}
 
 @media (max-width:900px){
   .w{padding:0 16px}
   nav ul{display:none}nav .marca img{width:132px}
   .hero,.bento,.dev,.tl,.ct{grid-template-columns:minmax(0,1fr)}
   .hero{padding:24px 0 56px;gap:24px}
-  .tel{max-width:360px;justify-self:start}.tel img{border-width:4px;border-radius:18px}
+  .logo-animado{max-width:520px;justify-self:start}
   .j.grande{flex-direction:column}.j.grande .tela{width:70%;align-self:center}
   .j.lado{flex-direction:column;align-items:flex-start}.j.lado .tela{width:100%;max-width:240px}
   .j .tela.recorte{height:300px}

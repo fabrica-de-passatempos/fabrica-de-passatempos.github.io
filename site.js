@@ -6,10 +6,37 @@ if (!matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObse
   document.querySelectorAll('.sobe').forEach(el => io.observe(el));
 }
 
-// Videos dos jogos: parados com movimento reduzido; fora da tela, pausam para poupar bateria.
+// Vídeos pausam fora da tela e respeitam mudanças de movimento reduzido.
+const movimento = matchMedia('(prefers-reduced-motion: reduce)');
 const vids = document.querySelectorAll('video');
-if (matchMedia('(prefers-reduced-motion: reduce)').matches) vids.forEach(v => { v.removeAttribute('autoplay'); v.pause(); });
-else if ('IntersectionObserver' in window) {
-  const vo = new IntersectionObserver(es => es.forEach(e => e.isIntersecting ? e.target.play().catch(() => {}) : e.target.pause()));
-  vids.forEach(v => vo.observe(v));
+const visiveis = new Set();
+const falharam = new WeakSet();
+function atualizarVideo(v) {
+  const logo = v.hasAttribute('data-logo-animado');
+  if (movimento.matches || !visiveis.has(v) || (logo && (v.ended || falharam.has(v)))) {
+    v.pause();
+    if (logo) v.hidden = true;
+    return;
+  }
+  if (logo) v.hidden = false;
+  v.play().catch(() => { if (logo) { falharam.add(v); v.hidden = true; } });
 }
+vids.forEach(v => {
+  v.removeAttribute('autoplay');
+  if (v.hasAttribute('data-logo-animado')) {
+    v.addEventListener('ended', () => { v.hidden = true; });
+    v.addEventListener('error', () => { falharam.add(v); v.hidden = true; }, true);
+  }
+});
+if ('IntersectionObserver' in window) {
+  const vo = new IntersectionObserver(es => es.forEach(e => {
+    const v = e.target.tagName === 'VIDEO' ? e.target : e.target.querySelector('video');
+    if (e.isIntersecting) visiveis.add(v); else visiveis.delete(v);
+    atualizarVideo(v);
+  }));
+  // O logo começa oculto sobre o pôster; observar o contêiner mantém sua área visível.
+  vids.forEach(v => vo.observe(v.hasAttribute('data-logo-animado') ? v.parentElement : v));
+} else {
+  vids.forEach(v => { visiveis.add(v); atualizarVideo(v); });
+}
+movimento.addEventListener('change', () => vids.forEach(atualizarVideo));
