@@ -40,3 +40,30 @@ if ('IntersectionObserver' in window) {
   vids.forEach(v => { visiveis.add(v); atualizarVideo(v); });
 }
 movimento.addEventListener('change', () => vids.forEach(atualizarVideo));
+
+// Retratos só animam visíveis; o src original também atende sem JS ou sem observador.
+const retratos = document.querySelectorAll('img[data-retrato-animado]');
+if (retratos.length && 'IntersectionObserver' in window && window.CSS?.supports('aspect-ratio', '1')) {
+  const estados = new Map([...retratos].map(im => [im, { parado: im.getAttribute('src'), visivel: false, falhou: false }]));
+  function atualizarRetrato(im) {
+    const estado = estados.get(im);
+    const animar = estado.visivel && !document.hidden && !movimento.matches && !estado.falhou;
+    const src = animar ? im.dataset.retratoAnimado : estado.parado;
+    if (im.getAttribute('src') !== src) im.setAttribute('src', src);
+    im.classList.toggle('retrato-em-movimento', animar && im.dataset.retratoAnimado.endsWith('.png'));
+  }
+  const ro = new IntersectionObserver(es => es.forEach(e => {
+    estados.get(e.target).visivel = e.isIntersecting;
+    atualizarRetrato(e.target);
+  }));
+  retratos.forEach(im => {
+    im.addEventListener('error', () => {
+      if (im.getAttribute('src') !== im.dataset.retratoAnimado) return;
+      estados.get(im).falhou = true;
+      atualizarRetrato(im);
+    });
+    ro.observe(im);
+  });
+  movimento.addEventListener('change', () => retratos.forEach(atualizarRetrato));
+  document.addEventListener('visibilitychange', () => retratos.forEach(atualizarRetrato));
+}
