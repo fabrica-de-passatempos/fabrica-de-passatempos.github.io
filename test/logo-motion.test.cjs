@@ -4,7 +4,7 @@ const fs = require('node:fs');
 const vm = require('node:vm');
 const code = fs.readFileSync('site.js', 'utf8');
 
-function page({ reduced = false, observer = true, reject = false } = {}) {
+function page({ reduced = false, observer = true, reject = false, pending = false } = {}) {
   const listeners = {};
   const motion = { matches: reduced, addEventListener: (name, fn) => { listeners[name] = fn; } };
   function video(logo) {
@@ -13,7 +13,7 @@ function page({ reduced = false, observer = true, reject = false } = {}) {
       hasAttribute: name => name === 'data-logo-animado' && logo,
       removeAttribute() {},
       addEventListener: (name, fn) => { events[name] = fn; },
-      play() { this.plays++; return reject && logo ? Promise.reject(new Error('autoplay')) : Promise.resolve(); },
+      play() { this.plays++; if (logo && pending) return new Promise((resolve, reject) => { this.rejectPlay = reject; }); return reject && logo ? Promise.reject(new Error('autoplay')) : Promise.resolve(); },
       pause() { this.pauses++; },
       fire(name) { if (name === 'ended') this.ended = true; events[name]?.(); },
     };
@@ -94,4 +94,16 @@ test('without IntersectionObserver the logo still respects reduced motion', () =
   assert.equal(p.logo.hidden, true);
   p.change(false);
   assert.equal(p.logo.plays, 1);
+});
+
+// Pausar durante o carregamento aborta play(); isso não deve invalidar a mídia.
+test('a loading interruption can resume when the logo comes back into view', async () => {
+  const p = page({ pending: true });
+  p.visible(p.logo.parentElement, true);
+  p.visible(p.logo.parentElement, false);
+  p.logo.rejectPlay(Object.assign(new Error('paused while loading'), { name: 'AbortError' }));
+  await Promise.resolve(); await Promise.resolve();
+  p.visible(p.logo.parentElement, true);
+  assert.equal(p.logo.plays, 2);
+  assert.equal(p.logo.hidden, false);
 });

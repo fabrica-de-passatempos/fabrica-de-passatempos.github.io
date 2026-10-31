@@ -19,7 +19,7 @@ function atualizarVideo(v) {
     return;
   }
   if (logo) v.hidden = false;
-  v.play().catch(() => { if (logo) { falharam.add(v); v.hidden = true; } });
+  v.play().catch(error => { if (logo && error?.name !== 'AbortError') { falharam.add(v); v.hidden = true; } });
 }
 vids.forEach(v => {
   v.removeAttribute('autoplay');
