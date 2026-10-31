@@ -1,0 +1,531 @@
+{
+  "ok": true,
+  "grade": [
+    48,
+    48
+  ],
+  "visual": [
+    240,
+    240
+  ],
+  "loop_ms": 2460,
+  "duracoes_ms": [
+    240,
+    180,
+    180,
+    240,
+    180,
+    240,
+    240,
+    180,
+    120,
+    120,
+    240,
+    300
+  ],
+  "fonte_base_sha256": "4e5d728a7f1c051e23f433ab623f271fb2d567f0fb3e7594d31332244cba2eb1",
+  "paleta_uniao": [
+    [
+      11,
+      13,
+      26
+    ],
+    [
+      14,
+      16,
+      32
+    ],
+    [
+      23,
+      26,
+      51
+    ],
+    [
+      25,
+      20,
+      18
+    ],
+    [
+      26,
+      96,
+      57
+    ],
+    [
+      29,
+      79,
+      95
+    ],
+    [
+      30,
+      20,
+      22
+    ],
+    [
+      31,
+      35,
+      69
+    ],
+    [
+      33,
+      121,
+      72
+    ],
+    [
+      35,
+      40,
+      70
+    ],
+    [
+      40,
+      28,
+      22
+    ],
+    [
+      40,
+      90,
+      87
+    ],
+    [
+      41,
+      110,
+      132
+    ],
+    [
+      43,
+      47,
+      79
+    ],
+    [
+      44,
+      84,
+      120
+    ],
+    [
+      50,
+      52,
+      75
+    ],
+    [
+      60,
+      64,
+      90
+    ],
+    [
+      60,
+      66,
+      110
+    ],
+    [
+      61,
+      220,
+      132
+    ],
+    [
+      65,
+      54,
+      98
+    ],
+    [
+      70,
+      45,
+      30
+    ],
+    [
+      71,
+      66,
+      123
+    ],
+    [
+      76,
+      201,
+      240
+    ],
+    [
+      77,
+      51,
+      34
+    ],
+    [
+      90,
+      60,
+      40
+    ],
+    [
+      90,
+      96,
+      130
+    ],
+    [
+      91,
+      33,
+      49
+    ],
+    [
+      91,
+      76,
+      137
+    ],
+    [
+      93,
+      59,
+      38
+    ],
+    [
+      96,
+      61,
+      39
+    ],
+    [
+      98,
+      52,
+      89
+    ],
+    [
+      98,
+      85,
+      63
+    ],
+    [
+      99,
+      63,
+      40
+    ],
+    [
+      107,
+      73,
+      49
+    ],
+    [
+      110,
+      70,
+      45
+    ],
+    [
+      120,
+      20,
+      40
+    ],
+    [
+      120,
+      80,
+      50
+    ],
+    [
+      124,
+      82,
+      54
+    ],
+    [
+      124,
+      94,
+      70
+    ],
+    [
+      126,
+      84,
+      55
+    ],
+    [
+      127,
+      46,
+      69
+    ],
+    [
+      127,
+      101,
+      77
+    ],
+    [
+      135,
+      112,
+      93
+    ],
+    [
+      141,
+      94,
+      62
+    ],
+    [
+      144,
+      28,
+      36
+    ],
+    [
+      150,
+      100,
+      55
+    ],
+    [
+      150,
+      155,
+      170
+    ],
+    [
+      150,
+      155,
+      180
+    ],
+    [
+      165,
+      86,
+      43
+    ],
+    [
+      166,
+      113,
+      76
+    ],
+    [
+      167,
+      139,
+      250
+    ],
+    [
+      170,
+      230,
+      250
+    ],
+    [
+      172,
+      117,
+      79
+    ],
+    [
+      176,
+      120,
+      81
+    ],
+    [
+      180,
+      70,
+      40
+    ],
+    [
+      183,
+      66,
+      99
+    ],
+    [
+      190,
+      195,
+      210
+    ],
+    [
+      192,
+      146,
+      108
+    ],
+    [
+      196,
+      134,
+      90
+    ],
+    [
+      196,
+      150,
+      100
+    ],
+    [
+      197,
+      156,
+      119
+    ],
+    [
+      198,
+      151,
+      112
+    ],
+    [
+      200,
+      40,
+      50
+    ],
+    [
+      200,
+      200,
+      210
+    ],
+    [
+      200,
+      205,
+      220
+    ],
+    [
+      200,
+      225,
+      245
+    ],
+    [
+      203,
+      154,
+      115
+    ],
+    [
+      204,
+      161,
+      123
+    ],
+    [
+      208,
+      165,
+      126
+    ],
+    [
+      209,
+      174,
+      144
+    ],
+    [
+      222,
+      184,
+      153
+    ],
+    [
+      226,
+      172,
+      128
+    ],
+    [
+      230,
+      120,
+      60
+    ],
+    [
+      232,
+      184,
+      140
+    ],
+    [
+      238,
+      240,
+      255
+    ],
+    [
+      240,
+      150,
+      150
+    ],
+    [
+      245,
+      240,
+      225
+    ],
+    [
+      247,
+      205,
+      170
+    ],
+    [
+      255,
+      92,
+      138
+    ],
+    [
+      255,
+      204,
+      51
+    ]
+  ],
+  "paleta_uniao_sha256": "9fd93be8442d3947bfe07d1ccac30dc0b9892f40e2a400d796ff34542bc3a011",
+  "sem_novas_cores": true,
+  "sem_antialias": true,
+  "limites": "Validacao de pixels e contratos; nao representa teste do site em navegador.",
+  "agentes": {
+    "claudio": {
+      "quadros": 12,
+      "poses_distintas": 11,
+      "primeiro_igual_fonte": true,
+      "ultimo_igual_primeiro": true,
+      "blink_frames": [
+        8,
+        9
+      ],
+      "frame_original_sha256": "a03bba972a0e3ed7096d263e1eed9657512752f332b256b9d197a6e8b83d6f4e",
+      "paleta_original_sha256": "364f1bd64e1c31c5c9f07155aea59e6aa491f2293d894cef32089c59cf4d6f40"
+    },
+    "valdir": {
+      "quadros": 12,
+      "poses_distintas": 9,
+      "primeiro_igual_fonte": true,
+      "ultimo_igual_primeiro": true,
+      "blink_frames": [
+        6,
+        7
+      ],
+      "frame_original_sha256": "9fd153928de3ac5740aa6d3d9b5a7814cdb074623f90973f690b50e3cc2524f1",
+      "paleta_original_sha256": "f606c49be7587df99db2be4c9f62465bd85c6b9a8b471f3b4b3ae71dc20b388d"
+    },
+    "samara": {
+      "quadros": 12,
+      "poses_distintas": 11,
+      "primeiro_igual_fonte": true,
+      "ultimo_igual_primeiro": true,
+      "blink_frames": [
+        9,
+        10
+      ],
+      "frame_original_sha256": "4b812bec69129c741bba2c85f913a6b302538eaea9df3ecce32e52523693c62b",
+      "paleta_original_sha256": "a421780c9f20021e04b49c9e4972994ca090b23270804219e4d288fba86c14a3"
+    },
+    "antonio": {
+      "quadros": 12,
+      "poses_distintas": 9,
+      "primeiro_igual_fonte": true,
+      "ultimo_igual_primeiro": true,
+      "blink_frames": [
+        7,
+        8
+      ],
+      "frame_original_sha256": "ba781f925d2207a0899cc9b5d84edfbaf11ca6e2256326ffce90bb2ad5f64ea4",
+      "paleta_original_sha256": "32e8a174573a726d0c834443bd7f5ac9a5f9eac025b4ddb6eb6ab078ee619c1e"
+    },
+    "josefa": {
+      "quadros": 12,
+      "poses_distintas": 10,
+      "primeiro_igual_fonte": true,
+      "ultimo_igual_primeiro": true,
+      "blink_frames": [
+        5,
+        6
+      ],
+      "frame_original_sha256": "0e9c2b0dddf5dd1b1572d0ba6eb46f0bd77591a013a6c3fa4ad17589e8166d27",
+      "paleta_original_sha256": "7704737c255450866a8fcab9334d41a74efb93e4d4fe71a06dfdad6dc57fe5fe"
+    },
+    "basilio": {
+      "quadros": 12,
+      "poses_distintas": 11,
+      "primeiro_igual_fonte": true,
+      "ultimo_igual_primeiro": true,
+      "blink_frames": [
+        8,
+        9
+      ],
+      "frame_original_sha256": "867b02da1f4b186f8ed904a69c01db273fd96ed76ab62e475d911dcee5047167",
+      "paleta_original_sha256": "dca8a567336ce6d361d501d6ec8c134d97e24dd65e898147e85a3a96abd4fb53"
+    }
+  },
+  "fallbacks_estaticos_preservados": true,
+  "fallbacks_sha256": {
+    "alisson.webp": "513e6fdbf6b426bfff706ada5ea8cf9054e196e8249d350f21cae5cf4b478e89",
+    "valdir.webp": "ff7e7d56607c580d3a9b74977b015a99cf92fbd5f27a5b9b79b332442abb3540",
+    "samara.webp": "af41380173ec693a96c915c25f5f56e456ef022c53a2b5ea7f2aebad7639e04d",
+    "matheus.webp": "6b1790b10fc5ececda9f034d54734493ddadc408e028c67b114c963f3f83f64b",
+    "basilio.webp": "569c02de3f12a90dded34fd7f788266bdb404251cabc0394405f2fd6f3558171",
+    "victor.webp": "56f56b1087008bb942b672ad29d2dc585528edc608cb8f8f7cb87acd88011959",
+    "josefa.webp": "54f15a4207351aeedca4a0f903f78e1f0b2c6c73af7b441932897513b3192145",
+    "sheila.webp": "642a5ee5ce357506295aac8f60a3d4a50296790faff68d2a774fe3c1838e9fea",
+    "guilherme.webp": "c7b845cc1b2d5565b63c17b7cca6948ea372368f77f26299c463089483791edb",
+    "lucas.webp": "c819e23d8a66005327ed5ead502434907470138dd35773850abde6316170c946",
+    "claudio.webp": "decac2b2e4df8ce26ab0ddc80cf87c3817746569144877551502fe0cc18160b9",
+    "antonio.webp": "72f23761656d99e8ef2538c8b6c3a3a5f3d929257019cf64aeaf609a4ac7cda6",
+    "kelvin.webp": "f563d151828b507ad15a12f1d4fc43570bbe32a3d453d068a267a383440336a5"
+  },
+  "producao_png48_sha256": {
+    "claudio": "4e555404766ca53ca146c57fe32128334792d7b6465de25493728acaae4f3da4",
+    "valdir": "8c20dea984004aac6aa23fee6e3bf9b675146e7241f98be99828c36e3707cb0c",
+    "samara": "56be4d033d4f9bf52eee82917d604e4c6ce228d67ddc1a519c57d878213f7a29",
+    "antonio": "bcb61979c5a1974fb7effe29ce1139940a9b54bc97b571a1fad394fec85030ae",
+    "josefa": "c7f2521c6bfbb78bd875667cffb3282e25f63a1d929c3251946c956bde8a0a25",
+    "basilio": "00d61d788a9c05e250af433dc280ab343a32fb770f5ec8324b95ce4c64b575b5"
+  }
+}
