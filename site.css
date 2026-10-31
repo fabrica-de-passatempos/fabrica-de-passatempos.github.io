@@ -48,6 +48,8 @@ h2{font-size:clamp(30px,3.6vw,44px);margin-bottom:36px;font-weight:800}
 .dev{display:grid;grid-template-columns:1fr 1.4fr;gap:20px}
 .j.lado{flex-direction:row;align-items:center;gap:20px}.j.lado .ic{width:96px;flex:none}.j.lado h3{margin:10px 0 6px}
 .j.lado .tela{width:120px;border-radius:12px;flex:none;image-rendering:pixelated}
+video.tela{display:block;height:auto;background:#050906}
+.j .tela.recorte{width:100%;height:260px;object-fit:cover;object-position:50% 45%;border-radius:16px;margin-top:auto;margin-bottom:-40px;border:4px solid #050906;border-bottom:0}
 
 .tl{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-bottom:12px}
 .tl li{border-top:3px solid var(--am);padding-top:18px}
@@ -79,6 +81,7 @@ footer a{color:#D6DECF}
   .tel{max-width:360px;justify-self:start}.tel img{border-width:4px;border-radius:18px}
   .j.grande{flex-direction:column}.j.grande .tela{width:70%;align-self:center}
   .j.lado{flex-direction:column;align-items:flex-start}.j.lado .tela{width:100%;max-width:240px}
+  .j .tela.recorte{height:300px}
   .sel{grid-template-columns:repeat(3,minmax(0,1fr))}
   .redes{text-align:left}
   section{padding:56px 0}
