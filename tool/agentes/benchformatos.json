@@ -1,0 +1,348 @@
+{
+  "duracoes_ms": [
+    240,
+    180,
+    180,
+    240,
+    180,
+    240,
+    240,
+    180,
+    120,
+    120,
+    240,
+    300
+  ],
+  "loop_ms": 2460,
+  "assets": {
+    "claudio": {
+      "webp48": {
+        "bytes": 1648,
+        "quadros_codificados": 12,
+        "tamanho": [
+          48,
+          48
+        ]
+      },
+      "gif48": {
+        "bytes": 7995,
+        "quadros_codificados": 12,
+        "tamanho": [
+          48,
+          48
+        ]
+      },
+      "png48": {
+        "bytes": 808,
+        "tamanho": [
+          576,
+          48
+        ],
+        "recortes_exatos": true,
+        "rgba_decodificado_estimado": 110592
+      },
+      "webp240": {
+        "bytes": 2000,
+        "quadros_codificados": 12,
+        "tamanho": [
+          240,
+          240
+        ]
+      },
+      "gif240": {
+        "bytes": 45107,
+        "quadros_codificados": 12,
+        "tamanho": [
+          240,
+          240
+        ]
+      },
+      "png240": {
+        "bytes": 2552,
+        "tamanho": [
+          2880,
+          240
+        ],
+        "recortes_exatos": true,
+        "rgba_decodificado_estimado": 2764800
+      }
+    },
+    "valdir": {
+      "webp48": {
+        "bytes": 1380,
+        "quadros_codificados": 12,
+        "tamanho": [
+          48,
+          48
+        ]
+      },
+      "gif48": {
+        "bytes": 7745,
+        "quadros_codificados": 12,
+        "tamanho": [
+          48,
+          48
+        ]
+      },
+      "png48": {
+        "bytes": 657,
+        "tamanho": [
+          576,
+          48
+        ],
+        "recortes_exatos": true,
+        "rgba_decodificado_estimado": 110592
+      },
+      "webp240": {
+        "bytes": 1764,
+        "quadros_codificados": 12,
+        "tamanho": [
+          240,
+          240
+        ]
+      },
+      "gif240": {
+        "bytes": 42395,
+        "quadros_codificados": 12,
+        "tamanho": [
+          240,
+          240
+        ]
+      },
+      "png240": {
+        "bytes": 2293,
+        "tamanho": [
+          2880,
+          240
+        ],
+        "recortes_exatos": true,
+        "rgba_decodificado_estimado": 2764800
+      }
+    },
+    "samara": {
+      "webp48": {
+        "bytes": 2604,
+        "quadros_codificados": 12,
+        "tamanho": [
+          48,
+          48
+        ]
+      },
+      "gif48": {
+        "bytes": 7852,
+        "quadros_codificados": 12,
+        "tamanho": [
+          48,
+          48
+        ]
+      },
+      "png48": {
+        "bytes": 1372,
+        "tamanho": [
+          576,
+          48
+        ],
+        "recortes_exatos": true,
+        "rgba_decodificado_estimado": 110592
+      },
+      "webp240": {
+        "bytes": 3608,
+        "quadros_codificados": 12,
+        "tamanho": [
+          240,
+          240
+        ]
+      },
+      "gif240": {
+        "bytes": 43561,
+        "quadros_codificados": 12,
+        "tamanho": [
+          240,
+          240
+        ]
+      },
+      "png240": {
+        "bytes": 3482,
+        "tamanho": [
+          2880,
+          240
+        ],
+        "recortes_exatos": true,
+        "rgba_decodificado_estimado": 2764800
+      }
+    },
+    "antonio": {
+      "webp48": {
+        "bytes": 1796,
+        "quadros_codificados": 11,
+        "tamanho": [
+          48,
+          48
+        ]
+      },
+      "gif48": {
+        "bytes": 7107,
+        "quadros_codificados": 11,
+        "tamanho": [
+          48,
+          48
+        ]
+      },
+      "png48": {
+        "bytes": 879,
+        "tamanho": [
+          576,
+          48
+        ],
+        "recortes_exatos": true,
+        "rgba_decodificado_estimado": 110592
+      },
+      "webp240": {
+        "bytes": 2412,
+        "quadros_codificados": 11,
+        "tamanho": [
+          240,
+          240
+        ]
+      },
+      "gif240": {
+        "bytes": 39547,
+        "quadros_codificados": 11,
+        "tamanho": [
+          240,
+          240
+        ]
+      },
+      "png240": {
+        "bytes": 2520,
+        "tamanho": [
+          2880,
+          240
+        ],
+        "recortes_exatos": true,
+        "rgba_decodificado_estimado": 2764800
+      }
+    },
+    "josefa": {
+      "webp48": {
+        "bytes": 2404,
+        "quadros_codificados": 12,
+        "tamanho": [
+          48,
+          48
+        ]
+      },
+      "gif48": {
+        "bytes": 8252,
+        "quadros_codificados": 12,
+        "tamanho": [
+          48,
+          48
+        ]
+      },
+      "png48": {
+        "bytes": 1313,
+        "tamanho": [
+          576,
+          48
+        ],
+        "recortes_exatos": true,
+        "rgba_decodificado_estimado": 110592
+      },
+      "webp240": {
+        "bytes": 3180,
+        "quadros_codificados": 12,
+        "tamanho": [
+          240,
+          240
+        ]
+      },
+      "gif240": {
+        "bytes": 47069,
+        "quadros_codificados": 12,
+        "tamanho": [
+          240,
+          240
+        ]
+      },
+      "png240": {
+        "bytes": 3154,
+        "tamanho": [
+          2880,
+          240
+        ],
+        "recortes_exatos": true,
+        "rgba_decodificado_estimado": 2764800
+      }
+    },
+    "basilio": {
+      "webp48": {
+        "bytes": 2006,
+        "quadros_codificados": 12,
+        "tamanho": [
+          48,
+          48
+        ]
+      },
+      "gif48": {
+        "bytes": 8308,
+        "quadros_codificados": 12,
+        "tamanho": [
+          48,
+          48
+        ]
+      },
+      "png48": {
+        "bytes": 1128,
+        "tamanho": [
+          576,
+          48
+        ],
+        "recortes_exatos": true,
+        "rgba_decodificado_estimado": 110592
+      },
+      "webp240": {
+        "bytes": 2494,
+        "quadros_codificados": 12,
+        "tamanho": [
+          240,
+          240
+        ]
+      },
+      "gif240": {
+        "bytes": 46519,
+        "quadros_codificados": 12,
+        "tamanho": [
+          240,
+          240
+        ]
+      },
+      "png240": {
+        "bytes": 2908,
+        "tamanho": [
+          2880,
+          240
+        ],
+        "recortes_exatos": true,
+        "rgba_decodificado_estimado": 2764800
+      }
+    }
+  },
+  "totais": {
+    "webp48": 11838,
+    "gif48": 47259,
+    "webp240": 15458,
+    "gif240": 264198,
+    "png_css48_compartilhado": 6827,
+    "png_css240_compartilhado": 17579
+  },
+  "css_compartilhado": {
+    "arquivo": "site.css",
+    "bytes": 670,
+    "sha256": "be2570d542b01060d92ca708aa92df7496c061a62e46c0c90fae4ccb983dc0a7"
+  },
+  "escolha": "png_css48_compartilhado",
+  "criterio": "Seis folhas PNG48 + UM bloco CSS real compartilhado. IO/fallback/reduced sao comuns aos formatos; PNG usa apenas classe e keyframes CSS, sem player JS, timers ou DOM extra. Memoria e estimativa RGBA, nao medicao de navegador.",
+  "economia_vs_webp48_bytes": 5011,
+  "economia_vs_webp48_percentual": 42.33
+}

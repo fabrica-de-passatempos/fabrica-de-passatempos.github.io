@@ -59,6 +59,9 @@ video.tela{display:block;height:auto;background:#050906}
 .sel img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:18px;border:3px solid var(--linha);background:var(--sup);transition:transform .3s var(--mola),border-color .3s}
 .sel li:hover img{transform:translateY(-4px) rotate(-2deg);border-color:var(--am)}
 .sel b{display:block;margin-top:10px}.sel span{color:var(--sub);font-size:14px}
+img[data-retrato-animado]{image-rendering:pixelated;object-position:0 0}
+.retrato-em-movimento{animation:retratos 2460ms steps(1,end) infinite}
+@keyframes retratos{0.000000%{object-position:0.000000% 0}9.756098%{object-position:9.090909% 0}17.073171%{object-position:18.181818% 0}24.390244%{object-position:27.272727% 0}34.146341%{object-position:36.363636% 0}41.463415%{object-position:45.454545% 0}51.219512%{object-position:54.545455% 0}60.975610%{object-position:63.636364% 0}68.292683%{object-position:72.727273% 0}73.170732%{object-position:81.818182% 0}78.048780%{object-position:90.909091% 0}87.804878%{object-position:100.000000% 0}100%{object-position:100% 0}}
 .proto{font:10px/1 Silkscreen,monospace;font-style:normal;text-transform:uppercase;letter-spacing:.04em;color:var(--sub);border:1px solid var(--linha);border-radius:6px;padding:3px 5px;margin-left:4px;white-space:nowrap;vertical-align:1px}
 .nota{color:var(--sub);max-width:70ch;margin:-6px 0 22px}
 
