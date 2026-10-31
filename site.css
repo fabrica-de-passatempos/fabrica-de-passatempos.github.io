@@ -1,0 +1,84 @@
+/* Site da Fábrica, caminho A (Fliperama noturno). As páginas de privacidade continuam no estilo.css. */
+:root{--bg:#0F1712;--sup:#16221A;--linha:#24382B;--txt:#F3EFDF;--sub:#B9C2B4;--am:#FBB80A;--vm:#F82A14;--vd:#03A841;--mola:cubic-bezier(.16,1,.3,1)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--txt);font:17px/1.6 Outfit,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:var(--am)}a:focus-visible,.btn:focus-visible{outline:3px solid var(--am);outline-offset:3px;border-radius:6px}
+ul,ol{list-style:none}
+.w{max-width:1240px;margin:0 auto;padding:0 32px}
+h1,h2,h3{font-family:'Bricolage Grotesque',system-ui,sans-serif;letter-spacing:-.02em;line-height:1.05}
+.pular{position:absolute;left:-999px;top:8px;background:var(--am);color:#1B1300;padding:8px 14px;border-radius:8px;z-index:9}
+.pular:focus{left:8px}
+
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+nav .marca img{width:150px}
+nav ul{display:flex;gap:28px}nav ul a{color:var(--sub);text-decoration:none;font-weight:600}
+nav ul a:hover{color:var(--txt)}
+
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;padding:48px 0 96px}
+.hero h1{font-size:clamp(40px,5.2vw,64px);font-weight:800;max-width:12ch}
+.lead{color:var(--sub);max-width:52ch;margin:22px 0 32px;font-size:19px}
+.rot{font:13px/1 Silkscreen,monospace;letter-spacing:.08em;color:var(--am);text-transform:uppercase;margin-bottom:14px}
+.sub-rot{font:13px/1 Silkscreen,monospace;letter-spacing:.06em;color:var(--sub);text-transform:uppercase;margin:44px 0 18px}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--am);color:#1B1300;font-weight:700;padding:15px 24px;border-radius:14px;text-decoration:none;
+  box-shadow:0 4px 0 #9C6E00;transition:transform .25s var(--mola),box-shadow .25s var(--mola)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 6px 0 #9C6E00}.btn:active{transform:translateY(2px);box-shadow:0 2px 0 #9C6E00}
+
+.tel{position:relative;width:100%;max-width:520px;aspect-ratio:520/540;justify-self:end}
+.tel img{position:absolute;width:40%;border-radius:26px;border:6px solid #050906;box-shadow:0 30px 60px -20px rgba(0,0,0,.6);animation:flutua 6s ease-in-out infinite}
+.tel img:nth-child(1){left:0;top:13%;--r:-8deg;transform:rotate(-8deg)}
+.tel img:nth-child(2){left:29%;top:0;z-index:2;--r:0deg;animation-delay:-2s}
+.tel img:nth-child(3){left:58%;top:15%;--r:7deg;transform:rotate(7deg);animation-delay:-4s}
+@keyframes flutua{0%,100%{transform:translateY(0) rotate(var(--r))}50%{transform:translateY(-12px) rotate(var(--r))}}
+
+section{padding:80px 0;border-top:1px solid var(--linha)}
+h2{font-size:clamp(30px,3.6vw,44px);margin-bottom:36px;font-weight:800}
+
+.bento{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr) minmax(0,1fr);gap:20px}
+.j{background:var(--sup);border:1px solid var(--linha);border-radius:24px;padding:24px;display:flex;flex-direction:column;gap:14px;overflow:hidden;
+  transition:transform .35s var(--mola),border-color .35s}
+.j:hover{transform:translateY(-4px);border-color:#3A5A44}
+.j .ic{width:72px;border-radius:18px}.j .ic.px{image-rendering:pixelated}
+.j h3{font-size:26px}.j p{color:var(--sub);font-size:15px}
+.j.grande{flex-direction:row;gap:24px}.j.grande .info{display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+.j.grande .tela{width:46%;border-radius:18px;align-self:flex-end;margin-bottom:-40px}
+.tag{font:11px/1 Silkscreen,monospace;padding:7px 10px;border-radius:8px;background:var(--linha);color:#D6EBD0;align-self:flex-start}
+.tag.on{background:var(--vd);color:#03140A}
+.dev{display:grid;grid-template-columns:1fr 1.4fr;gap:20px}
+.j.lado{flex-direction:row;align-items:center;gap:20px}.j.lado .ic{width:96px;flex:none}.j.lado h3{margin:10px 0 6px}
+.j.lado .tela{width:120px;border-radius:12px;flex:none;image-rendering:pixelated}
+
+.tl{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-bottom:12px}
+.tl li{border-top:3px solid var(--am);padding-top:18px}
+.tl b{display:block;font:800 26px 'Bricolage Grotesque',sans-serif;margin-bottom:8px}.tl p{color:var(--sub)}
+
+.sel{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
+.sel img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:18px;border:3px solid var(--linha);background:var(--sup);transition:transform .3s var(--mola),border-color .3s}
+.sel li:hover img{transform:translateY(-4px) rotate(-2deg);border-color:var(--am)}
+.sel b{display:block;margin-top:10px}.sel span{color:var(--sub);font-size:14px}
+.nota{color:var(--sub);max-width:70ch;margin:-6px 0 22px}
+
+.ct{display:grid;grid-template-columns:1fr auto;align-items:end;gap:24px}
+.email{font:800 clamp(22px,3.4vw,40px)/1.1 'Bricolage Grotesque',sans-serif;color:var(--txt);text-decoration-color:var(--am);text-underline-offset:6px}
+.redes{display:grid;gap:8px;text-align:right}.redes a{color:var(--sub)}.redes a:hover{color:var(--txt)}.redes span{color:var(--sub)}
+footer{padding:36px 0 48px;color:#A9B4A5;font-size:14px;border-top:1px solid var(--linha);display:grid;gap:8px}
+footer a{color:#D6DECF}
+
+/* entrada em cascata ao rolar (o JS liga .vis); sem JS ou com movimento reduzido, tudo aparece */
+.js .sobe{opacity:0;transform:translateY(24px);transition:opacity .6s var(--mola),transform .6s var(--mola);transition-delay:calc(var(--i,0) * 60ms)}
+.js .sobe.vis{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.js .sobe{opacity:1;transform:none}html{scroll-behavior:auto}}
+
+@media (max-width:900px){
+  .w{padding:0 16px}
+  nav ul{display:none}nav .marca img{width:132px}
+  .hero,.bento,.dev,.tl,.ct{grid-template-columns:minmax(0,1fr)}
+  .hero{padding:24px 0 56px;gap:24px}
+  .tel{max-width:360px;justify-self:start}.tel img{border-width:4px;border-radius:18px}
+  .j.grande{flex-direction:column}.j.grande .tela{width:70%;align-self:center}
+  .j.lado{flex-direction:column;align-items:flex-start}.j.lado .tela{width:100%;max-width:240px}
+  .sel{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .redes{text-align:left}
+  section{padding:56px 0}
+}
