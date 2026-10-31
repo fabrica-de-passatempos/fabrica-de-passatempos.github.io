@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fabricadepassatempos.com.br/sitemap.xml
