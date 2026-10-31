@@ -50,7 +50,7 @@ if (retratos.length && 'IntersectionObserver' in window && window.CSS?.supports(
     const animar = estado.visivel && !document.hidden && !movimento.matches && !estado.falhou;
     const src = animar ? im.dataset.retratoAnimado : estado.parado;
     if (im.getAttribute('src') !== src) im.setAttribute('src', src);
-    im.classList.toggle('retrato-em-movimento', animar);
+    im.classList.toggle('retrato-em-movimento', animar && im.dataset.retratoAnimado.endsWith('.png'));
   }
   const ro = new IntersectionObserver(es => es.forEach(e => {
     estados.get(e.target).visivel = e.isIntersecting;

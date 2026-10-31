@@ -1,6 +1,8 @@
 # Avatares animados da equipe
 
-Proposta para aprovação na branch local `basilio/agentes-animados`, sem publicação do site.
+Proposta para aprovação na branch `basilio/agentes-animados`, em PR rascunho, sem publicação do site.
+
+O card da **Sheila, Personagens e Cenas**, entra junto destes seis, com a animação que ela entregou e teve aprovada pelo Alisson via Claudio. A manutenção de avatares, retratos, cenas e painéis passa à Sheila. Basílio conclui a integração deste pedido em andamento e mantém os assets de jogabilidade.
 
 Seis animações manuais sobre a grade original de 48 x 48 pixels. Os rostos, cabelos e roupas vêm da fonte local `personas_base.py`, copiada sem alterações de `estudio/plugins/fabrica/skills/arte-jogos/assets/exemplos/personas.py`. Os fallbacks em `img/equipe/{nome}.webp` e os avatares dos sócios permanecem intactos.
 
@@ -40,7 +42,19 @@ A folha nativa decodificada equivale a aproximadamente 110.592 bytes RGBA por ag
 
 `benchformatos.json` registra tamanho por agente, totais e hash do CSS medido. Os candidatos GIF, WebP e PNG 240 ficam fora do repositório, em `~/.fabrica/ponte/arquivos/site-agentes-animados/formatos/`.
 
-## Reprodução
+## Sétimo card, de autoria da Sheila
+
+`importar_sheila.py` converte o WebP aprovado de 240 para sua grade original de 48, sem redesenhar. Compara cada quadro reampliado com os pixels aprovados, mantém os tempos e verifica os hashes dos insumos em `insumos/sheila/`. Exporta `img/equipe/animados/sheila.webp`, 1.208 B, e copia o fallback aprovado para `img/equipe/sheila.webp`, 580 B. O WebP nativo é menor que a folha PNG medida da Sheila, 1.685 B mesmo sem contar outro conjunto de keyframes.
+
+Ela tem sete quadros codificados em um ciclo próprio de 2,8 s. O CSS de sprites é ativado somente nas seis folhas PNG; o WebP da Sheila usa sua animação nativa com os mesmos controles de visibilidade, preferência e fallback. As animações somam **8.035 B** com o CSS compartilhado; o novo fallback estático acrescenta 580 B. A grade dos agentes tem sete colunas largas; até 900 px, três colunas com o último card isolado centralizado. A grade dos sócios permanece igual.
+
+Os originais aprovados ficam versionados como insumos, acompanhados de autoria, aprovação e hashes. `sheila.json` registra a conversão e o ciclo preservado. Para regenerar só essa integração:
+
+```bash
+python3 tool/agentes/importar_sheila.py
+```
+
+## Reprodução dos seis primeiros
 
 Na raiz do site, com `oxipng` disponível no PATH:
 
@@ -75,4 +89,4 @@ O HTML conserva os WebP estáticos no `src`. A folha e sua classe de animação 
 
 Os testes Node em `test/agentes-motion.test.cjs` cobrem esses estados e as referências reais dos seis assets; os testes existentes do logo e dos vídeos continuam passando. A fonte/PNG foi reproduzida em pasta isolada, com bytes idênticos e recortes conferidos. As prévias `secao-*.gif` na Ponte usam os mesmos assets e tempos, em composições de 360, 760 e 1240 px; não são capturas do navegador.
 
-Não houve navegador conectado, teste em aparelho, áudio, push, PR ou publicação. A aparência no navegador e o desempenho real no celular ainda precisam de conferência; os números de raster acima não são um benchmark do aparelho.
+Não houve navegador conectado, teste em aparelho ou áudio. O PR permanece rascunho, sem merge ou publicação. A aparência no navegador e o desempenho real no celular ainda precisam de conferência; os números de raster acima não são um benchmark do aparelho.

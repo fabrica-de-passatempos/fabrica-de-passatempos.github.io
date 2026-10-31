@@ -1,0 +1,32 @@
+{
+  "autoria": "Sheila",
+  "pixels_e_tempos_aprovados_preservados": true,
+  "sem_redesenho": true,
+  "grade": [
+    48,
+    48
+  ],
+  "tamanho_html": [
+    240,
+    240
+  ],
+  "quadros_codificados": 7,
+  "duracoes_ms": [
+    1250,
+    180,
+    180,
+    180,
+    100,
+    110,
+    800
+  ],
+  "ciclo_ms": 2800,
+  "cores": 21,
+  "paleta_existente": true,
+  "bytes_animacao": 1208,
+  "bytes_original_aprovado": 1770,
+  "bytes_estatico": 580,
+  "sha256_animacao": "223f673d118b43e8e243e5b557b0b26503ce05f2047e572901a8ab0710027d22",
+  "sha256_estatico": "642a5ee5ce357506295aac8f60a3d4a50296790faff68d2a774fe3c1838e9fea",
+  "aprovacao": "Alisson, repassada pelo Claudio em 31/10/2026; conversão sem redesenho autorizada"
+}

@@ -4,12 +4,12 @@ const fs = require('node:fs');
 const vm = require('node:vm');
 const code = fs.readFileSync('site.js', 'utf8');
 
-function page({ reduced = false, observer = true, hidden = false, crop = true } = {}) {
+function page({ reduced = false, observer = true, hidden = false, crop = true, names = ['claudio', 'valdir'] } = {}) {
   const changes = [], visibility = [], observers = [];
   const motion = { matches: reduced, addEventListener: (_, fn) => changes.push(fn) };
-  const imgs = ['claudio', 'valdir'].map(name => {
+  const imgs = names.map(name => {
     const events = {}, attrs = { src: `img/equipe/${name}.webp` }, classes = new Set();
-    return { dataset: { retratoAnimado: `img/equipe/animados/${name}.png` }, writes: 0,
+    return { dataset: { retratoAnimado: `img/equipe/animados/${name}.${name === 'sheila' ? 'webp' : 'png'}` }, writes: 0,
       classList: { toggle(name, value) { if (value) classes.add(name); else classes.delete(name); }, contains: name => classes.has(name) },
       getAttribute: key => attrs[key], setAttribute(key, value) { attrs[key] = value; this.writes++; },
       addEventListener: (name, fn) => { events[name] = fn; }, fire: name => events[name]?.(),
@@ -32,12 +32,13 @@ function page({ reduced = false, observer = true, hidden = false, crop = true } 
   };
 }
 
-test('the homepage keeps six existing static images as the no-JS fallback', () => {
+test('the homepage has seven agents with static fallbacks and the approved Sheila label', () => {
   const html = fs.readFileSync('index.html', 'utf8');
   const agents = [...html.matchAll(/<img\b[^>]*data-retrato-animado="([^"]+)"[^>]*>/g)];
-  assert.equal(agents.length, 6);
+  assert.equal(agents.length, 7);
+  assert.ok(html.includes('<b>Sheila</b><span>Personagens e Cenas</span>'));
   for (const [, animated] of agents) {
-    const name = animated.match(/\/([^/]+)\.png$/)[1];
+    const name = animated.match(/\/([^/]+)\.(png|webp)$/)[1];
     const tag = agents.find(row => row[1] === animated)[0];
     assert.ok(tag.includes(`src="img/equipe/${name}.webp"`));
     assert.ok(tag.includes('width="240" height="240"'));
@@ -103,4 +104,17 @@ test('without square cropping support the original portraits remain static', () 
   const p = page({ crop: false });
   p.reduced(false);
   assert.ok(p.imgs.every(im => im.writes === 0));
+});
+
+test('Sheila uses her native loop without sprite CSS and respects the same motion controls', () => {
+  const p = page({ names: ['sheila'] }), [a] = p.imgs;
+  p.visible(a, true);
+  assert.equal(a.getAttribute('src'), 'img/equipe/animados/sheila.webp');
+  assert.equal(a.classList.contains('retrato-em-movimento'), false);
+  p.reduced(true);
+  assert.equal(a.getAttribute('src'), 'img/equipe/sheila.webp');
+  p.reduced(false);
+  assert.equal(a.getAttribute('src'), 'img/equipe/animados/sheila.webp');
+  p.hidden(true);
+  assert.equal(a.getAttribute('src'), 'img/equipe/sheila.webp');
 });

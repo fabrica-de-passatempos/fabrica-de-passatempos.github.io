@@ -56,6 +56,7 @@ video.tela{display:block;height:auto;background:#050906}
 .tl b{display:block;font:800 26px 'Bricolage Grotesque',sans-serif;margin-bottom:8px}.tl p{color:var(--sub)}
 
 .sel{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
+.ag{grid-template-columns:repeat(7,minmax(0,1fr))}
 .sel img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:18px;border:3px solid var(--linha);background:var(--sup);transition:transform .3s var(--mola),border-color .3s}
 .sel li:hover img{transform:translateY(-4px) rotate(-2deg);border-color:var(--am)}
 .sel b{display:block;margin-top:10px}.sel span{color:var(--sub);font-size:14px}
@@ -86,6 +87,7 @@ footer a{color:#D6DECF}
   .j.lado{flex-direction:column;align-items:flex-start}.dev>.j:nth-child(3) .tela{margin-left:0}.j.lado .tela{width:100%;max-width:240px}
   .j .tela.inteira{height:360px}
   .sel{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .ag>li:last-child:nth-child(3n+1){grid-column:2}
   .redes{text-align:left}
   section{padding:56px 0}
 }
