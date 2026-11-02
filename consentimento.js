@@ -12,9 +12,9 @@ const gravar = v => { try { localStorage.setItem(CHAVE, v); } catch {} };
 
 let carregado = false;
 function carregarGA() {
+  gtag('consent', 'update', { analytics_storage: 'granted' });
   if (carregado) return;
   carregado = true;
-  gtag('consent', 'update', { analytics_storage: 'granted' });
   gtag('js', new Date());
   // O GA4 não guarda IP; sinais do Google e personalização de anúncios ficam desligados.
   gtag('config', GA_ID, { allow_google_signals: false, allow_ad_personalization_signals: false });
@@ -50,7 +50,7 @@ if (GA_ID && banner) {
   // Eventos: clique no botão da Play (por jogo, com o utm do link) e primeira vez que o vídeo de cada card toca.
   document.addEventListener('click', e => {
     const a = e.target.closest('a[href*="play.google.com"]');
-    if (!a || !carregado) return;
+    if (!a || !carregado || ler() !== 'aceito') return;
     const u = new URL(a.href);
     const id = u.searchParams.get('id');
     const card = document.querySelector(`.j a[href*="${id}"]`)?.closest('.j');
@@ -59,7 +59,7 @@ if (GA_ID && banner) {
   const vistos = new Set();
   document.addEventListener('play', e => {
     const v = e.target;
-    if (v.tagName !== 'VIDEO' || !carregado || vistos.has(v)) return;
+    if (v.tagName !== 'VIDEO' || !carregado || ler() !== 'aceito' || vistos.has(v)) return;
     vistos.add(v);
     gtag('event', 'video_card', { jogo: v.closest('.j')?.querySelector('h3')?.textContent || v.currentSrc.split('/').pop() });
   }, true);

@@ -1,0 +1,25 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const vm = require('node:vm');
+let consent = null;
+const handlers = {}, buttons = {}, scripts = [];
+const banner = {hidden: true, querySelector: key => buttons[key] ||= {addEventListener: (_, fn) => buttons[key].click = fn, focus() {}}};
+const ctx = {window: {}, localStorage: {getItem: () => consent, setItem: (_, v) => consent = v}, location: {hostname: 'localhost'}, URL, Set, Date,
+  document: {cookie: '', head: {appendChild: s => scripts.push(s)}, createElement: () => ({}), getElementById: id => id === 'cookies' ? banner : {}, querySelectorAll: () => [], querySelector: () => null, addEventListener: (name, fn) => handlers[name] = fn}};
+ctx.window = ctx;
+vm.createContext(ctx);
+vm.runInContext(fs.readFileSync('consentimento.js', 'utf8'), ctx);
+const link = {href: 'https://play.google.com/store/apps/details?id=game'};
+const click = () => handlers.click({target: {closest: () => link}});
+const play = () => handlers.play({target: {tagName: 'VIDEO', currentSrc: 'game.mp4', closest: () => null}});
+const events = () => ctx.window.dataLayer.filter(x => x[0] === 'event').length;
+click(); play(); assert.equal(events(), 0);
+buttons['[data-cookies="aceitar"]'].click();
+click(); play(); assert.equal(events(), 2); assert.equal(scripts.length, 1);
+buttons['[data-cookies="recusar"]'].click();
+click(); play(); assert.equal(events(), 2);
+buttons['[data-cookies="aceitar"]'].click();
+click(); assert.equal(events(), 3); assert.equal(scripts.length, 1);
+const updates = ctx.dataLayer.filter(x => x[0] === 'consent' && x[1] === 'update');
+assert.equal(updates.at(-1)[2].analytics_storage, 'granted');
+console.log('PASS: sem eventos antes do aceite/após recusa; reaceite reativa sem duplicar script.');
