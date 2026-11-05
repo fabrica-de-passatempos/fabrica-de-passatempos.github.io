@@ -30,9 +30,6 @@
 <style>
 .bio{max-width:1100px}.bio nav{padding:12px 0;display:flex;justify-content:space-between;align-items:center}.bio nav .marca img{width:132px;height:auto}
 .topo{padding:0 0 6px}.topo .rot{margin:0 0 6px}.topo h1{font-size:clamp(28px,7vw,44px);margin:0;line-height:1.05}
-.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:16px -16px 0;padding:2px 16px}.chips::-webkit-scrollbar{display:none}
-.chips a{flex:none;display:inline-flex;align-items:center;min-height:40px;padding:6px 16px;border:1px solid var(--linha);border-radius:999px;color:var(--txt);text-decoration:none;font-weight:600;font-size:15px}
-.chips a.on{border-color:var(--am);background:var(--am);color:#1B1300}
 .trilho{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;padding:10px calc(50vw - min(40vw,170px)) 6px;margin:0 -16px}
 .trilho::-webkit-scrollbar{display:none}
 .card{flex:0 0 min(80vw,340px);scroll-snap-align:center;background:var(--sup);border:1px solid var(--linha);border-radius:24px;padding:16px;display:flex;flex-direction:column;gap:12px;transition:transform .35s var(--mola),opacity .35s;opacity:.55;transform:scale(.94)}
@@ -44,18 +41,15 @@
 .card .cta{justify-content:center;font-size:18px;padding:16px;width:100%;box-sizing:border-box}
 .card .ios{margin:-4px 0 0;text-align:center;color:var(--sub);font-size:13px}
 .pontos{display:flex;justify-content:center;gap:8px;padding:12px 0 28px}.pontos a{width:8px;height:8px;border-radius:99px;background:var(--linha);transition:width .3s var(--mola),background .3s}.pontos a.on{width:24px;background:var(--am)}
-@media(max-width:999px){.bio nav{padding:8px 0}.bio nav .marca img{width:104px}.topo .rot{display:none}.topo h1{font-size:26px}.chips{margin-top:12px}.chips a{min-height:36px;font-size:14px}
-.card{padding:14px;gap:10px}.card .ic{width:52px;height:52px}.card h3{font-size:20px}
-.tela-wrap{aspect-ratio:auto;height:clamp(170px,calc(100svh - 430px),440px)}
-.card .desc{font-size:14px;min-height:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}}
-@media(min-width:1000px){.trilho{justify-content:center;overflow:visible;padding:10px 0}.card{opacity:1;transform:none}.pontos,.chips{display:none}}
+@media(max-width:999px){.tela-wrap{aspect-ratio:auto;height:clamp(170px,calc(100svh - 470px),460px)}}
+@media(min-width:1000px){.trilho{justify-content:center;overflow:visible;padding:10px 0}.card{opacity:1;transform:none}.pontos{display:none}}
 .fundo{position:fixed;inset:-40px;z-index:-1;background:var(--bg) center/cover no-repeat;filter:blur(38px) saturate(1.3) brightness(.45);transition:background-image .6s;transform:scale(1.1)}
 body{background:var(--bg)}
 .bio footer{padding:20px 0 28px}
 .cookies{padding:10px 12px;gap:8px;font-size:13px;top:10px;bottom:auto;border-radius:14px}.cookies button{padding:8px;font-size:14px}
 @media(prefers-reduced-motion:reduce){.card{transition:none}.trilho{scroll-behavior:auto}}
 </style></head><body><a class="pular" href="#jogos">Pular para os jogos</a><div class="w bio"><nav aria-label="Principal"><a class="marca" href="../" aria-label="Fábrica de Passatempos, página inicial"><img src="../img/logo.webp" width="640" height="320" alt="Fábrica de Passatempos"></a><a href="../">Conheça a Fábrica</a></nav>
-<div class="fundo" aria-hidden="true"></div><header class="topo"><p class="rot">Já dá para jogar</p><h1>Escolha seu passatempo</h1><div class="chips" role="navigation" aria-label="Escolha um jogo"><a href="#na-mesma-pilha">Na Mesma Pilha</a><a href="#encaixa">Encaixa!</a><a href="#mar-de-argolas">Mar de Argolas</a></div></header>
+<div class="fundo" aria-hidden="true"></div><header class="topo"><p class="rot">Já dá para jogar</p><h1>Escolha seu passatempo</h1></header>
 <main id="jogos" aria-label="Jogos disponíveis" aria-roledescription="carrossel"><div class="trilho">
 <article class="j card" id="na-mesma-pilha" aria-roledescription="slide" aria-label="1 de 3: Na Mesma Pilha">
   <header><img class="ic" src="../img/jogos/nmp-icone.webp" width="192" height="192" alt=""><div><h3>Na Mesma Pilha</h3><p class="gen">Palavras · Paciência</p></div></header>
@@ -80,14 +74,14 @@ body{background:var(--bg)}
 </article>
 </div><div class="pontos" role="navigation" aria-label="Jogos"><a href="#na-mesma-pilha" aria-label="Ir para Na Mesma Pilha"></a><a href="#encaixa" aria-label="Ir para Encaixa!"></a><a href="#mar-de-argolas" aria-label="Ir para Mar de Argolas"></a></div></main>
 <script>
-// Carrossel nativo (scroll-snap): marca o card do centro, chips e pontos; repassa a origem (utm_source) para o link da Play.
+// Carrossel nativo (scroll-snap): marca o card do centro e os pontos; repassa a origem (utm_source) para o link da Play.
 (()=>{const t=document.querySelector('.trilho'),cs=[...t.children],q=new URLSearchParams(location.search),src=q.get('utm_source');
 if(src)document.querySelectorAll('a.cta').forEach(a=>{const u=new URL(a.href);u.searchParams.set('utm_source',src.slice(0,40));u.searchParams.set('utm_medium',q.get('utm_medium')||'social');a.href=u});
-const fd=document.querySelector('.fundo');const marcar=id=>{cs.forEach(c=>c.classList.toggle('ativo',c.id===id));const v=document.querySelector('#'+id+' video');if(v)fd.style.backgroundImage='url('+v.getAttribute('poster')+')';document.querySelectorAll('.chips a,.pontos a').forEach(a=>a.classList.toggle('on',a.hash==='#'+id))};
+const fd=document.querySelector('.fundo');const marcar=id=>{cs.forEach(c=>c.classList.toggle('ativo',c.id===id));const v=document.querySelector('#'+id+' video');if(v)fd.style.backgroundImage='url('+v.getAttribute('poster')+')';document.querySelectorAll('.pontos a').forEach(a=>a.classList.toggle('on',a.hash==='#'+id))};
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.intersectionRatio>.6)marcar(e.target.id)}),{root:t,threshold:[.6]});cs.forEach(c=>io.observe(c));
-document.querySelectorAll('.chips a,.pontos a').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const c=document.querySelector(a.hash);t.scrollTo({left:c.offsetLeft-(t.clientWidth-c.clientWidth)/2});history.replaceState(null,'',location.search+a.hash)}));
+document.querySelectorAll('.pontos a').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const c=document.querySelector(a.hash);t.scrollTo({left:c.offsetLeft-(t.clientWidth-c.clientWidth)/2});history.replaceState(null,'',location.search+a.hash)}));
 const ini=document.getElementById(location.hash.slice(1))||cs[0];marcar(ini.id);requestAnimationFrame(()=>{t.style.scrollBehavior='auto';t.scrollLeft=ini.offsetLeft-(t.clientWidth-ini.clientWidth)/2;t.style.scrollBehavior=''});// Rolagem automática a cada 5 s; para de vez quando a pessoa mexe no carrossel. Sem rolagem com movimento reduzido ou no desktop.
-let parou=matchMedia('(prefers-reduced-motion: reduce)').matches;const para=()=>parou=true;['pointerdown','wheel','keydown','touchstart'].forEach(ev=>t.addEventListener(ev,para,{passive:true}));document.querySelectorAll('.chips a,.pontos a,.cta').forEach(a=>a.addEventListener('click',para));
+let parou=matchMedia('(prefers-reduced-motion: reduce)').matches;const para=()=>parou=true;['pointerdown','wheel','keydown','touchstart'].forEach(ev=>t.addEventListener(ev,para,{passive:true}));document.querySelectorAll('.pontos a,.cta').forEach(a=>a.addEventListener('click',para));
 setInterval(()=>{if(parou||document.hidden||innerWidth>=1000)return;const i=cs.findIndex(c=>c.classList.contains('ativo')),c=cs[(i+1)%cs.length];t.scrollTo({left:c.offsetLeft-(t.clientWidth-c.clientWidth)/2})},5000);
 if(location.hash)addEventListener('load',()=>setTimeout(()=>scrollTo(0,0),0));})();
 </script>
