@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-30",
+  "atualizado": "2026-11-06",
   "roadmap_fim": "2027-05-17",
   "devs": [
     {
@@ -202,6 +202,16 @@
       "diversao": 4,
       "etiqueta": "Depois do Atlas",
       "issue": 33
+    },
+    {
+      "nome": "Agentes da Firma",
+      "resumo": "Simulador de estúdio com os nossos 7 agentes de IA como personagens: The Sims com The Office num kanban de produção de jogos, com story points, WIP e tramas internas. A v1 é um quadro em retrato com uma sprint. Ideia #141, do Alisson.",
+      "esforco": "M",
+      "semanas": "5 a 7 semanas",
+      "hype": 4,
+      "diversao": 4,
+      "etiqueta": "Protótipo de 1 sprint",
+      "issue": 141
     },
     {
       "nome": "Quebra Blocos",
