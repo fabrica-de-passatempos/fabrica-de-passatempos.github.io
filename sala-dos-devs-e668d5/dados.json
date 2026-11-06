@@ -71,13 +71,13 @@
   ],
   "ideias": [
     {
-      "nome": "Soltar e juntar bichos",
-      "resumo": "Solte bichinhos numa caixa com física: dois iguais que se tocam viram o próximo, e pedidos pagam moedas. Mecânica \"drop and merge\" com tema brasileiro próprio, reaproveitando a física do Mar de Argolas. Ideia #182, do Alisson.",
+      "nome": "Juntar planetas",
+      "resumo": "Solte astros numa caixa com física: dois iguais viram o próximo, por ordem de tamanho, do asteroide ao Sol. Cada fase é um sistema (Solar, TRAPPIST-1...), com uma curiosidade por fusão. Reaproveita a física do Mar de Argolas. Ideia #182, do Alisson.",
       "esforco": "P",
       "semanas": "3 a 4 semanas",
       "hype": 4,
       "diversao": 5,
-      "etiqueta": "Tema a escolher",
+      "etiqueta": "Protótipo de 1 semana",
       "issue": 182
     },
     {
