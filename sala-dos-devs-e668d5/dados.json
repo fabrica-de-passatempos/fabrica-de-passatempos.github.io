@@ -71,6 +71,16 @@
   ],
   "ideias": [
     {
+      "nome": "Soltar e juntar bichos",
+      "resumo": "Solte bichinhos numa caixa com física: dois iguais que se tocam viram o próximo, e pedidos pagam moedas. Mecânica \"drop and merge\" com tema brasileiro próprio, reaproveitando a física do Mar de Argolas. Ideia #182, do Alisson.",
+      "esforco": "P",
+      "semanas": "3 a 4 semanas",
+      "hype": 4,
+      "diversao": 5,
+      "etiqueta": "Tema a escolher",
+      "issue": 182
+    },
+    {
       "nome": "Ache o ponto",
       "resumo": "Tatear a tela até achar o ponto escondido, que fica menor e mais arisco a cada fase. Humor de duplo sentido, sem nada explícito. Ideia #3.",
       "esforco": "P",
