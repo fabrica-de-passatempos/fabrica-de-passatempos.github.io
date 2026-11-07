@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-06",
+  "atualizado": "2026-11-07",
   "roadmap_fim": "2027-05-17",
   "devs": [
     {
@@ -89,6 +89,16 @@
       "diversao": 4,
       "etiqueta": "Risco de loja",
       "issue": 3
+    },
+    {
+      "nome": "Corrida pelas capitais",
+      "resumo": "Direção 2D vista de cima, desviando e fazendo curvas, com uma fase por capital do mundo e estética de corrida 16-bit dos anos 90. Conversa com o Atlas. Ideia #189, do Alisson.",
+      "esforco": "M",
+      "semanas": "5 a 7 semanas",
+      "hype": 4,
+      "diversao": 4,
+      "etiqueta": "Protótipo de 1 semana",
+      "issue": 189
     },
     {
       "nome": "Cobrinha com arte e fases",
