@@ -1,0 +1,1557 @@
+{
+  "schema": 1,
+  "coletado_em": "2026-11-10T15:38:19-03:00",
+  "jogos": [
+    {
+      "nome": "Na Mesma Pilha",
+      "etapa": "Publicado",
+      "status_loja": {
+        "valor": "Google Play disponivel",
+        "fonte": "Site main67a5245, home; Pula-Pulso envio07/11 viaClaudio",
+        "coletado_em": "2026-11-10",
+        "periodo": "Ultimo registro documental; sem nova consulta Play"
+      },
+      "versao": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "instalacoes": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "ativos": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "avaliacao": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "numero_avaliacoes": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "retencao_d1": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "retencao_d7": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "receita": {
+        "valor": null,
+        "fonte": "ND: AdMob/compras agregados",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      }
+    },
+    {
+      "nome": "Mar de Argolas",
+      "etapa": "Publicado",
+      "status_loja": {
+        "valor": "Google Play disponivel",
+        "fonte": "Site main67a5245, home; Pula-Pulso envio07/11 viaClaudio",
+        "coletado_em": "2026-11-10",
+        "periodo": "Ultimo registro documental; sem nova consulta Play"
+      },
+      "versao": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "instalacoes": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "ativos": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "avaliacao": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "numero_avaliacoes": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "retencao_d1": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "retencao_d7": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "receita": {
+        "valor": null,
+        "fonte": "ND: AdMob/compras agregados",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      }
+    },
+    {
+      "nome": "Encaixa!",
+      "etapa": "Publicado",
+      "status_loja": {
+        "valor": "Google Play disponivel",
+        "fonte": "Site main67a5245, home; Pula-Pulso envio07/11 viaClaudio",
+        "coletado_em": "2026-11-10",
+        "periodo": "Ultimo registro documental; sem nova consulta Play"
+      },
+      "versao": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "instalacoes": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "ativos": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "avaliacao": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "numero_avaliacoes": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "retencao_d1": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "retencao_d7": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "receita": {
+        "valor": null,
+        "fonte": "ND: AdMob/compras agregados",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      }
+    },
+    {
+      "nome": "Pula-Pulso",
+      "etapa": "Em revisão",
+      "status_loja": {
+        "valor": "Google Play em revisao; ficha publica ND",
+        "fonte": "Site main67a5245, home; Pula-Pulso envio07/11 viaClaudio",
+        "coletado_em": "2026-11-10",
+        "periodo": "Ultimo registro documental; sem nova consulta Play"
+      },
+      "versao": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "instalacoes": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "ativos": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "avaliacao": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "numero_avaliacoes": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "retencao_d1": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "retencao_d7": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "receita": {
+        "valor": null,
+        "fonte": "ND: AdMob/compras agregados",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      }
+    },
+    {
+      "nome": "Caçada Estelar",
+      "etapa": "Em desenvolvimento",
+      "status_loja": {
+        "valor": "Em breve; sem ficha publica comprovada",
+        "fonte": "Site main67a5245, home; Pula-Pulso envio07/11 viaClaudio",
+        "coletado_em": "2026-11-10",
+        "periodo": "Ultimo registro documental; sem nova consulta Play"
+      },
+      "versao": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "instalacoes": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "ativos": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "avaliacao": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "numero_avaliacoes": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "retencao_d1": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "retencao_d7": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "receita": {
+        "valor": null,
+        "fonte": "ND: AdMob/compras agregados",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      }
+    },
+    {
+      "nome": "Atlas do Tempo",
+      "etapa": "Em desenvolvimento",
+      "status_loja": {
+        "valor": "Em breve; sem ficha publica comprovada",
+        "fonte": "Site main67a5245, home; Pula-Pulso envio07/11 viaClaudio",
+        "coletado_em": "2026-11-10",
+        "periodo": "Ultimo registro documental; sem nova consulta Play"
+      },
+      "versao": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "instalacoes": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "ativos": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "avaliacao": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "numero_avaliacoes": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "retencao_d1": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "retencao_d7": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "receita": {
+        "valor": null,
+        "fonte": "ND: AdMob/compras agregados",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      }
+    },
+    {
+      "nome": "Astrofauna: Quebra Blocos",
+      "etapa": "Em desenvolvimento",
+      "status_loja": {
+        "valor": "Em breve; sem ficha publica comprovada",
+        "fonte": "Site main67a5245, home; Pula-Pulso envio07/11 viaClaudio",
+        "coletado_em": "2026-11-10",
+        "periodo": "Ultimo registro documental; sem nova consulta Play"
+      },
+      "versao": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "instalacoes": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "ativos": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "avaliacao": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "numero_avaliacoes": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "retencao_d1": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "retencao_d7": {
+        "valor": null,
+        "fonte": "ND: Play Console/analytics por jogo",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      },
+      "receita": {
+        "valor": null,
+        "fonte": "ND: AdMob/compras agregados",
+        "coletado_em": null,
+        "periodo": "Coleta pendente"
+      }
+    }
+  ],
+  "redes": [
+    {
+      "rede": "Instagram",
+      "seguidores": {
+        "valor": 44,
+        "fonte": "Josefa20261109-1521; coleta aproximada14h51-15h21",
+        "coletado_em": "2026-11-09T15:21:00-03:00",
+        "periodo": "Snapshot"
+      },
+      "views": {
+        "valor": 1065,
+        "fonte": "Coleta02/11 / ig-periodo",
+        "coletado_em": "2026-11-02T15:17:30.509-03:00",
+        "periodo": "27/10–02/11, Horário do Pacífico; 02/11 parcial"
+      },
+      "alcance": {
+        "valor": 588,
+        "fonte": "Coleta02/11 / ig-periodo",
+        "coletado_em": "2026-11-02T15:17:30.509-03:00",
+        "periodo": "27/10–02/11, Horário do Pacífico; 02/11 parcial"
+      }
+    },
+    {
+      "rede": "Facebook",
+      "seguidores": {
+        "valor": 1,
+        "fonte": "Josefa20261109-1521; coleta aproximada14h51-15h21",
+        "coletado_em": "2026-11-09T15:21:00-03:00",
+        "periodo": "Snapshot"
+      },
+      "views": {
+        "valor": null,
+        "fonte": "Coleta02/11 / fb-periodo",
+        "coletado_em": "2026-11-02T15:17:15.880-03:00",
+        "periodo": "27/10–02/11, Horário do Pacífico; 02/11 parcial",
+        "rotulo": "1,2 mil (arredondado na fonte)"
+      },
+      "alcance": {
+        "valor": null,
+        "fonte": "Coleta02/11 / fb-periodo",
+        "coletado_em": "2026-11-02T15:17:15.880-03:00",
+        "periodo": "27/10–02/11, Horário do Pacífico; 02/11 parcial"
+      }
+    },
+    {
+      "rede": "TikTok",
+      "seguidores": {
+        "valor": 3,
+        "fonte": "Josefa20261109-1521; coleta aproximada14h51-15h21",
+        "coletado_em": "2026-11-09T15:21:00-03:00",
+        "periodo": "Snapshot"
+      },
+      "views": {
+        "valor": 214,
+        "fonte": "Coleta02/11 / tt-periodo",
+        "coletado_em": "2026-11-02T15:22:45.043-03:00",
+        "periodo": "UI: 27/10–01/11; CSV: 26/10–31/10"
+      },
+      "alcance": {
+        "valor": null,
+        "fonte": "Coleta02/11 / tt-periodo",
+        "coletado_em": "2026-11-02T15:22:45.043-03:00",
+        "periodo": "UI: 27/10–01/11; CSV: 26/10–31/10"
+      }
+    },
+    {
+      "rede": "YouTube",
+      "seguidores": {
+        "valor": 8,
+        "fonte": "Josefa20261109-1521; coleta aproximada14h51-15h21",
+        "coletado_em": "2026-11-09T15:21:00-03:00",
+        "periodo": "Snapshot"
+      },
+      "views": {
+        "valor": 300,
+        "fonte": "Coleta02/11 / yt-periodo",
+        "coletado_em": "2026-11-02T15:17:42.156-03:00",
+        "periodo": "27/10–01/11, datas efetivas da UI/CSV"
+      },
+      "alcance": {
+        "valor": null,
+        "fonte": "Coleta02/11 / yt-periodo",
+        "coletado_em": "2026-11-02T15:17:42.156-03:00",
+        "periodo": "27/10–01/11, datas efetivas da UI/CSV"
+      }
+    }
+  ],
+  "posts": [
+    {
+      "rede": "TikTok",
+      "id": "7701506619842055445",
+      "permalink": "https://www.tiktok.com/@fabricadepassatemposbr/video/7701506619842055445",
+      "jogo": "Na Mesma Pilha",
+      "pauta": "Fase 1 inteira, sem cortes",
+      "formato": "Vídeo vertical",
+      "publicado_em": "2026-10-28T19:30:00-03:00",
+      "corte": "2026-11-02T15:17:30.230-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 83,
+      "likes": 2,
+      "comentarios": 1,
+      "shares": 0,
+      "saves": 0,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "TikTok",
+      "id": "7702483822264339720",
+      "permalink": "https://www.tiktok.com/@fabricadepassatemposbr/video/7702483822264339720",
+      "jogo": "Na Mesma Pilha",
+      "pauta": "DOURADO vai em qual pilha?",
+      "formato": "Vídeo vertical",
+      "publicado_em": "2026-10-30T19:30:00-03:00",
+      "corte": "2026-11-02T15:17:24.586-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 89,
+      "likes": 2,
+      "comentarios": 1,
+      "shares": 0,
+      "saves": 0,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "TikTok",
+      "id": "7702926085545102600",
+      "permalink": "https://www.tiktok.com/@fabricadepassatemposbr/video/7702926085545102600",
+      "jogo": "Na Mesma Pilha",
+      "pauta": "BASE vai em qual pilha?",
+      "formato": "Vídeo vertical",
+      "publicado_em": "2026-10-31T19:30:00-03:00",
+      "corte": "2026-11-02T15:17:48.813-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 97,
+      "likes": 1,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "TikTok",
+      "id": "7702949362279894279",
+      "permalink": "https://www.tiktok.com/@fabricadepassatemposbr/video/7702949362279894279",
+      "jogo": "Caçada Estelar",
+      "pauta": "Passa pela Caranguejeira?",
+      "formato": "Vídeo vertical",
+      "publicado_em": "2026-11-01T12:30:00-03:00",
+      "corte": "2026-11-02T15:17:53.949-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 128,
+      "likes": 2,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "TikTok",
+      "id": "7703230948262808853",
+      "permalink": "https://www.tiktok.com/@fabricadepassatemposbr/video/7703230948262808853",
+      "jogo": "Encaixa!",
+      "pauta": "Uma peça. Três linhas limpas",
+      "formato": "Vídeo vertical",
+      "publicado_em": "2026-11-01T19:30:00-03:00",
+      "corte": "2026-11-02T15:18:03.773-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 0,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "TikTok",
+      "id": "7703568030206397716",
+      "permalink": "https://www.tiktok.com/@fabricadepassatemposbr/video/7703568030206397716",
+      "jogo": "Mar de Argolas",
+      "pauta": "Quem tem gato sabe",
+      "formato": "Vídeo vertical",
+      "publicado_em": "2026-11-02T12:30:00-03:00",
+      "corte": "2026-11-02T15:18:13.838-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 0,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "Facebook",
+      "id": "122100584787528295",
+      "permalink": "https://www.facebook.com/reel/1284824247416410/",
+      "jogo": "Na Mesma Pilha",
+      "pauta": "DOURADO vai em qual pilha?",
+      "formato": "Reel",
+      "publicado_em": "2026-10-30T19:30:00-03:00",
+      "corte": "2026-11-02T15:20:31.252-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 256,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "Facebook",
+      "id": "122098924569528295",
+      "permalink": "https://www.facebook.com/reel/4777229962507943/",
+      "jogo": "Na Mesma Pilha",
+      "pauta": "Fase 1 inteira, sem cortes",
+      "formato": "Reel",
+      "publicado_em": "2026-10-28T19:30:00-03:00",
+      "corte": "2026-11-02T15:20:31.252-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 187,
+      "likes": 2,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "Facebook",
+      "id": "122102254581528295",
+      "permalink": "https://www.facebook.com/reel/1547686664053723/",
+      "jogo": "Encaixa!",
+      "pauta": "Uma peça. Três linhas limpas",
+      "formato": "Reel",
+      "publicado_em": "2026-11-01T19:30:00-03:00",
+      "corte": "2026-11-02T15:20:31.252-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 256,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "Facebook",
+      "id": "122101363233528295",
+      "permalink": "https://www.facebook.com/reel/1652989366535971/",
+      "jogo": "Na Mesma Pilha",
+      "pauta": "BASE vai em qual pilha?",
+      "formato": "Reel",
+      "publicado_em": "2026-10-31T19:30:00-03:00",
+      "corte": "2026-11-02T15:20:31.252-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 228,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "Instagram",
+      "id": "17927956797430912",
+      "permalink": "https://www.instagram.com/reel/DfDgjzsAKn8/",
+      "jogo": "Na Mesma Pilha",
+      "pauta": "Fase 1 inteira, sem cortes",
+      "formato": "Reel",
+      "publicado_em": "2026-10-28T19:30:00-03:00",
+      "corte": "2026-11-02T15:20:31.252-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 70,
+      "likes": 7,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 1,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "Instagram",
+      "id": "18142636468618256",
+      "permalink": "https://www.instagram.com/reel/DfNz0LOCXws/",
+      "jogo": "Encaixa!",
+      "pauta": "Uma peça. Três linhas limpas",
+      "formato": "Reel",
+      "publicado_em": "2026-11-01T19:31:00-03:00",
+      "corte": "2026-11-02T15:20:31.252-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 171,
+      "likes": 5,
+      "comentarios": 1,
+      "shares": 0,
+      "saves": 0,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "Instagram",
+      "id": "17957050485272631",
+      "permalink": "https://www.instagram.com/reel/DfNFK96oS4M/",
+      "jogo": "Caçada Estelar",
+      "pauta": "Pronto para uma aventura espacial?",
+      "formato": "Reel",
+      "publicado_em": "2026-11-01T12:43:00-03:00",
+      "corte": "2026-11-02T15:20:31.252-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 341,
+      "likes": 9,
+      "comentarios": 5,
+      "shares": 2,
+      "saves": 0,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "Instagram",
+      "id": "18113552996611203",
+      "permalink": "https://www.instagram.com/reel/DfLO_m4lZYH/",
+      "jogo": "Na Mesma Pilha",
+      "pauta": "BASE vai em qual pilha?",
+      "formato": "Reel",
+      "publicado_em": "2026-10-31T19:30:00-03:00",
+      "corte": "2026-11-02T15:20:31.252-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 138,
+      "likes": 8,
+      "comentarios": 0,
+      "shares": 1,
+      "saves": 0,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "Instagram",
+      "id": "18638348263018376",
+      "permalink": "https://www.instagram.com/reel/DfIqKZXiKb2/",
+      "jogo": "Na Mesma Pilha",
+      "pauta": "DOURADO vai em qual pilha?",
+      "formato": "Reel",
+      "publicado_em": "2026-10-30T19:30:00-03:00",
+      "corte": "2026-11-02T15:20:31.252-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 174,
+      "likes": 9,
+      "comentarios": 0,
+      "shares": 13,
+      "saves": 0,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "Instagram",
+      "id": "17910333225569598",
+      "permalink": "https://www.instagram.com/reel/DfPokROGMsP/",
+      "jogo": "Mar de Argolas",
+      "pauta": "Quem tem gato sabe",
+      "formato": "Reel",
+      "publicado_em": "2026-11-02T12:31:00-03:00",
+      "corte": "2026-11-02T15:20:42.716-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 165,
+      "likes": 3,
+      "comentarios": 2,
+      "shares": 1,
+      "saves": 0,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "Facebook",
+      "id": "122102985075528295",
+      "permalink": null,
+      "jogo": "Mar de Argolas",
+      "pauta": "Quem tem gato sabe",
+      "formato": "Reel",
+      "publicado_em": "2026-11-02T12:30:00-03:00",
+      "corte": "2026-11-02T15:24:30.701-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 240,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "YouTube",
+      "id": "UpA8CNE2jT4",
+      "permalink": "https://www.youtube.com/shorts/UpA8CNE2jT4",
+      "jogo": "Na Mesma Pilha",
+      "pauta": "Fase 1 inteira, sem cortes",
+      "formato": "Shorts",
+      "publicado_em": "2026-10-28",
+      "corte": "2026-11-02T15:24:55.144-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 59,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": null,
+      "saves": null,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "YouTube",
+      "id": "2t5McyAXXBY",
+      "permalink": "https://www.youtube.com/shorts/2t5McyAXXBY",
+      "jogo": "Na Mesma Pilha",
+      "pauta": "DOURADO vai em qual pilha?",
+      "formato": "Shorts",
+      "publicado_em": "2026-10-30",
+      "corte": "2026-11-02T15:24:45.064-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 77,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": null,
+      "saves": null,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "YouTube",
+      "id": "2dMBRxaZzuU",
+      "permalink": "https://www.youtube.com/shorts/2dMBRxaZzuU",
+      "jogo": "Na Mesma Pilha",
+      "pauta": "BASE vai em qual pilha?",
+      "formato": "Shorts",
+      "publicado_em": "2026-10-31",
+      "corte": "2026-11-02T15:24:31.097-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 85,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": null,
+      "saves": null,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "YouTube",
+      "id": "l_MMCuAePv0",
+      "permalink": "https://www.youtube.com/shorts/l_MMCuAePv0",
+      "jogo": "Caçada Estelar",
+      "pauta": "Passa pela Caranguejeira?",
+      "formato": "Shorts",
+      "publicado_em": "2026-11-01",
+      "corte": "2026-11-02T15:25:03.917-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 78,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": null,
+      "saves": null,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "YouTube",
+      "id": "GID44TyKCJo",
+      "permalink": "https://www.youtube.com/shorts/GID44TyKCJo",
+      "jogo": "Mar de Argolas",
+      "pauta": "Quem tem gato sabe",
+      "formato": "Shorts",
+      "publicado_em": "2026-11-02",
+      "corte": "2026-11-02T15:25:34.482-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 328,
+      "likes": 4,
+      "comentarios": 0,
+      "shares": null,
+      "saves": null,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "Instagram",
+      "id": null,
+      "permalink": null,
+      "jogo": null,
+      "pauta": "Story sem texto, pauta não identificada",
+      "formato": "Story",
+      "publicado_em": "2026-11-01T12:44:00-03:00",
+      "corte": "2026-11-02T15:20:31.252-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 19,
+      "likes": 0,
+      "comentarios": null,
+      "shares": 0,
+      "saves": null,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "Instagram",
+      "id": null,
+      "permalink": null,
+      "jogo": null,
+      "pauta": "Story sem texto, pauta não identificada",
+      "formato": "Story",
+      "publicado_em": "2026-11-01T20:11:00-03:00",
+      "corte": "2026-11-02T15:20:31.252-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 16,
+      "likes": 0,
+      "comentarios": null,
+      "shares": 0,
+      "saves": null,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "Instagram",
+      "id": null,
+      "permalink": null,
+      "jogo": null,
+      "pauta": "Story sem texto, pauta não identificada",
+      "formato": "Story",
+      "publicado_em": "2026-11-02T15:13:00-03:00",
+      "corte": "2026-11-02T15:20:31.252-03:00",
+      "serie": "acumulado_desde_publicacao",
+      "views": 1,
+      "likes": 0,
+      "comentarios": null,
+      "shares": 0,
+      "saves": null,
+      "fonte": "Coleta UI + exports 02/11, gerar_relatorio.py / dados-posts.csv",
+      "corte_tipo": "acumulado",
+      "nota": "Contadores historicos de idades diferentes. Nao e corte72h."
+    },
+    {
+      "rede": "Instagram",
+      "id": "fonte0911-instagram-0",
+      "permalink": null,
+      "jogo": "Portfólio",
+      "pauta": "Conheça nossos jogos",
+      "formato": "Carrossel",
+      "publicado_em": "9/11 12:30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela Instagram",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 308,
+      "likes": 11,
+      "comentarios": 1,
+      "shares": 3,
+      "saves": 0
+    },
+    {
+      "rede": "Instagram",
+      "id": "fonte0911-instagram-1",
+      "permalink": null,
+      "jogo": "Encaixa!",
+      "pauta": "Marte / Encaixa!",
+      "formato": "Gameplay",
+      "publicado_em": "8/11 12:31",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela Instagram",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 211,
+      "likes": 2,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0
+    },
+    {
+      "rede": "Instagram",
+      "id": "fonte0911-instagram-2",
+      "permalink": null,
+      "jogo": "Mar de Argolas",
+      "pauta": "Quem aí também tinha um? / MdA",
+      "formato": "Gameplay",
+      "publicado_em": "7/11 12:30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela Instagram",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 190,
+      "likes": 4,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0
+    },
+    {
+      "rede": "Instagram",
+      "id": "fonte0911-instagram-3",
+      "permalink": null,
+      "jogo": "Caçada Estelar",
+      "pauta": "Teaser / Caçada",
+      "formato": "Teaser",
+      "publicado_em": "8/11 19:31",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela Instagram",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 143,
+      "likes": 5,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0
+    },
+    {
+      "rede": "Instagram",
+      "id": "fonte0911-instagram-4",
+      "permalink": null,
+      "jogo": "Encaixa!",
+      "pauta": "Lua, tabuleiro com buracos / Encaixa!",
+      "formato": "Gameplay",
+      "publicado_em": "7/11 19:31",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela Instagram",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 141,
+      "likes": 5,
+      "comentarios": 1,
+      "shares": 0,
+      "saves": 0
+    },
+    {
+      "rede": "Instagram",
+      "id": "fonte0911-instagram-5",
+      "permalink": null,
+      "jogo": "Na Mesma Pilha",
+      "pauta": "DOURADO B / NMP",
+      "formato": "A/B DOURADO",
+      "publicado_em": "8/11 17:31",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela Instagram",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 67,
+      "likes": 2,
+      "comentarios": 1,
+      "shares": 0,
+      "saves": 0
+    },
+    {
+      "rede": "Instagram",
+      "id": "fonte0911-instagram-6",
+      "permalink": null,
+      "jogo": "Na Mesma Pilha",
+      "pauta": "DOURADO A / NMP",
+      "formato": "A/B DOURADO",
+      "publicado_em": "7/11 17:31",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela Instagram",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 57,
+      "likes": 3,
+      "comentarios": 1,
+      "shares": 0,
+      "saves": 0
+    },
+    {
+      "rede": "Facebook",
+      "id": "fonte0911-facebook-0",
+      "permalink": null,
+      "jogo": "Encaixa!",
+      "pauta": "Marte / Encaixa!",
+      "formato": "Gameplay",
+      "publicado_em": "8/11 12:30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela Facebook",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 222,
+      "likes": 1,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0
+    },
+    {
+      "rede": "Facebook",
+      "id": "fonte0911-facebook-1",
+      "permalink": null,
+      "jogo": "Caçada Estelar",
+      "pauta": "Teaser / Caçada",
+      "formato": "Teaser",
+      "publicado_em": "8/11 19:30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela Facebook",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 206,
+      "likes": 1,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0
+    },
+    {
+      "rede": "Facebook",
+      "id": "fonte0911-facebook-2",
+      "permalink": null,
+      "jogo": "Mar de Argolas",
+      "pauta": "Quem aí também tinha um? / MdA",
+      "formato": "Gameplay",
+      "publicado_em": "7/11 12:30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela Facebook",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 202,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0
+    },
+    {
+      "rede": "Facebook",
+      "id": "fonte0911-facebook-3",
+      "permalink": null,
+      "jogo": "Encaixa!",
+      "pauta": "Lua, tabuleiro com buracos / Encaixa!",
+      "formato": "Gameplay",
+      "publicado_em": "7/11 19:30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela Facebook",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 190,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0
+    },
+    {
+      "rede": "Facebook",
+      "id": "fonte0911-facebook-4",
+      "permalink": null,
+      "jogo": "Portfólio",
+      "pauta": "Conheça nossos jogos",
+      "formato": "Carrossel",
+      "publicado_em": "9/11 12:30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela Facebook",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 1,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0
+    },
+    {
+      "rede": "YouTube",
+      "id": "bbrvoqQYJ-s",
+      "permalink": "https://youtu.be/bbrvoqQYJ-s",
+      "jogo": "Mar de Argolas",
+      "pauta": "Nostalgia MdA / bbrvoqQYJ-s",
+      "formato": "Gameplay",
+      "publicado_em": "07/11 12h30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela YouTube",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 425,
+      "likes": 1,
+      "comentarios": 0,
+      "shares": null,
+      "saves": null
+    },
+    {
+      "rede": "YouTube",
+      "id": "8NvWQVp4Nyo",
+      "permalink": "https://youtu.be/8NvWQVp4Nyo",
+      "jogo": "Encaixa!",
+      "pauta": "Marte / 8NvWQVp4Nyo",
+      "formato": "Gameplay",
+      "publicado_em": "09/11 12h30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela YouTube",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 335,
+      "likes": 2,
+      "comentarios": 0,
+      "shares": null,
+      "saves": null
+    },
+    {
+      "rede": "YouTube",
+      "id": "VQQaEXot_og",
+      "permalink": "https://youtu.be/VQQaEXot_og",
+      "jogo": "Encaixa!",
+      "pauta": "Lua, buracos / VQQaEXot_og",
+      "formato": "Gameplay",
+      "publicado_em": "07/11 19h30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela YouTube",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 161,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": null,
+      "saves": null
+    },
+    {
+      "rede": "YouTube",
+      "id": "fgUSSqwSGrI",
+      "permalink": "https://youtu.be/fgUSSqwSGrI",
+      "jogo": "Caçada Estelar",
+      "pauta": "Teaser Caçada / fgUSSqwSGrI",
+      "formato": "Teaser",
+      "publicado_em": "08/11 19h30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela YouTube",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 94,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": null,
+      "saves": null
+    },
+    {
+      "rede": "YouTube",
+      "id": "bNEC0AtYdq0",
+      "permalink": "https://youtu.be/bNEC0AtYdq0",
+      "jogo": "Na Mesma Pilha",
+      "pauta": "NMP fase 14 / bNEC0AtYdq0",
+      "formato": "Gameplay",
+      "publicado_em": "08/11 12h30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela YouTube",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 42,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": null,
+      "saves": null
+    },
+    {
+      "rede": "TikTok",
+      "id": "7704859862492007686",
+      "permalink": "https://www.tiktok.com/@fabricadepassatemposbr/video/7704859862492007686",
+      "jogo": "Mar de Argolas",
+      "pauta": "Nostalgia MdA / 7704859862492007686",
+      "formato": "Gameplay",
+      "publicado_em": "07/11 12h30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela TikTok",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 175,
+      "likes": 2,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0
+    },
+    {
+      "rede": "TikTok",
+      "id": "7702969648098200850",
+      "permalink": "https://www.tiktok.com/@fabricadepassatemposbr/video/7702969648098200850",
+      "jogo": "Encaixa!",
+      "pauta": "Lua, buracos / 7702969648098200850",
+      "formato": "Gameplay",
+      "publicado_em": "07/11 19h30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela TikTok",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 114,
+      "likes": 2,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0
+    },
+    {
+      "rede": "TikTok",
+      "id": "7703236982264106261",
+      "permalink": "https://www.tiktok.com/@fabricadepassatemposbr/video/7703236982264106261",
+      "jogo": "Caçada Estelar",
+      "pauta": "Teaser Caçada / 7703236982264106261",
+      "formato": "Teaser",
+      "publicado_em": "08/11 19h30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela TikTok",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 1,
+      "likes": 1,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0
+    },
+    {
+      "rede": "TikTok",
+      "id": "7704066356097879317",
+      "permalink": "https://www.tiktok.com/@fabricadepassatemposbr/video/7704066356097879317",
+      "jogo": "Na Mesma Pilha",
+      "pauta": "DOURADO A / 7704066356097879317",
+      "formato": "A/B DOURADO",
+      "publicado_em": "07/11 17h30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela TikTok",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 0,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0
+    },
+    {
+      "rede": "TikTok",
+      "id": "7704066836438060309",
+      "permalink": "https://www.tiktok.com/@fabricadepassatemposbr/video/7704066836438060309",
+      "jogo": "Na Mesma Pilha",
+      "pauta": "DOURADO B / 7704066836438060309",
+      "formato": "A/B DOURADO",
+      "publicado_em": "08/11 17h30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela TikTok",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 0,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0
+    },
+    {
+      "rede": "TikTok",
+      "id": "7703999521696582933",
+      "permalink": "https://www.tiktok.com/@fabricadepassatemposbr/video/7703999521696582933",
+      "jogo": "Encaixa!",
+      "pauta": "Marte / 7703999521696582933",
+      "formato": "Gameplay",
+      "publicado_em": "08/11 12h30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela TikTok",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 0,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0
+    },
+    {
+      "rede": "TikTok",
+      "id": "7703656897664126228",
+      "permalink": "https://www.tiktok.com/@fabricadepassatemposbr/video/7703656897664126228",
+      "jogo": "Na Mesma Pilha",
+      "pauta": "NMP fase 14 / 7703656897664126228",
+      "formato": "Gameplay",
+      "publicado_em": "09/11 12h30",
+      "corte": "2026-11-09T15:21:00-03:00",
+      "serie": "Acumulado desde publicacao; horarios aproximados14h51-15h21",
+      "corte_tipo": "acumulado",
+      "fonte": "Josefa20261109-1521, tabela TikTok",
+      "nota": "Idades e distribuicao diferentes; zero pode acompanhar processamento. SharesYT com corte08/11 mantidosND; linksMeta nao coletados.",
+      "views": 0,
+      "likes": 0,
+      "comentarios": 0,
+      "shares": 0,
+      "saves": 0
+    }
+  ],
+  "agendamentos": [
+    {
+      "jogo": "Encaixa!",
+      "rede": "YouTube",
+      "id": "Txbj0CU2RXU",
+      "data": "2026-11-12",
+      "hora": "19:30",
+      "IA": "YES",
+      "coletado_em": "2026-11-10T10:46:00-03:00",
+      "fonte": "Handoff Vera + Josefa20261110-1046; reload confirmado",
+      "link": "https://youtu.be/Txbj0CU2RXU"
+    },
+    {
+      "jogo": "Encaixa!",
+      "rede": "Instagram",
+      "id": "1993171602067354",
+      "data": "2026-11-12",
+      "hora": "19:30",
+      "IA": "Declaracao explicita na legenda; rotulo nativo ausente, excecao Alisson10/11~10h20",
+      "coletado_em": "2026-11-10T10:46:00-03:00",
+      "fonte": "Handoff Vera + Josefa20261110-1046; reload confirmado",
+      "link": null
+    },
+    {
+      "jogo": "Encaixa!",
+      "rede": "Facebook",
+      "id": "2411838332977693",
+      "data": "2026-11-12",
+      "hora": "19:30",
+      "IA": "Declaracao explicita na legenda; rotulo nativo ausente, excecao Alisson10/11~10h20",
+      "coletado_em": "2026-11-10T10:46:00-03:00",
+      "fonte": "Handoff Vera + Josefa20261110-1046; reload confirmado",
+      "link": null
+    },
+    {
+      "jogo": "Caçada Estelar",
+      "rede": "YouTube",
+      "id": "C7GeQ_YNa3M",
+      "data": "2026-11-13",
+      "hora": "17:30",
+      "IA": "YES",
+      "coletado_em": "2026-11-10T10:46:00-03:00",
+      "fonte": "Handoff Vera + Josefa20261110-1046; reload confirmado",
+      "link": "https://youtu.be/C7GeQ_YNa3M"
+    },
+    {
+      "jogo": "Caçada Estelar",
+      "rede": "Instagram",
+      "id": "998413263338662",
+      "data": "2026-11-13",
+      "hora": "17:30",
+      "IA": "Declaracao explicita na legenda; rotulo nativo ausente, excecao Alisson10/11~10h20",
+      "coletado_em": "2026-11-10T10:46:00-03:00",
+      "fonte": "Handoff Vera + Josefa20261110-1046; reload confirmado",
+      "link": null
+    },
+    {
+      "jogo": "Caçada Estelar",
+      "rede": "Facebook",
+      "id": "2229229531329292",
+      "data": "2026-11-13",
+      "hora": "17:30",
+      "IA": "Declaracao explicita na legenda; rotulo nativo ausente, excecao Alisson10/11~10h20",
+      "coletado_em": "2026-11-10T10:46:00-03:00",
+      "fonte": "Handoff Vera + Josefa20261110-1046; reload confirmado",
+      "link": null
+    }
+  ],
+  "producao": {
+    "prs_mergeados": {
+      "valor": 146,
+      "fonte": "GitHub Search API, total_count; incomplete_results=false",
+      "coletado_em": "2026-11-10T15:38:19-03:00",
+      "periodo": "01-10/11/2026 ate consulta, organizacao inteira",
+      "url": "https://github.com/search?q=org%3Afabrica-de-passatempos+is%3Apr+is%3Amerged+merged%3A2026-11-01..2026-11-10&type=pullrequests"
+    },
+    "testes": {
+      "valor": null,
+      "fonte": "ND: consolidar execucoes por commit sem somar reruns",
+      "coletado_em": null,
+      "periodo": "Mes"
+    },
+    "videos_aprovados": {
+      "valor": 2,
+      "fonte": "Alisson viaClaudio e handoff dos dois masters",
+      "coletado_em": "2026-11-10T08:20:00-03:00",
+      "periodo": "Apenas lote Caçada narrado + Encaixa pecas; nao total mensal"
+    },
+    "flow_creditos_mes": {
+      "valor": null,
+      "fonte": "ND: falta livro completo de geracoes",
+      "coletado_em": null,
+      "periodo": "Novembro2026"
+    },
+    "flow_creditos_lote": {
+      "valor": 20,
+      "fonte": "Claudio, E1-A, Veo3.1Fast, uma geracao",
+      "coletado_em": "2026-11-10T07:20:00-03:00",
+      "periodo": "Apenas abertura Encaixa E1-A, nao total mensal"
+    },
+    "elevenlabs_caracteres_mes": {
+      "valor": null,
+      "fonte": "ND: falta conciliacao incluindo geracoes manuais",
+      "coletado_em": null,
+      "periodo": "Novembro2026"
+    }
+  },
+  "fontes_importadas": [
+    {
+      "arquivo": "dados-posts.csv / evidencia/coleta.json",
+      "coleta": "2026-11-02",
+      "sha256": "8120f062ec297aac648c5fbe9042db0f6a11404687eb8d2a38a6e8e6e86d9c8d",
+      "metodo": "Normalizacao do gerar_relatorio.py, sem copiar exports brutos"
+    },
+    {
+      "arquivo": "20261109-1521-josefa-metricas-0911.md",
+      "coleta": "2026-11-09",
+      "metodo": "Seguidores e24snapshots por post; horario aproximado14h51-15h21, linksMeta ND; views de periodo02/11 preservadas com janela propria"
+    },
+    {
+      "arquivo": "20261110-1046-josefa-ia-meta-agendados.md",
+      "coleta": "2026-11-10",
+      "metodo": "Somente seis insercoes confirmadas; nao calendario completo"
+    }
+  ]
+}
