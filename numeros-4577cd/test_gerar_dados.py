@@ -14,7 +14,7 @@ class DataTests(unittest.TestCase):
         result = build(self.source)
         self.assertEqual(result['medianas_72h'], [])
         self.assertIsNone(result['estudio']['instalacoes']['valor'])
-        self.assertEqual(result['estudio']['seguidores']['valor'], 56)
+        self.assertEqual(result['estudio']['seguidores']['valor'], sum(n['seguidores']['valor'] for n in self.source['redes']))
 
     def test_median_only_same_declared_base_and_network(self):
         def post(id, views, **more):
@@ -25,6 +25,20 @@ class DataTests(unittest.TestCase):
         ig=next(r for r in rows if r['rede']=='Instagram')
         self.assertEqual((ig['n'],ig['mediana'],ig['gatilho']),(3,200,1000))
         self.assertEqual(next(r for r in rows if r['rede']=='TikTok')['gatilho'],0)
+        sample.append(dict(sample[0],id='other',formato='Carrossel',views=1000))
+        rows=median72(sample)
+        self.assertEqual(next(r for r in rows if r['rede']=='Instagram')['gatilho'],2750)
+
+    def test_weighted_rating_requires_same_period_and_complete_counts(self):
+        data=copy.deepcopy(self.source)
+        rated=[g for g in data['jogos'] if g['etapa']=='Publicado']
+        for g,rating,count in zip(rated,[5,5,1],[2,3,4]):
+            g['avaliacao']['valor']=rating
+            g['numero_avaliacoes']['valor']=count
+            g['avaliacao']['periodo']=g['numero_avaliacoes']['periodo']='mesma janela'
+        self.assertAlmostEqual(build(data)['estudio']['avaliacao']['valor'],29/9)
+        rated[-1]['numero_avaliacoes']['periodo']='outra janela'
+        self.assertIsNone(build(data)['estudio']['avaliacao']['valor'])
 
     def test_privacy_and_provenance_fail_closed(self):
         for patch in [dict(email='private@example.com'),dict(token='private'),dict(url='https://play.google.com/console/developer/123')]:

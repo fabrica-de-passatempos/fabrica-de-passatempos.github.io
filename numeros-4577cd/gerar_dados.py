@@ -63,18 +63,28 @@ def metric(value, source, collected, period, note=''):
 
 
 def median72(posts):
-    """Só cortes explicitamente fechados em72h, com a mesma base por rede/formato."""
-    groups = {}
+    """G usa a mediana do perfil; formatos aparecem como detalhamento da mesma base."""
+    unique = {}
     for p in posts:
         if p.get('corte_tipo') == '72h' and isinstance(p.get('views'), (int, float)) and p.get('base_72h'):
-            key = (p['rede'], p['formato'], p['base_72h'])
-            groups.setdefault(key, []).append(p)
-    rows = []
-    for (network, form, base), sample in sorted(groups.items()):
-        value = statistics.median(p['views'] for p in sample)
-        rows.append(dict(rede=network, formato=form, base=base, n=len(sample),
-                         mediana=value, gatilho=5*value, coletado_em=max(p['corte'] for p in sample),
-                         fonte='Cortes72h declarados: ' + ', '.join(p['id'] for p in sample)))
+            key = (p['rede'], p['base_72h'], p['id'])
+            if key not in unique or p['corte'] > unique[key]['corte']:
+                unique[key] = p
+    profiles = {}
+    for p in unique.values():
+        profiles.setdefault((p['rede'],p['base_72h']),[]).append(p)
+    rows=[]
+    for (network,base),sample in sorted(profiles.items()):
+        profile_median=statistics.median(p['views'] for p in sample)
+        groups={'Perfil (todos os formatos)':sample}
+        for p in sample:
+            groups.setdefault(p['formato'],[]).append(p)
+        for form,group in groups.items():
+            rows.append(dict(rede=network,formato=form,base=base,n=len(group),
+                mediana=statistics.median(p['views'] for p in group),
+                mediana_perfil=profile_median,n_perfil=len(sample),gatilho=5*profile_median,
+                coletado_em=max(p['corte'] for p in group),
+                fonte='Cortes72h declarados: '+', '.join(p['id'] for p in group)))
     return rows
 
 
@@ -85,8 +95,8 @@ def build(source):
     games = Counter(g['etapa'] for g in data['jogos'])
     scope = 'Sete jogos do portfólio; status documental, não telemetria de loja'
     data['estudio'] = {
-        'publicados': metric(games['Publicado'], 'Status por jogo: home main67a5245 e envio Pula-Pulso via PM', date, scope),
-        'revisao': metric(games['Em revisão'], 'Status por jogo: envio Pula-Pulso07/11 via PM', date, scope),
+        'publicados': metric(games['Publicado'], 'Play Console: status por jogo, coleta10/11', date, scope),
+        'revisao': metric(games['Em revisão'], 'Play Console: primeiro lançamento Pula-Pulso em análise; MdA publicado tem atualização em análise', date, scope),
         'desenvolvimento': metric(games['Em desenvolvimento'], 'Home main67a5245, Caçada/Atlas/Astrofauna', date, scope),
         'instalacoes': metric(None, 'ND: Play Console, instalações concluídas por jogo', None, 'Total a coletar'),
         'avaliacao': metric(None, 'ND: média ponderada exige nota e número de avaliações da mesma loja', None, 'Google Play'),
@@ -97,9 +107,16 @@ def build(source):
                             min((n['seguidores']['coletado_em'] for n in data['redes'] if n['seguidores']['coletado_em']), default=None),
                             'Assinaturas de perfis, não pessoas únicas; data da coleta mais antiga entre as redes'),
     }
+    rated = [g for g in data['jogos'] if g['etapa'] == 'Publicado']
+    if rated and all(isinstance(g['avaliacao']['valor'], (int,float)) and isinstance(g['numero_avaliacoes']['valor'], (int,float)) for g in rated):
+        count = sum(g['numero_avaliacoes']['valor'] for g in rated)
+        periods = {g['avaliacao']['periodo'] for g in rated} | {g['numero_avaliacoes']['periodo'] for g in rated}
+        if count and len(periods) == 1:
+            data['estudio']['avaliacao'] = metric(sum(g['avaliacao']['valor']*g['numero_avaliacoes']['valor'] for g in rated)/count,
+                'Média ponderada das notas28dias dos3jogos publicados; n='+str(count), date, next(iter(periods)))
     data['medianas_72h'] = median72(data['posts'])
     data['cobertura'] = dict(posts=len(data['posts']), agendamentos=len(data['agendamentos']),
-                            nota='Inventários parciais; não representam todo o publicado ou agendado do perfil')
+                            nota='Snapshots históricos podem repetir posts. Inventário atual por rede tem escopo próprio; TikTok publicado divergente fica ND')
     data['pendencias'] = [
         {'fonte':'Play Console', 'campos':'Por jogo: instalações totais concluídas, ativos DAU/MAU com definição, nota e nº de avaliações, versão publicada e status/faixa. Instalações do estúdio e média ponderada dependem dessas bases.', 'periodo':'Total até coleta + últimos7/28dias; informar fuso e data de atualização.'},
         {'fonte':'Play Console / analytics', 'campos':'D1/D7 por jogo e coorte, com denominador. Separar instaladores retidos (não desinstalou) de retorno ao app; não tratar proxy como retenção de abertura.', 'periodo':'Coortes já maduras; se ainda indisponível, manter ND.'},
@@ -109,6 +126,8 @@ def build(source):
         {'fonte':'GitHub / QA', 'campos':'Testes executados e aprovados por commit/suíte e data; evitar somar reruns ou contar teste apenas documentado como execução atual.', 'periodo':'Novembro2026, cobertura explícita.'},
         {'fonte':'Flow / ElevenLabs', 'campos':'Créditos Flow consumidos no mês e caracteres/créditos ElevenLabs do mês, inclusive gerações manuais. Livro agregado com data/modelo/quantidade; sem chave, pagamento ou dados de conta.', 'periodo':'Novembro2026; descontar estornos só quando comprovados.'},
     ]
+    if data.get('coleta_diaria'):
+        data['pendencias'] = [dict(fonte='Coleta direta de '+data['coleta_diaria']['data'], campos=motivo, periodo='Última consulta, ver fonte/escopo dos indicadores') for motivo in data['coleta_diaria']['nd_motivos']]
     return data
 
 
