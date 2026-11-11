@@ -4,7 +4,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<meta name="description" content="Painel interno de números agregados da Fábrica de Passatempos, com fontes e datas de coleta.">
 <title>Números da Fábrica · Interno</title>
 <link rel="icon" href="../favicon.ico">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Pixelify+Sans:wght@500;700&family=Chakra+Petch:wght@400;600;700&display=swap">
@@ -14,24 +13,18 @@
 <body>
 <a class="skip" href="#conteudo">Pular para os números</a>
 <div class="wrap">
-<header>
- <p class="eyebrow">Fábrica de Passatempos <span class="badge">INTERNO</span></p>
- <h1>Números<br>da Fábrica<span class="cursor" aria-hidden="true">_</span></h1>
- <p class="lede">Do estúdio à jogada. Cada número com sua fonte, seu período e seus limites.</p>
- <p class="stamp" id="atualizacao">Carregando dados…</p>
- <nav aria-label="Seções do painel"><a href="#estudio">Estúdio</a><a href="#jogos">Jogos</a><a href="#redes">Redes</a><a href="#posts">Posts</a><a href="#producao">Produção</a><a href="#coleta">Coletar</a></nav>
-</header>
+<header><p class="eyebrow">Fábrica de Passatempos · interno</p><h1>Números da Fábrica<span aria-hidden="true">_</span></h1></header>
 <main id="conteudo">
-<div class="notice"><strong>Leitura por snapshot.</strong> As coletas têm datas diferentes. ND significa dado não disponível, nunca zero. O portfólio é documental; posts e agenda têm cobertura parcial. Alcances não são somados como pessoas únicas.</div>
 <div id="erro" role="alert" hidden></div>
-<section id="estudio"><div class="section-head"><p class="eyebrow">01 / Visão geral</p><h2>O estúdio</h2></div><div id="macro" class="metrics"></div></section>
-<section id="jogos"><div class="section-head"><p class="eyebrow">02 / Portfólio</p><h2>Jogo por jogo</h2><p class="muted">Status na última fonte documental. Sem telemetria inventada para preencher o painel.</p></div><div id="game-list" class="games"></div></section>
-<section id="redes"><div class="section-head"><p class="eyebrow">03 / Distribuição</p><h2>Nas redes</h2><p class="muted">Coleta direta de 10/11. Cada rede mantém sua janela e definição; rótulos arredondados são preservados. Espectadores não são renomeados como alcance.</p></div><div id="network-list" class="networks"></div><article class="panel"><h3>O gatilho de mídia paga</h3><p class="formula">G = 5 × M72</p><p>O candidato precisa ter V72 ≥ G na mesma rede e base comparável. M72 é a mediana do perfil nos cortes fechados em 72 horas, dentro da base comparável declarada. O detalhamento por formato informa sua própria mediana e n, mantendo G calculado pela mediana do perfil.</p><div id="medians"></div><p class="muted">Sem esses cortes, o gatilho fica ND. Views acumuladas após 72 horas não substituem V72. Nenhum gasto é acionado pelo painel.</p></article></section>
-<section id="posts"><div class="section-head"><p class="eyebrow">04 / Criativos</p><h2>Post por post</h2><p class="muted">Ranking descritivo da amostra selecionada, por rede e coleta. Exposições e idades diferentes; zero pode acompanhar processamento. “Menores views” não significa pior formato.</p></div><div class="filters"><label>Coleta<select id="coleta-posts"><option value="2026-11-10">10/11/2026</option><option value="2026-11-09">09/11/2026</option><option value="2026-11-02">02/11/2026</option></select></label><label>Rede<select id="rede"><option value="">Todas</option><option>Instagram</option><option>Facebook</option><option>YouTube</option><option>TikTok</option></select></label><label>Ordenação<select id="ordem"><option value="desc">Maiores views</option><option value="asc">Menores views</option></select></label></div><p id="post-count" class="muted" aria-live="polite"></p><div id="post-list" class="posts"></div></section>
-<section id="producao"><div class="section-head"><p class="eyebrow">05 / Bastidores</p><h2>Produção e agenda</h2><p class="muted">PRs da organização no mês até a consulta. Inventários lidos nas listas de cada rede, com IDs, escopo e data; horários não expostos ficam ND.</p></div><div id="production-list" class="metrics"></div><article class="panel"><h3>Publicados × agendados</h3><div id="inventory"></div></article><div id="schedule-list" class="schedules"></div></section>
-<section id="coleta"><div class="section-head"><p class="eyebrow">06 / Próxima coleta</p><h2>O que falta medir</h2><p class="muted">Pedido de coleta pronto para o responsável. Cada painel precisa de data, período e definição da métrica.</p></div><div id="pending-list" class="pending"></div><details class="panel"><summary>Fontes e método de atualização</summary><div id="source-list"></div><p>Dados agregados em <a href="dados.json">dados.json</a>. Atualização pelo script <code>gerar_dados.py</code> a partir de <code>fontes/observacoes.json</code>. Leia o procedimento no README da pasta antes de atualizar.</p></details></section>
+<div class="totals" aria-label="Totais">
+<article><h2>Downloads totais</h2><p class="number" id="downloads">—</p></article>
+<article><h2>Visualizações totais</h2><p class="number" id="views">—</p></article>
+</div>
+<section aria-labelledby="apps-title"><p class="eyebrow">01 / Downloads</p><h2 id="apps-title">Top 10 jogos lançados</h2><ol id="apps" class="ranking"></ol></section>
+<section aria-labelledby="posts-title"><p class="eyebrow">02 / Visualizações</p><h2 id="posts-title">Top 10 posts</h2><ol id="posts" class="ranking"></ol></section>
 </main>
-<footer>Uso interno · Apenas números agregados · Sem medição de visitantes neste painel.<br>Endereço fora do menu e do sitemap; noindex não é autenticação.</footer>
+<footer id="coleta">Carregando dados…</footer>
+<noscript>Ative o JavaScript para carregar os números.</noscript>
 </div>
 </body>
 </html>
