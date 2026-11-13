@@ -1,0 +1,69 @@
+{
+  "schema": 2,
+  "coletado_em": "2026-11-10T16:15:05-03:00",
+  "downloads_totais": null,
+  "visualizacoes_totais": 21891,
+  "jogos": [],
+  "posts": [
+    {
+      "id": "falta-uma",
+      "titulo": "Falta uma",
+      "jogo": "Mar de Argolas",
+      "views": 2280
+    },
+    {
+      "id": "marte",
+      "titulo": "Contra o relógio em Marte",
+      "jogo": "Encaixa!",
+      "views": 2238
+    },
+    {
+      "id": "react",
+      "titulo": "Ele levou as argolas a sério",
+      "jogo": "Mar de Argolas",
+      "views": 1871
+    },
+    {
+      "id": "gato",
+      "titulo": "Quem tem gato sabe",
+      "jogo": "Mar de Argolas",
+      "views": 1868
+    },
+    {
+      "id": "goiabada",
+      "titulo": "GOIABADA: fruta ou doce?",
+      "jogo": "Na Mesma Pilha",
+      "views": 1021
+    },
+    {
+      "id": "nostalgia-07",
+      "titulo": "Quem aí também tinha um?",
+      "jogo": "Mar de Argolas",
+      "views": 997
+    },
+    {
+      "id": "tres-linhas",
+      "titulo": "Uma peça, três linhas",
+      "jogo": "Encaixa!",
+      "views": 922
+    },
+    {
+      "id": "alivio",
+      "titulo": "Que alívio jogar assim",
+      "jogo": "Caçada Estelar",
+      "views": 829
+    },
+    {
+      "id": "nostalgia-09",
+      "titulo": "Lembra desse brinquedo?",
+      "jogo": "Mar de Argolas",
+      "views": 814
+    },
+    {
+      "id": "portfolio",
+      "titulo": "Conheça nossos jogos",
+      "jogo": "Fábrica de Passatempos",
+      "views": 806
+    }
+  ]
+}

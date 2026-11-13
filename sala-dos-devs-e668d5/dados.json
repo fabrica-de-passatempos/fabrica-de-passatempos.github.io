@@ -101,6 +101,16 @@
       "issue": 189
     },
     {
+      "nome": "Xadrez 2",
+      "resumo": "Xadrez com regras novas: peças inéditas, poderes/cartas, tabuleiro vivo e maior que 8x8, evolução das peças. IA, 2 jogadores local e online, estética de desenho animado. Ideia #193, do Alisson.",
+      "esforco": "G",
+      "semanas": "10+ semanas (v1 sem online: 6 a 8)",
+      "hype": 3,
+      "diversao": 4,
+      "etiqueta": "Enxuto vira B",
+      "issue": 193
+    },
+    {
       "nome": "Cobrinha com arte e fases",
       "resumo": "Clássico com tema e progressão. Reaproveita o loop de Flame do Pula-Pulso.",
       "esforco": "P",
