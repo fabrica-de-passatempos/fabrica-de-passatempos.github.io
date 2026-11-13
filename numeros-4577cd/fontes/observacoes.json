@@ -1082,7 +1082,7 @@
   ],
   "metodo": "Views acumuladas dos posts editoriais inventariados; última observação de cada rede/ID. Mesma peça editorial agrupa publicações e mudanças de fecho; ganchos A/B separados. Não é audiência única nem soma das janelas de analytics. Excluídas apenas foto de perfil e capa. Downloads: total histórico da Play Console; faixa e aquisições28dias não substituem. React03/11: a Meta expõe contador combinado IG+FB; somar uma vez, sem duplicar contador IG/FB da mesma peça.",
   "pendencias": [
-    "Tentativa diária de12/11/2026 às08h: downloads históricos dos apps publicados e views por post nas quatro redes não coletados (ND no dia). Chrome DevTools list_pages expirou após60000ms aguardando conexão; acesso alternativo: The browser access host is unavailable. Nenhum painel consultado e nenhum delta diário medido. Coleta e contadores comprovados de10/11 preservados; falha local de transporte não comprova indisponibilidade dos serviços ou do site.",
+    "Tentativa diária de13/11/2026 às08h: downloads históricos dos apps publicados e views por post nas quatro redes não coletados (ND no dia). Chrome DevTools list_pages expirou após60000ms aguardando conexão; acesso alternativo: The browser access host is unavailable. Nenhum painel consultado e nenhum delta diário medido. Coleta e contadores comprovados de10/11 preservados; falha local de transporte não comprova indisponibilidade dos serviços ou do site.",
     "As duas publicações Marte na Meta usam o mesmo conceito/caption/duração, agrupadas editorialmente; conferir equivalência do master na próxima coleta."
   ]
 }
