@@ -107,18 +107,16 @@
 <section id="jogos">
   <p class="rot">Nossos jogos</p>
   <h2>Na loja e a caminho</h2>
-  <div class="bento">
-    <article class="j grande sobe">
-      <div class="info">
-        <img class="ic" src="img/jogos/nmp-icone.webp" width="192" height="192" alt="">
+  <div class="carrossel" aria-roledescription="carrossel" aria-label="Nossos jogos">
+    <article class="j">
+      <img class="ic" src="img/jogos/nmp-icone.webp" width="192" height="192" alt="">
         <span class="tag on">Já no Google Play</span>
         <h3>Na Mesma Pilha</h3>
         <p>Junte as palavras da mesma categoria e limpe a mesa. Uma paciência para quem gosta de palavras.</p>
         <a class="btn" href="https://play.google.com/store/apps/details?id=com.alissonmelo.namesmapilha&amp;utm_source=site&amp;utm_medium=web&amp;utm_campaign=card">Baixar no Google Play</a>
-      </div>
-      <video class="tela" src="video/nmp.mp4" poster="video/nmp.webp" width="360" height="800" autoplay muted loop playsinline preload="metadata" aria-label="Partida do Na Mesma Pilha: cartas com palavras indo para as pilhas"></video>
+      <video class="tela inteira" src="video/nmp.mp4" poster="video/nmp.webp" width="360" height="800" autoplay muted loop playsinline preload="metadata" aria-label="Partida do Na Mesma Pilha: cartas com palavras indo para as pilhas"></video>
     </article>
-    <article class="j sobe">
+    <article class="j">
       <img class="ic" src="img/jogos/mda-icone.webp" width="192" height="192" alt="">
       <span class="tag on">Já no Google Play</span>
       <h3>Mar de Argolas</h3>
@@ -126,7 +124,7 @@
       <a class="btn" href="https://play.google.com/store/apps/details?id=com.fabricadepassatempos.mardeargolas">Baixar no Google Play</a>
       <video class="tela inteira" src="video/mda.mp4" poster="video/mda.webp" width="360" height="780" autoplay muted loop playsinline preload="metadata" aria-label="Partida do Mar de Argolas: as argolas entram nas hastes e a fase termina com 3 estrelas"></video>
     </article>
-    <article class="j sobe">
+    <article class="j">
       <img class="ic" src="img/jogos/enc-icone.webp" width="192" height="192" alt="">
       <span class="tag on">Já no Google Play</span>
       <h3>Encaixa!</h3>
@@ -134,7 +132,7 @@
       <a class="btn" href="https://play.google.com/store/apps/details?id=com.fabricadepassatempos.encaixa">Baixar no Google Play</a>
       <video class="tela inteira" src="video/enc.mp4" poster="video/enc.webp" width="360" height="800" autoplay muted loop playsinline preload="metadata" aria-label="Partida do Encaixa!: uma peça limpa três linhas de uma vez"></video>
     </article>
-    <article class="j sobe">
+    <article class="j">
       <img class="ic" src="img/jogos/pp-icone.webp" width="192" height="192" alt="">
       <span class="tag on">Já no Google Play</span>
       <h3>Pula-Pulso</h3>
@@ -142,7 +140,7 @@
       <a class="btn" href="https://play.google.com/store/apps/details?id=com.fabricadepassatempos.pulapulso">Baixar no Google Play</a>
       <video class="tela inteira" src="video/pp.mp4" poster="video/pp.webp" width="360" height="740" autoplay muted loop playsinline preload="metadata" aria-label="Partida do Pula-Pulso: o planeta troca de órbita entre meteoros"></video>
     </article>
-    <article class="j sobe">
+    <article class="j">
       <img class="ic" src="img/jogos/qb-icone.webp" width="192" height="192" alt="">
       <span class="tag on">Já no Google Play</span>
       <h3>Astrofauna: Quebra Blocos</h3>
@@ -150,7 +148,7 @@
       <a class="btn" href="https://play.google.com/store/apps/details?id=com.fabricadepassatempos.quebrablocos">Baixar no Google Play</a>
       <video class="tela inteira" src="video/qb.mp4" poster="video/qb.webp" width="360" height="800" autoplay muted loop playsinline preload="metadata" aria-label="Partida do Astrofauna: Quebra Blocos: a bola da nave do Capi estoura uma fileira de blocos e cápsulas caem pela nebulosa"></video>
     </article>
-    <article class="j sobe">
+    <article class="j">
       <img class="ic" src="img/jogos/at-icone.webp" width="192" height="192" alt="">
       <span class="tag on">Já no Google Play</span>
       <h3>Atlas do Tempo</h3>
@@ -159,6 +157,7 @@
       <video class="tela inteira" src="video/at.mp4" poster="video/at.webp" width="360" height="734" autoplay muted loop playsinline preload="metadata" aria-label="Partida do Atlas do Tempo: a carta do lançamento da Apollo 11 vai para 1969, na linha do tempo, e para Cabo Canaveral, no mapa"></video>
     </article>
   </div>
+  <div class="car-nav"><button type="button" class="car-b" data-d="-1" aria-label="Jogo anterior">&#8249;</button><button type="button" class="car-b" data-d="1" aria-label="Próximo jogo">&#8250;</button></div>
 
   <p class="sub-rot">Em desenvolvimento</p>
   <div class="dev">
@@ -232,6 +231,21 @@
   <div class="cookies-b"><button type="button" data-cookies="recusar">Recusar</button><button type="button" data-cookies="aceitar">Aceitar</button></div>
 </div>
 <script src="consentimento.js" defer></script>
+<script>
+// Carrossel da home, igual ao /jogar: scroll-snap lateral, cards do mesmo tamanho, infinito (cópias antes/depois; ao parar numa cópia, salta para o card real), início sorteado e rolagem automática que para quando a pessoa mexe.
+(()=>{const t=document.querySelector('#jogos .carrossel');if(!t)return;const reais=[...t.children];
+const clone=c=>{const k=c.cloneNode(true);k.classList.add('clone');k.setAttribute('aria-hidden','true');k.inert=true;k.querySelectorAll('video').forEach(v=>{v.removeAttribute('autoplay');v.preload='none'});return k};
+reais.forEach((c,i)=>c.dataset.j=i);t.prepend(...reais.map(clone));t.append(...reais.map(clone));
+const cs=[...t.children];let atual=null;
+const centro=(c,inst)=>{const d=c.getBoundingClientRect().left-t.getBoundingClientRect().left;t.scrollTo({left:t.scrollLeft+d-(t.clientWidth-c.offsetWidth)/2,behavior:inst?'instant':'smooth'})};
+const marcar=c=>{atual=c;cs.forEach(x=>x.classList.toggle('ativo',x===c))};
+const meio=()=>{const m=t.getBoundingClientRect().left+t.clientWidth/2;let b=null,bd=1e9;cs.forEach(c=>{const r=c.getBoundingClientRect(),d=Math.abs(r.left+r.width/2-m);if(d<bd){bd=d;b=c}});return b};
+let fim;t.addEventListener('scroll',()=>{marcar(meio());clearTimeout(fim);fim=setTimeout(()=>{if(atual&&atual.classList.contains('clone')){const r=reais[atual.dataset.j];marcar(r);centro(r,true)}},150)},{passive:true});
+let parou=matchMedia('(prefers-reduced-motion: reduce)').matches;const para=()=>parou=true;['pointerdown','wheel','keydown','touchstart'].forEach(ev=>t.addEventListener(ev,para,{passive:true}));
+document.querySelectorAll('#jogos .car-b').forEach(b=>b.addEventListener('click',()=>{para();const c=+b.dataset.d>0?atual.nextElementSibling:atual.previousElementSibling;if(c)centro(c)}));
+const ini=reais[Math.floor(Math.random()*reais.length)];marcar(ini);requestAnimationFrame(()=>centro(ini,true));
+setInterval(()=>{if(parou||document.hidden||!atual)return;const c=atual.nextElementSibling;if(c)centro(c)},5000);})();
+</script>
 <script src="site.js" defer></script>
 </body>
 </html>

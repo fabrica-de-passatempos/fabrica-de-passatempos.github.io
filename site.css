@@ -34,6 +34,15 @@ section{padding:80px 0;border-top:1px solid var(--linha)}
 h2{font-size:clamp(30px,3.6vw,44px);margin-bottom:36px;font-weight:800}
 
 .bento{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr) minmax(0,1fr);gap:20px}
+.carrossel{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:10px calc(50% - min(40vw,170px)) 16px}
+.carrossel::-webkit-scrollbar{display:none}
+.carrossel>.j{flex:0 0 min(80vw,340px);scroll-snap-align:center;opacity:.55;transform:scale(.95);transition:transform .35s var(--mola),opacity .35s,border-color .35s}
+.carrossel>.j.ativo{opacity:1;transform:none}
+.carrossel>.j p{flex:1}
+.car-nav{display:flex;justify-content:center;gap:12px;margin-top:8px}
+.car-b{width:44px;height:44px;border-radius:99px;border:1px solid var(--linha);background:var(--sup);color:var(--txt);font-size:26px;line-height:1;cursor:pointer}
+.car-b:hover{border-color:var(--am)}
+@media (prefers-reduced-motion:reduce){.carrossel>.j{transition:none}}
 .j{background:var(--sup);border:1px solid var(--linha);border-radius:24px;padding:24px;display:flex;flex-direction:column;gap:14px;overflow:hidden;
   transition:transform .35s var(--mola),border-color .35s}
 .j:hover{transform:translateY(-4px);border-color:#3A5A44}
