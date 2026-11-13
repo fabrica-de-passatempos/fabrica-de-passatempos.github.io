@@ -1,18 +1,18 @@
 {
-  "atualizado": "2026-11-07",
+  "atualizado": "2026-11-13",
   "roadmap_fim": "2027-05-17",
   "devs": [
     {
       "nome": "Alisson Melo",
       "foto": "fotos/alisson.jpg",
       "cor": "green",
-      "jogo": "Na Mesma Pilha + Mar de Argolas"
+      "jogo": "Na Mesma Pilha + Mar de Argolas + Caçada Estelar"
     },
     {
       "nome": "Lucas Belo",
       "foto": "fotos/lucas.jpg",
       "cor": "cyan",
-      "jogo": "Atlas do Tempo (protótipo)"
+      "jogo": "Atlas do Tempo"
     },
     {
       "nome": "Guilherme Vallejo",
@@ -30,7 +30,7 @@
       "nome": "Kelvin",
       "foto": "fotos/kelvin.jpg",
       "cor": "violet",
-      "jogo": "Quebra Blocos (protótipo de ritmo)"
+      "jogo": "Astrofauna"
     },
     {
       "nome": "Matheus Neves",
@@ -44,29 +44,57 @@
       "nome": "Na Mesma Pilha",
       "dono": "Alisson Melo",
       "fase": "No ar",
-      "proximo": "Lançamento nas redes e vincular o AdMob",
-      "bloqueio": ""
+      "proximo": "Unity Ads (banner de menu e recompensado opcional): Game ID criado e PR de código aberto",
+      "bloqueio": "Teste real dos anúncios pendente de janela sem VPN"
     },
     {
       "nome": "Encaixa!",
       "dono": "Victor Brunner",
-      "fase": "Release",
-      "proximo": "Música, AdMob/UMP e Firebase, depois teste interno na Play",
-      "bloqueio": "Chefe com cara de Tetris, privacidade no site e capturas novas (QA de 29/10)"
-    },
-    {
-      "nome": "Pula-Pulso",
-      "dono": "Guilherme Vallejo",
-      "fase": "Playtest",
-      "proximo": "Playtest humano da curva e das colisões",
-      "bloqueio": "Release ainda assinado com debug"
+      "fase": "No ar",
+      "proximo": "Patch 1.0.1 publicado em 12/11. Unity Ads (banner de menu e recompensado opcional): Game ID criado e PR de código aberto (piloto)",
+      "bloqueio": "Teste real dos anúncios pendente de janela sem VPN"
     },
     {
       "nome": "Mar de Argolas",
       "dono": "Alisson Melo",
-      "fase": "Loja",
-      "proximo": "Aprovação da Play e divulgação pelos perfis da Fábrica",
-      "bloqueio": "Em revisão na Play desde 29/10"
+      "fase": "No ar",
+      "proximo": "Unity Ads (banner de menu e recompensado opcional): Game ID criado e PR de código aberto",
+      "bloqueio": "Teste real dos anúncios pendente de janela sem VPN"
+    },
+    {
+      "nome": "Pula-Pulso",
+      "dono": "Guilherme Vallejo",
+      "fase": "No ar",
+      "proximo": "Público infantil. Unity Ads (banner de menu e recompensado opcional): Game ID criado e PR de código aberto",
+      "bloqueio": "Teste real dos anúncios pendente de janela sem VPN"
+    },
+    {
+      "nome": "Astrofauna",
+      "dono": "Kelvin",
+      "fase": "No ar",
+      "proximo": "Publicado na Play em 13/11: 13+, sem anúncios. Lançamento narrado nas redes em 13/11",
+      "bloqueio": ""
+    },
+    {
+      "nome": "Atlas do Tempo",
+      "dono": "Lucas Belo",
+      "fase": "No ar",
+      "proximo": "Publicado na Play em 13/11: 13+, sem anúncios. Lançamento narrado nas redes em 13/11",
+      "bloqueio": ""
+    },
+    {
+      "nome": "Caçada Estelar",
+      "dono": "Alisson Melo",
+      "fase": "No ar",
+      "proximo": "Publicada e aprovada na Play em 13/11: 13+, sem anúncios. Lançamento narrado agendado para 14/11",
+      "bloqueio": ""
+    },
+    {
+      "nome": "Jogo de Natal (nome provisório)",
+      "dono": "",
+      "fase": "Ideia",
+      "proximo": "Brief em andamento: drop and merge natalino, versão simplificada do Juntar planetas (#182), com fases infinitas estilo Candy Crush",
+      "bloqueio": ""
     }
   ],
   "ideias": [
@@ -77,7 +105,7 @@
       "semanas": "3 a 4 semanas",
       "hype": 4,
       "diversao": 5,
-      "etiqueta": "Protótipo de 1 semana",
+      "etiqueta": "Vira o jogo de Natal",
       "issue": 182
     },
     {
@@ -200,7 +228,7 @@
       "semanas": "6 a 8 semanas (v1 enxuta)",
       "hype": 4,
       "diversao": 4,
-      "etiqueta": "Protótipo",
+      "etiqueta": "No ar",
       "issue": 5
     },
     {
@@ -250,7 +278,7 @@
       "semanas": "6 a 8 semanas",
       "hype": 3,
       "diversao": 4,
-      "etiqueta": "Protótipo de ritmo",
+      "etiqueta": "No ar como Astrofauna",
       "issue": 52
     },
     {
@@ -260,7 +288,7 @@
       "semanas": "6 a 8 semanas",
       "hype": 3,
       "diversao": 5,
-      "etiqueta": "Protótipo de toque",
+      "etiqueta": "No ar",
       "issue": 56
     }
   ],
@@ -278,15 +306,15 @@
         {
           "tipo": "no-ar",
           "de": "2026-11-02",
-          "ate": "2026-11-15",
-          "o_que": "Vídeos A, B, D e C, atendimento e primeiras métricas"
+          "ate": "2026-11-12",
+          "o_que": "No ar; vídeos e lançamento narrado nas redes"
         },
         {
           "tipo": "atualizacao",
-          "de": "2026-11-16",
+          "de": "2026-11-13",
           "ate": "2026-11-29",
-          "o_que": "Atualização para quem já joga: 1.0.1 com a curva de dificuldade e o que o lançamento ensinar",
-          "rotulo": "Atualização 1.0.1"
+          "o_que": "Unity Ads direta: PR aberto, teste real na janela sem VPN",
+          "rotulo": "Unity Ads"
         }
       ],
       "no_ar": {
@@ -299,38 +327,28 @@
       "quem": "Victor",
       "faixas": [
         {
-          "tipo": "desenvolvimento",
-          "de": "2026-10-19",
-          "ate": "2026-11-15",
-          "o_que": "Fase 2.5: música, Carreira, fundos"
-        },
-        {
-          "tipo": "playtest",
-          "de": "2026-11-16",
-          "ate": "2026-11-22",
-          "o_que": "2 celulares e balanceamento com gente"
-        },
-        {
-          "tipo": "desenvolvimento",
-          "de": "2026-11-23",
-          "ate": "2026-11-29",
-          "o_que": "Fase 3: AdMob/UMP, Firebase, ficha, AAB assinado"
-        },
-        {
-          "tipo": "revisao",
-          "de": "2026-11-30",
-          "ate": "2026-12-06",
-          "o_que": "Revisão da Play"
-        },
-        {
           "tipo": "no-ar",
-          "de": "2026-12-07",
-          "ate": "2026-12-20",
-          "o_que": "Lançamento e suporte"
+          "de": "2026-11-02",
+          "ate": "2026-11-11",
+          "o_que": "1.0.0 no Google Play"
+        },
+        {
+          "tipo": "atualizacao",
+          "de": "2026-11-12",
+          "ate": "2026-11-12",
+          "o_que": "Patch 1.0.1 publicado",
+          "rotulo": "1.0.1"
+        },
+        {
+          "tipo": "atualizacao",
+          "de": "2026-11-13",
+          "ate": "2026-11-29",
+          "o_que": "Unity Ads direta: PR aberto, teste real na janela sem VPN",
+          "rotulo": "Unity Ads"
         }
       ],
       "no_ar": {
-        "data": "2026-12-07",
+        "data": "2026-11-02",
         "nota": "No ar"
       }
     },
@@ -345,26 +363,21 @@
           "o_que": "Playtest humano: curva, colisões, vontade de jogar de novo"
         },
         {
-          "tipo": "desenvolvimento",
-          "de": "2026-11-09",
-          "ate": "2026-12-20",
-          "o_que": "Ajustes, assinatura, privacidade no site, decisão de monetização"
-        },
-        {
-          "tipo": "revisao",
-          "de": "2027-01-04",
-          "ate": "2027-01-10",
-          "o_que": "Revisão da Play"
-        },
-        {
           "tipo": "no-ar",
-          "de": "2027-01-11",
-          "ate": "2027-01-24",
-          "o_que": "Lançamento e suporte"
+          "de": "2026-11-12",
+          "ate": "2026-11-12",
+          "o_que": "No Google Play, público infantil"
+        },
+        {
+          "tipo": "atualizacao",
+          "de": "2026-11-13",
+          "ate": "2026-11-29",
+          "o_que": "Unity Ads direta: PR aberto, teste real na janela sem VPN",
+          "rotulo": "Unity Ads"
         }
       ],
       "no_ar": {
-        "data": "2027-01-11",
+        "data": "2026-11-12",
         "nota": "No ar"
       }
     },
@@ -387,20 +400,105 @@
         {
           "tipo": "revisao",
           "de": "2026-11-02",
-          "ate": "2026-11-08",
-          "o_que": "Envio para a Play assim que AdMob, chave e ficha estiverem prontos"
+          "ate": "2026-11-03",
+          "o_que": "Revisão da Play"
         },
         {
           "tipo": "no-ar",
-          "de": "2026-11-09",
-          "ate": "2026-11-22",
-          "o_que": "No ar e divulgação pelos perfis da Fábrica"
+          "de": "2026-11-04",
+          "ate": "2026-11-12",
+          "o_que": "No ar; 1.0.1 com os bichos no modo Relax enviada em 07/11"
+        },
+        {
+          "tipo": "atualizacao",
+          "de": "2026-11-13",
+          "ate": "2026-11-29",
+          "o_que": "Unity Ads direta: PR aberto, teste real na janela sem VPN",
+          "rotulo": "Unity Ads"
         }
       ],
       "no_ar": {
-        "data": "2027-02-15",
+        "data": "2026-11-04",
         "nota": "No ar"
       }
+    },
+    {
+      "projeto": "Astrofauna",
+      "quem": "Kelvin · port Flutter pelo Valdir",
+      "faixas": [
+        {
+          "tipo": "desenvolvimento",
+          "de": "2026-11-09",
+          "ate": "2026-11-12",
+          "o_que": "Port do Quebra Blocos 3.0 para Flutter (M0 a M7)"
+        },
+        {
+          "tipo": "no-ar",
+          "de": "2026-11-13",
+          "ate": "2026-11-26",
+          "o_que": "No Google Play (13+, sem anúncios) e lançamento narrado"
+        }
+      ],
+      "no_ar": {
+        "data": "2026-11-13",
+        "nota": "No ar"
+      }
+    },
+    {
+      "projeto": "Atlas do Tempo",
+      "quem": "Lucas Belo",
+      "faixas": [
+        {
+          "tipo": "prototipo",
+          "de": "2026-10-28",
+          "ate": "2026-11-03",
+          "o_que": "Protótipo: 40 cartas, linha do tempo, mapa e \"Quem veio antes?\"; o loop é gostoso em 30 s?"
+        },
+        {
+          "tipo": "no-ar",
+          "de": "2026-11-13",
+          "ate": "2026-11-26",
+          "o_que": "No Google Play (13+, sem anúncios) e lançamento narrado"
+        }
+      ],
+      "no_ar": {
+        "data": "2026-11-13",
+        "nota": "No ar"
+      }
+    },
+    {
+      "projeto": "Caçada Estelar",
+      "quem": "Alisson · agentes Valdir, Basílio e Sheila",
+      "faixas": [
+        {
+          "tipo": "revisao",
+          "de": "2026-11-13",
+          "ate": "2026-11-13",
+          "o_que": "Enviada e aprovada na Play no mesmo dia"
+        },
+        {
+          "tipo": "no-ar",
+          "de": "2026-11-13",
+          "ate": "2026-11-26",
+          "o_que": "No ar (13+, sem anúncios); lançamento narrado em 14/11"
+        }
+      ],
+      "no_ar": {
+        "data": "2026-11-13",
+        "nota": "No ar"
+      }
+    },
+    {
+      "projeto": "Jogo de Natal",
+      "quem": "pré-produção · nome provisório",
+      "faixas": [
+        {
+          "tipo": "prototipo",
+          "de": "2026-11-13",
+          "ate": "2026-11-13",
+          "o_que": "Pré-produção: brief do drop and merge natalino com fases infinitas"
+        }
+      ]
     },
     {
       "projeto": "Ache o ponto",
@@ -511,30 +609,6 @@
           "o_que": "Spike Android: ler uso do celular e passar na regra da Play"
         }
       ]
-    },
-    {
-      "projeto": "Atlas do Tempo",
-      "quem": "Lucas Belo",
-      "faixas": [
-        {
-          "tipo": "prototipo",
-          "de": "2026-10-28",
-          "ate": "2026-11-03",
-          "o_que": "Protótipo: 40 cartas, linha do tempo, mapa e \"Quem veio antes?\"; o loop é gostoso em 30 s?"
-        }
-      ]
-    },
-    {
-      "projeto": "Quebra Blocos",
-      "quem": "Kelvin",
-      "faixas": [
-        {
-          "tipo": "prototipo",
-          "de": "2026-11-02",
-          "ate": "2026-11-08",
-          "o_que": "Protótipo do diferencial de ritmo; o portão decide se segue"
-        }
-      ]
     }
   ],
   "agentes": [
@@ -543,42 +617,54 @@
       "papel": "PM",
       "foto": "fotos/agentes/claudio.png",
       "cor": "amber",
-      "faz": "Coordenando o Mar de Argolas e a estreia nas redes"
+      "faz": "Coordenando as publicações de 13/11, a Unity Ads e o brief do jogo de Natal"
     },
     {
       "nome": "Valdir",
       "papel": "Dev",
       "foto": "fotos/agentes/valdir.png",
       "cor": "green",
-      "faz": "Mar de Argolas em revisão na Play; menu e ícone do Encaixa! entregues ao Victor"
+      "faz": "Unity Ads direta nos 4 jogos com anúncio: PRs abertos, teste real aguarda janela sem VPN"
     },
     {
       "nome": "Samara",
       "papel": "QA",
       "foto": "fotos/agentes/samara.png",
       "cor": "cyan",
-      "faz": "Liberou a 1.0.1 do Na Mesma Pilha"
+      "faz": "QA do Android da Caçada Estelar e reteste do Atlas antes da Play"
     },
     {
       "nome": "Antonio",
       "papel": "Vídeos",
       "foto": "fotos/agentes/antonio.png",
       "cor": "pink",
-      "faz": "Vídeos da semana 1 entregues"
+      "faz": "Lançamentos narrados de Astrofauna, Atlas e Caçada; anti-brainrot v3; vídeo de marca \"Tem um minutinho?\" em produção"
     },
     {
       "nome": "Josefa",
       "papel": "Marketing",
       "foto": "fotos/agentes/josefa.png",
       "cor": "violet",
-      "faz": "Estreia 28/10, 19h30, e nomes para o Mar de Argolas"
+      "faz": "Fichas e envios na Play de Astrofauna, Atlas e Caçada; agenda dos lançamentos nas redes"
     },
     {
       "nome": "Basílio",
       "papel": "Arte e Som",
       "foto": "fotos/agentes/basilio.png",
       "cor": "amber",
-      "faz": "Trilha do Mar de Argolas no clima ambient aquático e Lagoa em água clara"
+      "faz": "Arte do Astrofauna e menu principal v2 e créditos da Caçada"
+    },
+    {
+      "nome": "Sheila",
+      "papel": "Personagens e Cenas",
+      "cor": "violet",
+      "faz": "Retratos e fundos de cena da Caçada Estelar"
+    },
+    {
+      "nome": "Vera",
+      "papel": "Conteúdo",
+      "cor": "cyan",
+      "faz": "Estratégia e QA dos vídeos; painel Números da Fábrica"
     }
   ]
 }
