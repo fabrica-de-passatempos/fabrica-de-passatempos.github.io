@@ -1,15 +1,76 @@
 {
-  "status": "Capturas reais do protótipo, substituíveis pela atualização do HUD após janela de CPU",
-  "runtime": "448325f2716102eb9500dae6ad5740d5efdf27e0",
-  "source": "Ponte/junta-noel-ficha; README e capturas.json preservam UI/inputs; sem estado inserido",
+  "runtimeCommit": "632c324158e7ef50cb157a42ecd508f17c75aef6",
+  "sourceHead": "c220332d6d46260748f311c238265069699592a1",
+  "captureSourceSha256": "50ce1f4c5ef56c41740cdc05340c991a929a6f6fafbd30eadf6a03346af4c281",
+  "captura": "Campanha desde zero via UI real; mapa após14vitórias. Sem injeção de corpo/progresso/score. ListView atual substitui finder antigo apenas no roteiro de captura.",
+  "export": "ImageMagick remove somente alfa integralmente opaco + oxipnglossless; hashesRGB antes/depois idênticos",
+  "viewportDp": [
+    360,
+    640
+  ],
+  "dpr": 3,
   "files": {
-    "01-mapa.png": "728cf001abbc9edb1ed5bc9dad3d9b0b4b8209604dc27337640c76b75265da0f",
-    "02-pilha.png": "38bb023e01f11aa8fbf41aec3b7f911c21bcace61d4e6b08024e7ca6476cea86",
-    "03-fusao-brilho.png": "b2b3db8e6ba82a925d86d7298fc76879a6aa925938e382d4ce8fd8608038a247",
-    "04-vitoria-tres-estrelas.png": "a5203bc91e02ffff6dee39b56d751048cc679b30322cb21274aabc202d3c72e2",
-    "05-personagens-maiores.png": "919357f939b2c228f4dc19dd9a0b8dac90d57cbbc2146771d198140f8e0a3810",
-    "06-tutorial.png": "55eb11fa3d98f64106db05d7af799e760b21868822323211b4a35d6bd6307744",
-    "recurso-grafico-1024x500.jpg": "c382e0ebe23439f9baa2f2c5bf356113dc5df6e439af7c587843629a77775633"
+    "01-mapa.png": {
+      "sha256": "98d47c72c9fcb00124618613c500d3bbdae015c75329aa2dfda9a5d57c305460",
+      "pixelRgbSha256": "8af79802466bbe7713b45ab4321b90ef269f61b107a1b567b6047597a0e57e65",
+      "bytes": 314339,
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    "02-pilha.png": {
+      "sha256": "2eff36762a358cb8ea02458210143024f14346d85a20356af26f89b60d1d27bd",
+      "pixelRgbSha256": "90aa7f9898a09264adc79e8ddf5d089917ffa571c28eda57555f0f158cb32a66",
+      "bytes": 1981733,
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    "03-fusao-brilho.png": {
+      "sha256": "1bc9b4082c0a0a656a37d60ba46a3cdf16f3b8efd05a9a6cc160922d5e30274d",
+      "pixelRgbSha256": "8eee76bdc2a3b34ade46d333065f21878e88466ec3237217111b0eb670481311",
+      "bytes": 1944454,
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    "04-vitoria-tres-estrelas.png": {
+      "sha256": "a7f8706424ecc31c8772c8fa2e4e718b47db6c6aefa1a8607bb46b6265eb0f50",
+      "pixelRgbSha256": "18fab7a4700f79662fb715aa7affa2d47d2257719fc149b0038636ea8668f08d",
+      "bytes": 1146452,
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    "05-personagens-maiores.png": {
+      "sha256": "9c3f98c966845b42836b0fd7bb8e5c3b6e3c56ccbce4ca98714708eae5ca9ac2",
+      "pixelRgbSha256": "765fea4fc25a44a83e0961a7d4da0509d7e2ca31792e6fc234fe6d59c5fd2eec",
+      "bytes": 2158099,
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    "06-tutorial.png": {
+      "sha256": "b1ed5f55529e38d9c351f1f3b35eef6a94ed1dd1d86b0ceb947c05758a76f1f9",
+      "pixelRgbSha256": "0217ac9a934a067162c789524940fb0a49849b69c78c25e97440f6f0e731ad22",
+      "bytes": 1674483,
+      "size": [
+        1080,
+        1920
+      ]
+    }
   },
-  "hero": "recurso-grafico-1024x500.jpg é composição promocional aprovada, não tela de partida"
+  "audio": "Nenhuma reprodução",
+  "originalFeatureGraphic": "O JPEG aprovado anterior permanece igual; composição de apresentação, não screenshot.",
+  "hero": {
+    "file": "recurso-grafico-1024x500.jpg",
+    "sha256": "c382e0ebe23439f9baa2f2c5bf356113dc5df6e439af7c587843629a77775633",
+    "kind": "composição promocional aprovada"
+  },
+  "captureFixtureCommit": "fcdbb8493d2980a904c30a26cc7f3319a76678bc"
 }
