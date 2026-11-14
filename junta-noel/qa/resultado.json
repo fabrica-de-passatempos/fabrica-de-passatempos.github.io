@@ -1,0 +1,56 @@
+{
+  "result": "PASS",
+  "localOnly": true,
+  "remoteFontsBlocked": true,
+  "fonts": "fallback do sistema",
+  "pages": [
+    {
+      "file": "pagina-360-topo.png",
+      "viewport": 360,
+      "content": 360,
+      "height": 5822
+    },
+    {
+      "file": "pagina-360-capturas.png",
+      "viewport": 360,
+      "content": 360,
+      "height": 5822
+    },
+    {
+      "file": "privacidade-360-pt.png",
+      "viewport": 360,
+      "content": 360,
+      "height": 5388
+    },
+    {
+      "file": "privacidade-360-en.png",
+      "viewport": 360,
+      "content": 360,
+      "height": 5388
+    },
+    {
+      "file": "pagina-412-topo.png",
+      "viewport": 412,
+      "content": 412,
+      "height": 5735
+    },
+    {
+      "file": "pagina-412-capturas.png",
+      "viewport": 412,
+      "content": 412,
+      "height": 5735
+    },
+    {
+      "file": "privacidade-412-pt.png",
+      "viewport": 412,
+      "content": 412,
+      "height": 4747
+    },
+    {
+      "file": "privacidade-412-en.png",
+      "viewport": 412,
+      "content": 412,
+      "height": 4747
+    }
+  ]
+}
