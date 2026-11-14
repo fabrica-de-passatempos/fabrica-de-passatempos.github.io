@@ -1,0 +1,15 @@
+{
+  "status": "Capturas reais do protótipo, substituíveis pela atualização do HUD após janela de CPU",
+  "runtime": "448325f2716102eb9500dae6ad5740d5efdf27e0",
+  "source": "Ponte/junta-noel-ficha; README e capturas.json preservam UI/inputs; sem estado inserido",
+  "files": {
+    "01-mapa.png": "728cf001abbc9edb1ed5bc9dad3d9b0b4b8209604dc27337640c76b75265da0f",
+    "02-pilha.png": "38bb023e01f11aa8fbf41aec3b7f911c21bcace61d4e6b08024e7ca6476cea86",
+    "03-fusao-brilho.png": "b2b3db8e6ba82a925d86d7298fc76879a6aa925938e382d4ce8fd8608038a247",
+    "04-vitoria-tres-estrelas.png": "a5203bc91e02ffff6dee39b56d751048cc679b30322cb21274aabc202d3c72e2",
+    "05-personagens-maiores.png": "919357f939b2c228f4dc19dd9a0b8dac90d57cbbc2146771d198140f8e0a3810",
+    "06-tutorial.png": "55eb11fa3d98f64106db05d7af799e760b21868822323211b4a35d6bd6307744",
+    "recurso-grafico-1024x500.jpg": "c382e0ebe23439f9baa2f2c5bf356113dc5df6e439af7c587843629a77775633"
+  },
+  "hero": "recurso-grafico-1024x500.jpg é composição promocional aprovada, não tela de partida"
+}

@@ -1,0 +1,17 @@
+/* Página isolada: sem inclusão nos carrosséis ou contagens do site. */
+.noel-hero {padding-bottom:64px}
+.noel-status {color:var(--sub);margin:-12px 0 26px;max-width:48ch}
+.noel-apresentacao {min-width:0}
+.noel-apresentacao img {width:100%;border-radius:18px}
+.noel-apresentacao figcaption {color:var(--sub);font-size:14px;margin-top:10px}
+.noel-passos b {font-size:24px}
+.noel-galeria {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 24px}
+.noel-galeria figure {min-width:0}
+.noel-galeria img {width:100%;max-width:320px;margin-inline:auto;border-radius:12px}
+.noel-galeria figcaption {color:var(--sub);font-size:16px;line-height:1.4;margin:12px 0 0;text-align:center}
+.noel-detalhes p {max-width:65ch;margin:14px 0}
+.noel-credito {color:var(--sub);font-size:14px}
+@media(max-width:760px){.noel-galeria{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px}.noel-hero{padding-bottom:40px}}
+@media(max-width:440px){.noel-galeria{grid-template-columns:minmax(0,1fr)}.noel-galeria img{max-width:300px}}
+.noel-hero .btn,header nav>a:last-child {min-height:48px}
+header nav>a:last-child {display:inline-flex;align-items:center}
