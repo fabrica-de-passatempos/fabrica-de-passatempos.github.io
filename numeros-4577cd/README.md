@@ -36,3 +36,9 @@ Conferir celular e página publicada. Relatório curto em para-claudio: mudança
 ## Migração desta versão
 
 Coleta comprovada:10/11/2026.109 publicações editoriais,30 peças. Os contadores do YouTube `jyRUo1_0q5Y` e `GID44TyKCJo` foram corrigidos de1.213/1.222 numéricos para1213/1222, conforme texto da UI e relatório05/11. A migração removeu as demais métricas dos dados atuais; o histórico permanece no Git. Downloads históricos não foram comprovados na coleta anterior e a conexão Chrome está indisponível nesta atualização.
+
+## Coleta real de 23/11/2026
+
+Chrome DevTools restabelecido. Sete apps em produção conferidos; eventos de instalação diários somados em Todos os países, no período 24/11/2021–22/11/2026, anterior ao lançamento de todos os apps (2026). Esta definição inclui reinstalações e não representa jogadores únicos. Total: 81.
+
+Reobservadas 198 publicações editoriais nas quatro redes, incluindo as novas desde 10/11. Seis uploads privados do YouTube, todos com zero na observação histórica, mantêm sua data original; programados não são somados. Total inventariado: 40.568 views. O carrossel de história do MdA e sua adaptação em vídeo são peças distintas. O agrupamento histórico de Marte de 05 e 08/11 foi preservado; a comparação dos masters continua pendente, sem afetar a soma geral de views.
