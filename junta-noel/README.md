@@ -13,8 +13,14 @@ Política conferida contra junta-noel runtime632c324 (PR #9, HEADc220332):
 
 Assets e hashes em assets/origens.json. As seis capturas foram refeitas com HUD realista e fundos, em1080×1920, sem resize/crop e sem injeção de progresso. O bot fez toques/retries/avanços pela UI desde zero até a fase14. PixelsRGB do raw e do PNGexportado são idênticos. A arte de apresentação aprovada permanece inalterada. Não publicar esta branch antes da revisão do Claudio.
 
-## Atualização23/11: Android13+ com Unity Ads
+## Atualização de 23/11: Android para público 13+ com Unity Ads
 
-A políticaPT/EN foi sincronizada às11seções embarcadas no app, fonteB c6d589e e correções subsequentes de revisão. Comparação por HTMLParser confirmou os parágrafos exatos. AndroidUnity4.21 emteste, contextual, AD_ID/INTERNET; semads no menu/mapa/Relax ou durante jogadas. Recompensa concluída derrete a neve até o nível inicial e continua a mesma fase, uma vez por fase, sem acrescentar quedas. iOS desta entrega semSDKnovo. Nenhuma coleta “zero” é prometida para SDKAndroid. Site e app não têm conta/Analytics daFábrica/compras.
+A auditoria histórica sem anúncios acima foi superada. A fonte nativa agora é o candidato integrado `0fe8b3d`, Unity Ads Android direto **4.21.0**, ainda em modo teste. A política PT/EN foi sincronizada às 11 seções por idioma embarcadas no app; `tool/verificar_politica_html.py` do repo do jogo compara títulos e parágrafos, sem normalizar diferenças.
 
-Antes de publicar: GameIDpróprioUnity, política e ficha conferidas pelaJosefa, QA/aceiteAlisson. Esta página continuaEmbreve, fora dehome/carrosséis, semlinkPlay; PR50semmerge/deploy. A auditoria antiga semads acima é histórica e foi superada pela decisão23/11.
+O SDK pode inicializar/preparar a oferta depois de uma derrota elegível, antes da escolha de assistir. O vídeo é opcional; isso não torna a coleta automaticamente opcional. A política informa localização aproximada, IDs de usuário, histórico de compras, interações, diagnósticos e IDs do aparelho, segundo a declaração oficial do SDK. O app não tem conta/compras/Analytics próprios. Acquire Optimization depende do dashboard futuro, ainda não conferido. Recusa de personalização não significa coleta zero. iOS permanece sem o SDK.
+
+Não há banner/intersticial nem anúncio no menu, mapa, Relax ou durante jogadas. Completar o vídeo derrete a neve ao nível inicial e continua a mesma fase, uma vez por fase, sem acrescentar quedas. A política explica os controles e pedidos à Unity; apagar o save não apaga os dados do serviço.
+
+Fontes: [Unity 4.21 — Segurança dos dados](https://docs.unity.com/en-us/ads-android/4.21.0/privacy/developer-consent/disclosures/google-data-safety), [orientação Play](https://support.google.com/googleplay/android-developer/answer/10787469), rascunhos `docs/play/` do jogo e conciliação com Josefa. Antes de publicar: Game ID próprio/dashboard, smoke do anúncio, revisão regional/menores, decisões pendentes e aceite de política/ficha. Tela interna já existe no app e usa estes mesmos textos.
+
+A página continua Em breve, fora da home/carrosséis, sem link Play. PR #50 sem merge/deploy. Capturas da página continuam sendo as históricas descritas acima; esta revisão só muda texto de privacidade e sua auditoria.
