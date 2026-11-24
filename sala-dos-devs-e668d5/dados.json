@@ -1,12 +1,12 @@
 {
-  "atualizado": "2026-11-13",
+  "atualizado": "2026-11-24",
   "roadmap_fim": "2027-05-17",
   "devs": [
     {
       "nome": "Alisson Melo",
       "foto": "fotos/alisson.jpg",
       "cor": "green",
-      "jogo": "Na Mesma Pilha + Mar de Argolas + Caçada Estelar"
+      "jogo": "Na Mesma Pilha + Mar de Argolas + Caçada Estelar + Junta Noel"
     },
     {
       "nome": "Lucas Belo",
@@ -24,7 +24,7 @@
       "nome": "Victor Brunner",
       "foto": "fotos/victor.jpg",
       "cor": "pink",
-      "jogo": "Encaixa!"
+      "jogo": "Encaixa! + Serpentina"
     },
     {
       "nome": "Kelvin",
@@ -90,10 +90,17 @@
       "bloqueio": ""
     },
     {
-      "nome": "Jogo de Natal (nome provisório)",
-      "dono": "",
-      "fase": "Ideia",
-      "proximo": "Brief em andamento: drop and merge natalino, versão simplificada do Juntar planetas (#182), com fases infinitas estilo Candy Crush",
+      "nome": "Junta Noel",
+      "dono": "Alisson Melo",
+      "fase": "Conteúdo",
+      "proximo": "Em construção: drop and merge natalino com 33 personagens em 3 cenários (Vila, Fábrica, Bosque), limpa-neve, telas de carregamento animadas e créditos. A caminho: peça shiny e loja de visuais",
+      "bloqueio": "Build integrada em teste no iPhone antes do merge"
+    },
+    {
+      "nome": "Serpentina",
+      "dono": "Victor Brunner",
+      "fase": "Protótipo",
+      "proximo": "Em construção: GDD, vinheta da Fábrica, laço Flame e motor da cobra (17/11). Próximo: ligar o motor à tela, mundos temáticos, fases com metas e modo infinito",
       "bloqueio": ""
     }
   ],
@@ -105,7 +112,7 @@
       "semanas": "3 a 4 semanas",
       "hype": 4,
       "diversao": 5,
-      "etiqueta": "Vira o jogo de Natal",
+      "etiqueta": "Em construção como Junta Noel",
       "issue": 182
     },
     {
@@ -144,7 +151,8 @@
       "esforco": "P",
       "semanas": "3 a 4 semanas",
       "hype": 3,
-      "diversao": 4
+      "diversao": 4,
+      "etiqueta": "Em construção como Serpentina"
     },
     {
       "nome": "Bafo de figurinhas",
@@ -489,14 +497,21 @@
       }
     },
     {
-      "projeto": "Jogo de Natal",
-      "quem": "pré-produção · nome provisório",
+      "projeto": "Junta Noel",
+      "quem": "Alisson · agentes Valdir, Basílio, Samara e Antonio",
       "faixas": [
         {
           "tipo": "prototipo",
           "de": "2026-11-13",
-          "ate": "2026-11-13",
-          "o_que": "Pré-produção: brief do drop and merge natalino com fases infinitas"
+          "ate": "2026-11-14",
+          "o_que": "Protótipo do drop and merge natalino com neve que sobe"
+        },
+        {
+          "tipo": "desenvolvimento",
+          "de": "2026-11-15",
+          "ate": "2026-11-30",
+          "o_que": "Em construção: conjuntos de personagens, limpa-neve, loja por estrelas, carregamento e créditos animados",
+          "rotulo": "Em construção"
         }
       ]
     },
@@ -541,44 +556,17 @@
       }
     },
     {
-      "projeto": "Cobrinha com arte",
-      "quem": "tier A · dev livre",
+      "projeto": "Serpentina",
+      "quem": "Victor",
       "faixas": [
         {
           "tipo": "prototipo",
-          "de": "2027-01-04",
-          "ate": "2027-01-10",
-          "o_que": "Protótipo sobre o Flame do Pula-Pulso"
-        },
-        {
-          "tipo": "desenvolvimento",
-          "de": "2027-01-11",
-          "ate": "2027-02-14",
-          "o_que": "Temas e fases (P, 3 a 4 semanas)"
-        },
-        {
-          "tipo": "playtest",
-          "de": "2027-02-15",
-          "ate": "2027-02-28",
-          "o_que": "Playtest"
-        },
-        {
-          "tipo": "revisao",
-          "de": "2027-03-08",
-          "ate": "2027-03-14",
-          "o_que": "Revisão da Play"
-        },
-        {
-          "tipo": "no-ar",
-          "de": "2027-03-22",
-          "ate": "2027-04-04",
-          "o_que": "Lançamento e suporte"
+          "de": "2026-11-17",
+          "ate": "2026-11-30",
+          "o_que": "Em construção: GDD, vinheta, laço Flame e motor da cobra; falta ligar a cobra à tela",
+          "rotulo": "Em construção"
         }
-      ],
-      "no_ar": {
-        "data": "2027-03-22",
-        "nota": "No ar"
-      }
+      ]
     },
     {
       "projeto": "Bafo de figurinhas",
