@@ -2052,5 +2052,17 @@
   "pendencias": [
     "Observações históricas preservadas sem atualizar a data, pois não constam como publicadas na coleta atual: [('YouTube', 'arVafmpPY48'), ('YouTube', 'MycKGvdqQc0'), ('YouTube', 'ptr8OpLrdU4'), ('YouTube', 'kYcMMveFRfU'), ('YouTube', '_g8cZixO6bw'), ('YouTube', 'DfncDQyYD6M')]",
     "Correspondência Marte de 05 e 08/11 mantida do catálogo anterior; não revalidada por comparação dos masters nesta coleta somente de métricas."
-  ]
+  ],
+  "ultima_tentativa": {
+    "em": "2026-11-24T08:01:59.052179-03:00",
+    "status": "ND",
+    "motivo": "Chrome DevTools: list_pages expirou após 60000 ms sem estabelecer conexão. Nenhum painel consultado; instalações e views do dia indisponíveis. Últimos contadores e datas de coleta real preservados.",
+    "redes": [
+      "Play Console",
+      "Instagram",
+      "Facebook",
+      "YouTube",
+      "TikTok"
+    ]
+  }
 }
