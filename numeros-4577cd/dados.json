@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "coletado_em": "2026-11-23T08:46:18-05:00",
-  "downloads_totais": 81,
-  "visualizacoes_totais": 40568,
+  "coletado_em": "2026-11-24T09:50:00-03:00",
+  "downloads_totais": 88,
+  "visualizacoes_totais": 41083,
   "jogos": [
     {
       "nome": "Astrofauna",
@@ -10,11 +10,11 @@
     },
     {
       "nome": "Mar de Argolas",
-      "downloads": 18
+      "downloads": 23
     },
     {
       "nome": "Encaixa!",
-      "downloads": 17
+      "downloads": 19
     },
     {
       "nome": "Na Mesma Pilha",
@@ -50,7 +50,7 @@
       "id": "mda-ultima-narrado",
       "titulo": "Quase entrou! Falta só uma argola",
       "jogo": "Mar de Argolas",
-      "views": 2193
+      "views": 2244
     },
     {
       "id": "react",
@@ -68,7 +68,7 @@
       "id": "mda-narrado-nostalgia",
       "titulo": "Lembra desse quase? · narrado",
       "jogo": "Mar de Argolas",
-      "views": 1678
+      "views": 1693
     },
     {
       "id": "cacada-historia-narrado",
@@ -80,7 +80,7 @@
       "id": "hist-mda-video",
       "titulo": "Quem lembra desse quase? · vídeo da história",
       "jogo": "Mar de Argolas",
-      "views": 1336
+      "views": 1342
     },
     {
       "id": "encaixa-tabuleiro-cheio",
