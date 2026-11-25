@@ -1,15 +1,15 @@
 {
   "schema": 2,
-  "coletado_em": "2026-11-24T09:50:00-03:00",
-  "downloads_totais": 88,
-  "visualizacoes_totais": 41083,
+  "coletado_em": "2026-11-25T10:40:00-03:00",
+  "downloads_totais": 91,
+  "visualizacoes_totais": 43920,
   "jogos": [
     {
-      "nome": "Astrofauna",
-      "downloads": 23
+      "nome": "Mar de Argolas",
+      "downloads": 25
     },
     {
-      "nome": "Mar de Argolas",
+      "nome": "Astrofauna",
       "downloads": 23
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "nome": "Pula-Pulso",
-      "downloads": 4
+      "downloads": 5
     },
     {
       "nome": "Atlas do Tempo",
@@ -50,7 +50,7 @@
       "id": "mda-ultima-narrado",
       "titulo": "Quase entrou! Falta só uma argola",
       "jogo": "Mar de Argolas",
-      "views": 2244
+      "views": 2251
     },
     {
       "id": "react",
@@ -68,7 +68,13 @@
       "id": "mda-narrado-nostalgia",
       "titulo": "Lembra desse quase? · narrado",
       "jogo": "Mar de Argolas",
-      "views": 1693
+      "views": 1706
+    },
+    {
+      "id": "l2-01-cacada-radio",
+      "titulo": "Que missão veio pelo rádio?",
+      "jogo": "Caçada Estelar",
+      "views": 1433
     },
     {
       "id": "cacada-historia-narrado",
@@ -77,22 +83,16 @@
       "views": 1369
     },
     {
+      "id": "enc-combo4",
+      "titulo": "Uma peça pequena. Um combo de quatro!",
+      "jogo": "Encaixa!",
+      "views": 1346
+    },
+    {
       "id": "hist-mda-video",
       "titulo": "Quem lembra desse quase? · vídeo da história",
       "jogo": "Mar de Argolas",
-      "views": 1342
-    },
-    {
-      "id": "encaixa-tabuleiro-cheio",
-      "titulo": "Onde você colocaria essa?",
-      "jogo": "Encaixa!",
-      "views": 1242
-    },
-    {
-      "id": "goiabada",
-      "titulo": "GOIABADA: fruta ou doce?",
-      "jogo": "Na Mesma Pilha",
-      "views": 1024
+      "views": 1344
     }
   ]
 }
