@@ -2115,9 +2115,9 @@
     "24/11: Facebook 122104079301528295 (react) lido como post individual; mantido o agregado Meta (IG+FB) até separar IG. Dois posts FB sem texto de 23/10 (5 e 0 views) fora do inventário editorial, como antes."
   ],
   "ultima_tentativa": {
-    "em": "2026-11-24T09:50:00-03:00",
-    "status": "OK",
-    "motivo": "Coleta feita pelo Claudio no Chrome (DevTools dos agentes indisponível).",
+    "em": "2026-11-25T08:02:05.701943-03:00",
+    "status": "ND",
+    "motivo": "Chrome DevTools: a única chamada list_pages expirou após60000ms aguardando conexão. Nenhuma aba própria aberta ou painel lido; sem retry/login/play. Últimos contadores e datas reais preservados.",
     "redes": [
       "Play Console",
       "Instagram",
