@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "coletado_em": "2026-11-25T10:40:00-03:00",
+  "coletado_em": "2026-11-26T08:20:00-03:00",
   "downloads_totais": 91,
-  "visualizacoes_totais": 43920,
+  "visualizacoes_totais": 45804,
   "jogos": [
     {
       "nome": "Mar de Argolas",
@@ -50,7 +50,7 @@
       "id": "mda-ultima-narrado",
       "titulo": "Quase entrou! Falta só uma argola",
       "jogo": "Mar de Argolas",
-      "views": 2251
+      "views": 2252
     },
     {
       "id": "react",
@@ -68,31 +68,31 @@
       "id": "mda-narrado-nostalgia",
       "titulo": "Lembra desse quase? · narrado",
       "jogo": "Mar de Argolas",
-      "views": 1706
+      "views": 1707
+    },
+    {
+      "id": "enc-combo4",
+      "titulo": "Uma peça pequena. Um combo de quatro!",
+      "jogo": "Encaixa!",
+      "views": 1463
     },
     {
       "id": "l2-01-cacada-radio",
       "titulo": "Que missão veio pelo rádio?",
       "jogo": "Caçada Estelar",
-      "views": 1433
+      "views": 1463
+    },
+    {
+      "id": "cacada-caranguejeira-narrado",
+      "titulo": "Olha o tamanho dessa Caranguejeira!",
+      "jogo": "Caçada Estelar",
+      "views": 1435
     },
     {
       "id": "cacada-historia-narrado",
       "titulo": "Esse jogo de nave tem uma história?!",
       "jogo": "Caçada Estelar",
       "views": 1369
-    },
-    {
-      "id": "enc-combo4",
-      "titulo": "Uma peça pequena. Um combo de quatro!",
-      "jogo": "Encaixa!",
-      "views": 1346
-    },
-    {
-      "id": "hist-mda-video",
-      "titulo": "Quem lembra desse quase? · vídeo da história",
-      "jogo": "Mar de Argolas",
-      "views": 1344
     }
   ]
 }
