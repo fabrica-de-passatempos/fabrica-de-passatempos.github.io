@@ -1,55 +1,55 @@
 {
   "schema": 2,
-  "coletado_em": "2026-11-25T10:40:00-03:00",
+  "coletado_em": "2026-11-26T08:20:00-03:00",
   "jogos": [
     {
       "nome": "Na Mesma Pilha",
       "publicado": true,
       "downloads": 10,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Play Console / Chrome (claude-in-chrome), Estatísticas > Dispositivos > Eventos de instalação; soma diária Todos os países, 25/11/2021–24/11/2026. Inclui reinstalações; não são usuários únicos."
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Play Console / Chrome (claude-in-chrome), Estatísticas > Dispositivos > Eventos de instalação; soma diária Todos os países, 26/11/2021–25/11/2026. Inclui reinstalações; não são usuários únicos."
     },
     {
       "nome": "Caçada Estelar",
       "publicado": true,
       "downloads": 6,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Play Console / Chrome (claude-in-chrome), Estatísticas > Dispositivos > Eventos de instalação; soma diária Todos os países, 25/11/2021–24/11/2026. Inclui reinstalações; não são usuários únicos."
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Play Console / Chrome (claude-in-chrome), Estatísticas > Dispositivos > Eventos de instalação; soma diária Todos os países, 26/11/2021–25/11/2026. Inclui reinstalações; não são usuários únicos."
     },
     {
       "nome": "Atlas do Tempo",
       "publicado": true,
       "downloads": 3,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Play Console / Chrome (claude-in-chrome), Estatísticas > Dispositivos > Eventos de instalação; soma diária Todos os países, 25/11/2021–24/11/2026. Inclui reinstalações; não são usuários únicos."
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Play Console / Chrome (claude-in-chrome), Estatísticas > Dispositivos > Eventos de instalação; soma diária Todos os países, 26/11/2021–25/11/2026. Inclui reinstalações; não são usuários únicos."
     },
     {
       "nome": "Pula-Pulso",
       "publicado": true,
       "downloads": 5,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Play Console / Chrome (claude-in-chrome), Estatísticas > Dispositivos > Eventos de instalação; soma diária Todos os países, 25/11/2021–24/11/2026. Inclui reinstalações; não são usuários únicos."
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Play Console / Chrome (claude-in-chrome), Estatísticas > Dispositivos > Eventos de instalação; soma diária Todos os países, 26/11/2021–25/11/2026. Inclui reinstalações; não são usuários únicos."
     },
     {
       "nome": "Astrofauna",
       "publicado": true,
       "downloads": 23,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Play Console / Chrome (claude-in-chrome), Estatísticas > Dispositivos > Eventos de instalação; soma diária Todos os países, 25/11/2021–24/11/2026. Inclui reinstalações; não são usuários únicos."
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Play Console / Chrome (claude-in-chrome), Estatísticas > Dispositivos > Eventos de instalação; soma diária Todos os países, 26/11/2021–25/11/2026. Inclui reinstalações; não são usuários únicos."
     },
     {
       "nome": "Encaixa!",
       "publicado": true,
       "downloads": 19,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Play Console / Chrome (claude-in-chrome), Estatísticas > Dispositivos > Eventos de instalação; soma diária Todos os países, 25/11/2021–24/11/2026. Inclui reinstalações; não são usuários únicos."
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Play Console / Chrome (claude-in-chrome), Estatísticas > Dispositivos > Eventos de instalação; soma diária Todos os países, 26/11/2021–25/11/2026. Inclui reinstalações; não são usuários únicos."
     },
     {
       "nome": "Mar de Argolas",
       "publicado": true,
       "downloads": 25,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Play Console / Chrome (claude-in-chrome), Estatísticas > Dispositivos > Eventos de instalação; soma diária Todos os países, 25/11/2021–24/11/2026. Inclui reinstalações; não são usuários únicos."
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Play Console / Chrome (claude-in-chrome), Estatísticas > Dispositivos > Eventos de instalação; soma diária Todos os países, 26/11/2021–25/11/2026. Inclui reinstalações; não são usuários únicos."
     }
   ],
   "pecas": [
@@ -436,6 +436,18 @@
       "titulo": "Uma peça pequena. Um combo de quatro!",
       "jogo": "Encaixa!",
       "fonte": "Grade: publicado 24/11 (L2-01 19h30; VERA-P02 12h30)"
+    },
+    {
+      "id": "cacada-caranguejeira-narrado",
+      "titulo": "Olha o tamanho dessa Caranguejeira!",
+      "jogo": "Caçada Estelar",
+      "fonte": "Grade: VERA-P05 publicado 25/11 12h30 (agendamentos-aprovados-20261114.json); legenda, data e horário conferidos nas listas lidas no Chrome em 26/11/2026"
+    },
+    {
+      "id": "tafim-nmp-categoria",
+      "titulo": "As cartas têm palavras. A pista está na categoria.",
+      "jogo": "Na Mesma Pilha",
+      "fonte": "Grade: TAFIM-03 publicado 25/11 19h30 (agendamentos-aprovados-20261114.json); legenda, data e horário conferidos nas listas lidas no Chrome em 26/11/2026"
     }
   ],
   "posts": [
@@ -443,769 +455,769 @@
       "rede": "Instagram",
       "id": "18138787219735212",
       "peca": "mda-ultima-narrado",
-      "views": 666,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "views": 667,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122111309625528295",
       "peca": "mda-ultima-narrado",
-      "views": 124,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "views": 125,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "17898323640614172",
       "peca": "hist-mda-carrossel",
-      "views": 331,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "views": 332,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122111039343528295",
       "peca": "hist-mda-carrossel",
       "views": 1,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "17895844959621414",
       "peca": "mda-narrado-nostalgia",
       "views": 172,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122110834389528295",
       "peca": "mda-narrado-nostalgia",
       "views": 163,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "17866784358694764",
       "peca": "cacada-divida",
       "views": 153,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122110752825528295",
       "peca": "cacada-divida",
       "views": 67,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18344571610275258",
       "peca": "astro-bh",
       "views": 39,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122110548531528295",
       "peca": "astro-bh",
       "views": 10,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18134987152754019",
       "peca": "atlas-ordem",
       "views": 146,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122110465791528295",
       "peca": "atlas-ordem",
       "views": 184,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18649847773052025",
       "peca": "hist-cacada",
       "views": 372,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122110255035528295",
       "peca": "hist-cacada",
       "views": 1,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18176735182402714",
       "peca": "encaixa-marte-narrado",
       "views": 121,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122110171101528295",
       "peca": "encaixa-marte-narrado",
       "views": 233,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18119517254091343",
       "peca": "pp-narrado",
       "views": 134,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122109979065528295",
       "peca": "pp-narrado",
       "views": 137,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18154715503527804",
       "peca": "hist-nmp",
       "views": 72,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122109900771528295",
       "peca": "hist-nmp",
       "views": 1,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18101932676541214",
       "peca": "cacada-so-atirar",
       "views": 174,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122109707865528295",
       "peca": "cacada-so-atirar",
       "views": 121,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18155726368553977",
       "peca": "hist-encaixa",
       "views": 327,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122109616497528295",
       "peca": "hist-encaixa",
       "views": 1,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18414969844082162",
       "peca": "anti-brainrot",
       "views": 61,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122109425745528295",
       "peca": "anti-brainrot",
       "views": 225,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18080855939412336",
       "peca": "terra",
       "views": 84,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122109329091528295",
       "peca": "terra",
       "views": 229,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18130745878838336",
       "peca": "nmp-narrado",
       "views": 95,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122109126711528295",
       "peca": "nmp-narrado",
       "views": 106,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18119886295791245",
       "peca": "cacada-lancamento",
       "views": 118,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122109045351528295",
       "peca": "cacada-lancamento",
       "views": 26,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18128493962309585",
       "peca": "atlas-lancamento",
       "views": 159,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122108847237528295",
       "peca": "atlas-lancamento",
       "views": 13,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18059573174573930",
       "peca": "mda-frase-passado",
       "views": 142,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122108842491528295",
       "peca": "mda-frase-passado",
       "views": 209,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "17933906520421835",
       "peca": "cacada-historia-narrado",
       "views": 147,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122108818881528295",
       "peca": "cacada-historia-narrado",
       "views": 223,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18648826003047387",
       "peca": "astro-lancamento",
       "views": 61,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122108794155528295",
       "peca": "astro-lancamento",
       "views": 24,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "17956264824295557",
       "peca": "encaixa-escolha-coluna",
       "views": 160,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122108747529528295",
       "peca": "encaixa-escolha-coluna",
-      "views": 174,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "views": 175,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18169798675484014",
       "peca": "encaixa-pecas-vida",
       "views": 138,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122108499795528295",
       "peca": "encaixa-pecas-vida",
       "views": 212,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "17980091931158365",
       "peca": "pp-reflexos",
       "views": 75,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122108471031528295",
       "peca": "pp-reflexos",
       "views": 138,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "17882579478545642",
       "peca": "nmp-coisa-vo",
       "views": 142,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122108412237528295",
       "peca": "nmp-coisa-vo",
       "views": 48,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18089965487307439",
       "peca": "nmp-japao",
       "views": 93,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122108170437528295",
       "peca": "nmp-japao",
       "views": 237,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "17992551594073973",
       "peca": "mda-brinquedo",
       "views": 155,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122108148849528295",
       "peca": "mda-brinquedo",
       "views": 210,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "17953873860048956",
       "peca": "encaixa-tabuleiro-cheio",
       "views": 193,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122108071893528295",
       "peca": "encaixa-tabuleiro-cheio",
       "views": 946,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "17898556071418203",
       "peca": "encaixa-escolha-3linhas",
       "views": 156,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122107847355528295",
       "peca": "encaixa-escolha-3linhas",
       "views": 663,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18111424136623419",
       "peca": "pp-orbita-pre",
       "views": 104,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122107827537528295",
       "peca": "pp-orbita-pre",
       "views": 227,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18114956108467821",
       "peca": "relax",
       "views": 207,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122107756473528295",
       "peca": "relax",
       "views": 134,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18099823643559002",
       "peca": "nostalgia-09",
       "views": 188,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122107480479528295",
       "peca": "nostalgia-09",
       "views": 2,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18119270453099313",
       "peca": "atlas-sarah",
       "views": 85,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122107454151528295",
       "peca": "atlas-sarah",
       "views": 3,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18035842775907731",
       "peca": "portfolio",
       "views": 857,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122107374483528295",
       "peca": "portfolio",
       "views": 8,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "17907300381354053",
       "peca": "teaser-cacada",
       "views": 172,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122107105539528295",
       "peca": "teaser-cacada",
       "views": 211,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18130531648851451",
       "peca": "dourado-b",
       "views": 86,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18096183407169291",
       "peca": "marte",
       "views": 232,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122107007463528295",
       "peca": "marte",
       "views": 226,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "17915883264508630",
       "peca": "lua",
       "views": 152,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122106718137528295",
       "peca": "lua",
       "views": 196,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18178847920453229",
       "peca": "dourado-a",
       "views": 63,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18415100011080884",
       "peca": "nostalgia-07",
       "views": 207,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122106616809528295",
       "peca": "nostalgia-07",
       "views": 204,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18341105881257121",
       "peca": "pipo",
       "views": 190,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122106326859528295",
       "peca": "pipo",
       "views": 211,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18111776651180301",
       "peca": "duelo",
       "views": 334,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122106298089528295",
       "peca": "duelo",
       "views": 257,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "17914238157490249",
       "peca": "nmp-categorias",
       "views": 97,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122106207861528295",
       "peca": "nmp-categorias",
       "views": 539,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18123927829955477",
       "peca": "cabe",
       "views": 177,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122105857749528295",
       "peca": "cabe",
       "views": 187,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18091462496251115",
       "peca": "cosplay",
       "views": 206,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122105717595528295",
       "peca": "cosplay",
       "views": 257,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18571882300077006",
       "peca": "marte",
       "views": 1004,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122105717313528295",
       "peca": "marte",
       "views": 205,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "17935702491142397",
       "peca": "falta-uma",
       "views": 1328,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122105351043528295",
       "peca": "falta-uma",
       "views": 249,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18175404253456176",
       "peca": "alivio",
       "views": 451,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122105273271528295",
       "peca": "alivio",
       "views": 226,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18131580550826621",
       "peca": "nmp-f14",
       "views": 84,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122105078277528295",
       "peca": "nmp-f14",
       "views": 242,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18042483767643773",
       "peca": "goiabada",
       "views": 80,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122104361409528295",
       "peca": "goiabada",
       "views": 660,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Meta (IG+FB)",
@@ -1220,504 +1232,504 @@
       "id": "18415217704089505",
       "peca": "atlas-gameplay",
       "views": 114,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122103297687528295",
       "peca": "atlas-gameplay",
       "views": 254,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "17910333225569598",
       "peca": "gato",
       "views": 402,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122102985075528295",
       "peca": "gato",
       "views": 247,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18142636468618256",
       "peca": "tres-linhas",
       "views": 412,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122102254581528295",
       "peca": "tres-linhas",
       "views": 275,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "17957050485272631",
       "peca": "teaser-cacada-01",
       "views": 370,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18113552996611203",
       "peca": "base",
       "views": 161,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122101363233528295",
       "peca": "base",
       "views": 228,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18638348263018376",
       "peca": "dourado-original",
       "views": 197,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122100584787528295",
       "peca": "dourado-original",
       "views": 256,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "17927956797430912",
       "peca": "fase1",
       "views": 87,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122098924569528295",
       "peca": "fase1",
       "views": 189,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "61a2W0ggt30",
       "peca": "mda-ultima-narrado",
-      "views": 1461,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "views": 1460,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "7GgB3m_R98Q",
       "peca": "hist-mda-video",
       "views": 1248,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "GI5qLfTQjko",
       "peca": "mda-narrado-nostalgia",
-      "views": 1371,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "views": 1372,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "ML_aoTDxLGk",
       "peca": "cacada-divida",
       "views": 334,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "ZghiSlqXnxU",
       "peca": "astro-bh",
       "views": 76,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "L_hmTh_z220",
       "peca": "atlas-ordem",
-      "views": 116,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "views": 117,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "3E54ccEtAwc",
       "peca": "encaixa-marte-narrado",
-      "views": 308,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "views": 309,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "5vGpeAiecSI",
       "peca": "pp-narrado",
       "views": 30,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "VAfTPhIWiXE",
       "peca": "cacada-so-atirar",
       "views": 61,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "wdKQ4v8jBK8",
       "peca": "anti-brainrot",
       "views": 51,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "npAI43RR8EE",
       "peca": "nmp-narrado",
-      "views": 545,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "views": 548,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "rMk0ImDCxi4",
       "peca": "cacada-lancamento",
       "views": 74,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "IjOwVs0Dfyo",
       "peca": "atlas-lancamento",
       "views": 48,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "aoBtnIup2wM",
       "peca": "mda-frase-passado",
       "views": 236,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "C7GeQ_YNa3M",
       "peca": "cacada-historia-narrado",
       "views": 999,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "Uxs2QehQXyM",
       "peca": "astro-lancamento",
       "views": 17,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "KGp1hMiTQ7s",
       "peca": "encaixa-escolha-coluna",
       "views": 112,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "Txbj0CU2RXU",
       "peca": "encaixa-pecas-vida",
       "views": 54,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "sDVKBdq_tsI",
       "peca": "pp-reflexos",
       "views": 127,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "5bC5-KlmdKE",
       "peca": "nmp-coisa-vo",
       "views": 1,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "f3wk-mj0JDw",
       "peca": "nmp-japao",
       "views": 1,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "KK-qjxGMf0g",
       "peca": "mda-brinquedo",
       "views": 28,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "_9qdkGpFfCk",
       "peca": "encaixa-tabuleiro-cheio",
       "views": 4,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "Xy-VSTTpcjY",
       "peca": "encaixa-escolha-3linhas",
       "views": 14,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "9tOEf-d61uw",
       "peca": "pp-orbita-pre",
       "views": 1,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "WlwLGiwVl8I",
       "peca": "relax",
       "views": 9,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "9LGHDQOkQ_8",
       "peca": "nostalgia-09",
       "views": 787,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "7fwbCxVqwC0",
       "peca": "atlas-sarah",
       "views": 39,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "8NvWQVp4Nyo",
       "peca": "marte",
       "views": 600,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "fgUSSqwSGrI",
       "peca": "teaser-cacada",
       "views": 87,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "bNEC0AtYdq0",
       "peca": "nmp-f14",
       "views": 48,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "VQQaEXot_og",
       "peca": "lua",
       "views": 155,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "bbrvoqQYJ-s",
       "peca": "nostalgia-07",
       "views": 421,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "OeyJqhzO7Nc",
       "peca": "pipo",
       "views": 377,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "cINH4H2Cf3Q",
       "peca": "duelo",
       "views": 88,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "gJn24CWmFmU",
       "peca": "nmp-categorias",
       "views": 25,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "RFNqVkXQTp8",
       "peca": "cabe",
       "views": 215,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "d2aR06c1IwU",
       "peca": "cosplay",
       "views": 43,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "qv0yMtyHTEk",
       "peca": "falta-uma",
       "views": 541,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "Pd6F1a15hto",
       "peca": "alivio",
       "views": 160,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "1mMVJSFGyms",
       "peca": "terra",
       "views": 49,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "xej7Ja_aTn4",
       "peca": "goiabada",
       "views": 191,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "jyRUo1_0q5Y",
       "peca": "react",
       "views": 1213,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "paTptAeeVy4",
       "peca": "tres-linhas",
       "views": 254,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "gCJGhbINH5k",
       "peca": "atlas-gameplay",
       "views": 163,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "GID44TyKCJo",
       "peca": "gato",
       "views": 1225,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "l_MMCuAePv0",
       "peca": "caranguejeira",
       "views": 78,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "2dMBRxaZzuU",
       "peca": "base",
       "views": 82,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "2t5McyAXXBY",
       "peca": "dourado-original",
       "views": 71,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "UpA8CNE2jT4",
       "peca": "fase1",
       "views": 59,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "TikTok",
@@ -2075,115 +2087,163 @@
       "rede": "Instagram",
       "id": "18162185428516000",
       "peca": "tafim-astro-bh",
-      "views": 74,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "views": 81,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122111663373528295",
       "peca": "tafim-astro-bh",
-      "views": 152,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "views": 153,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18077751191770046",
       "peca": "pp-meteoro",
-      "views": 51,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "views": 55,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122111584929528295",
       "peca": "pp-meteoro",
       "views": 5,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "paZtjVsR7EM",
       "peca": "tafim-astro-bh",
       "views": 46,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "zz_1XKRk3h0",
       "peca": "pp-meteoro",
-      "views": 74,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "views": 76,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18129001658310394",
       "peca": "l2-01-cacada-radio",
-      "views": 126,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "views": 139,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122111938803528295",
       "peca": "l2-01-cacada-radio",
-      "views": 274,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "views": 275,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Instagram",
       "id": "18116759492602873",
       "peca": "enc-combo4",
-      "views": 247,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "views": 267,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "Facebook",
       "id": "122111845881528295",
       "peca": "enc-combo4",
       "views": 206,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 25/11/2026"
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "Go_dT3zxKgc",
       "peca": "l2-01-cacada-radio",
-      "views": 1033,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "views": 1049,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     },
     {
       "rede": "YouTube",
       "id": "5qXCtplsBmg",
       "peca": "enc-combo4",
-      "views": 893,
-      "coletado_em": "2026-11-25T10:40:00-03:00",
-      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 25/11/2026"
+      "views": 990,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
+    },
+    {
+      "rede": "Instagram",
+      "id": "17969145294219307",
+      "peca": "cacada-caranguejeira-narrado",
+      "views": 128,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
+    },
+    {
+      "rede": "Facebook",
+      "id": "122112123795528295",
+      "peca": "cacada-caranguejeira-narrado",
+      "views": 209,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
+    },
+    {
+      "rede": "YouTube",
+      "id": "OkZM-TZB-ms",
+      "peca": "cacada-caranguejeira-narrado",
+      "views": 1098,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
+    },
+    {
+      "rede": "Instagram",
+      "id": "18158436244540487",
+      "peca": "tafim-nmp-categoria",
+      "views": 27,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
+    },
+    {
+      "rede": "Facebook",
+      "id": "122112195609528295",
+      "peca": "tafim-nmp-categoria",
+      "views": 222,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "Meta Business Suite / Chrome, coluna Visualizações por publicação; coleta 26/11/2026"
+    },
+    {
+      "rede": "YouTube",
+      "id": "cl14J2F2_Es",
+      "peca": "tafim-nmp-categoria",
+      "views": 30,
+      "coletado_em": "2026-11-26T08:20:00-03:00",
+      "fonte": "YouTube Studio / Chrome, lista Shorts, contador cumulativo de Visualizações; coleta 26/11/2026"
     }
   ],
-  "metodo": "Contadores lidos no Chrome em 25/11/2026. Downloads = eventos de instalação no histórico integral disponível desde antes do lançamento, incluindo reinstalações. Views cumulativas por ID somadas por peça; variantes editoriais separadas, republicações da mesma peça somadas. Meta combinado entra uma única vez. Carrossel de história MdA separado de sua adaptação em vídeo. Programados e fotos de perfil/capa não entram. Fontes antigas não reobservadas preservam data original.",
+  "metodo": "Contadores lidos no Chrome em 26/11/2026 (Play Console, Meta Business Suite e YouTube Studio; TikTok não reaberto nesta coleta, mantém 25/11). Downloads = eventos de instalação no histórico integral disponível desde antes do lançamento, incluindo reinstalações. Views cumulativas por ID somadas por peça; variantes editoriais separadas, republicações da mesma peça somadas. Meta combinado entra uma única vez. Carrossel de história MdA separado de sua adaptação em vídeo. Programados e fotos de perfil/capa não entram. Fontes antigas não reobservadas preservam data original.",
   "pendencias": [
     "Observações históricas preservadas sem atualizar a data, pois não constam como publicadas na coleta atual: [('YouTube', 'arVafmpPY48'), ('YouTube', 'MycKGvdqQc0'), ('YouTube', 'ptr8OpLrdU4'), ('YouTube', 'kYcMMveFRfU'), ('YouTube', '_g8cZixO6bw'), ('YouTube', 'DfncDQyYD6M')]",
     "Correspondência Marte de 05 e 08/11 mantida do catálogo anterior; não revalidada por comparação dos masters nesta coleta somente de métricas.",
-    "24/11: Facebook 122104079301528295 (react) lido como post individual; mantido o agregado Meta (IG+FB) até separar IG. Dois posts FB sem texto de 23/10 (5 e 0 views) fora do inventário editorial, como antes."
+    "24/11: Facebook 122104079301528295 (react) lido como post individual; mantido o agregado Meta (IG+FB) até separar IG. Dois posts FB sem texto de 23/10 (5 e 0 views) fora do inventário editorial, como antes.",
+    "26/11: novas peças cacada-caranguejeira-narrado (VERA-P05) e tafim-nmp-categoria (TAFIM-03) criadas pela grade e legenda; o narrado da Caranguejeira fica separado da peça caranguejeira de 05/11 por ser master narrado distinto, sem comparação dos masters. TikTok não reaberto; Meta (IG+FB) do react mantido com a leitura de 23/11 (a linha FB 122104079301528295 mostra 665, igual). Play: últimos eventos diários disponíveis em 23/11; totais iguais a 25/11."
   ],
   "ultima_tentativa": {
-    "em": "2026-11-26T08:02:09.179044-03:00",
-    "status": "ND",
-    "motivo": "Chrome DevTools list_pages expirou após60000ms antes de listar ou abrir abas. Única tentativa; sem retry, login ou reprodução. Última coleta real preservada.",
+    "em": "2026-11-26T08:20:00-03:00",
+    "status": "OK",
+    "motivo": "Coleta real via Claude in Chrome: Play Console (7 apps), Meta Business Suite (124 linhas IG+FB) e YouTube Studio (Shorts, 62 publicados/privados). TikTok não reaberto.",
     "redes": [
       "Play Console",
       "Instagram",
       "Facebook",
-      "YouTube",
-      "TikTok"
+      "YouTube"
     ]
   }
 }
