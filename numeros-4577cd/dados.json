@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "coletado_em": "2026-11-26T08:20:00-03:00",
-  "downloads_totais": 91,
-  "visualizacoes_totais": 45804,
+  "coletado_em": "2026-11-27T09:25:00-03:00",
+  "downloads_totais": 92,
+  "visualizacoes_totais": 46940,
   "jogos": [
     {
       "nome": "Mar de Argolas",
@@ -22,7 +22,7 @@
     },
     {
       "nome": "Caçada Estelar",
-      "downloads": 6
+      "downloads": 7
     },
     {
       "nome": "Pula-Pulso",
@@ -44,7 +44,7 @@
       "id": "marte",
       "titulo": "Contra o relógio em Marte",
       "jogo": "Encaixa!",
-      "views": 2267
+      "views": 2268
     },
     {
       "id": "mda-ultima-narrado",
@@ -71,22 +71,22 @@
       "views": 1707
     },
     {
-      "id": "enc-combo4",
-      "titulo": "Uma peça pequena. Um combo de quatro!",
-      "jogo": "Encaixa!",
-      "views": 1463
+      "id": "cacada-caranguejeira-narrado",
+      "titulo": "Olha o tamanho dessa Caranguejeira!",
+      "jogo": "Caçada Estelar",
+      "views": 1524
     },
     {
       "id": "l2-01-cacada-radio",
       "titulo": "Que missão veio pelo rádio?",
       "jogo": "Caçada Estelar",
-      "views": 1463
+      "views": 1503
     },
     {
-      "id": "cacada-caranguejeira-narrado",
-      "titulo": "Olha o tamanho dessa Caranguejeira!",
-      "jogo": "Caçada Estelar",
-      "views": 1435
+      "id": "enc-combo4",
+      "titulo": "Uma peça pequena. Um combo de quatro!",
+      "jogo": "Encaixa!",
+      "views": 1472
     },
     {
       "id": "cacada-historia-narrado",
