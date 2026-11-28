@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "coletado_em": "2026-11-27T09:25:00-03:00",
+  "coletado_em": "2026-11-28T08:01:00-03:00",
   "downloads_totais": 92,
-  "visualizacoes_totais": 46940,
+  "visualizacoes_totais": 48590,
   "jogos": [
     {
       "nome": "Mar de Argolas",
@@ -74,7 +74,7 @@
       "id": "cacada-caranguejeira-narrado",
       "titulo": "Olha o tamanho dessa Caranguejeira!",
       "jogo": "Caçada Estelar",
-      "views": 1524
+      "views": 1559
     },
     {
       "id": "l2-01-cacada-radio",
